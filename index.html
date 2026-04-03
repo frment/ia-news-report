@@ -39,7 +39,7 @@ input:focus,select:focus,button:focus{outline:3px solid rgba(37,99,168,.18);outl
 .chart-card{background:var(--surface-muted);border:1px solid var(--border);border-radius:14px;padding:var(--sp5)}
 .item-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--sp5) var(--sp5) var(--sp5) var(--sp6);margin-bottom:var(--sp4);position:relative}
 .action-legend{background:var(--warning-soft);border:1px solid rgba(161,98,7,.18);border-radius:10px;padding:var(--sp4) var(--sp5);font-size:.84rem;color:var(--warning);margin-bottom:var(--sp4);line-height:1.55}
-.itip{position:relative;display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;border-radius:50%;background:var(--border);color:var(--text-muted);font-size:9px;font-weight:700;font-style:normal;cursor:help;flex-shrink:0;margin-right:5px;vertical-align:middle;line-height:1}
+.itip{position:relative;display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;border-radius:50%;background:var(--border);color:var(--text-muted);font-size:9px;font-weight:700;font-style:normal;cursor:help;flex-shrink:0;margin-left:6px;vertical-align:middle;line-height:1}
 .itip:hover{background:var(--accent);color:#fff}
 .itip .itip-text{display:none;position:fixed;background:var(--primary-strong);color:#fff;font-size:.78rem;font-weight:400;line-height:1.4;padding:8px 12px;border-radius:8px;width:max-content;max-width:260px;white-space:normal;z-index:9999;box-shadow:var(--shadow-md);pointer-events:none}
 .itip:hover .itip-text{display:block}
@@ -140,8 +140,8 @@ var mv=top[0][1]||1;
 var h=title?'<h4 style="font-size:.92rem;margin-bottom:8px">'+esc(title)+'</h4>':"";
 h+='<div style="display:grid;gap:5px;font-size:.85rem">';
 top.forEach(function(e){
-h+='<div style="display:grid;grid-template-columns:minmax(100px,auto) 1fr 32px;gap:8px;align-items:center">';
-h+='<span style="display:inline-flex;align-items:center;white-space:nowrap;position:relative">'+infoTip(e[0],tipDict)+'<span style="overflow:hidden;text-overflow:ellipsis;max-width:110px;display:inline-block" title="'+esc(e[0])+'">'+esc(e[0])+'</span></span>';
+h+='<div style="display:grid;grid-template-columns:minmax(0,160px) minmax(0,1fr) 32px;gap:8px;align-items:center">';
+h+='<span style="display:inline-flex;align-items:center;min-width:0"><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;flex:1" title="'+esc(e[0])+'">'+esc(e[0])+'</span>'+infoTip(e[0],tipDict)+'</span>';
 h+='<div style="background:var(--border);border-radius:4px;height:14px;overflow:hidden"><div style="width:'+pct(e[1],mv)+'%;height:100%;background:'+(color||"var(--accent)")+';border-radius:4px;transition:width .3s"></div></div>';
 h+='<span style="text-align:right;font-weight:600">'+e[1]+'</span></div>'});
 h+='</div>';return h}
