@@ -70,36 +70,6 @@
     "content_access": "full"
   },
   {
-    "title": "Rocket Close transforms mortgage document processing with Amazon Bedrock and Amazon Textract",
-    "summary": "Through a strategic partnership with the AWS Generative AI Innovation Center (GenAIIC), Rocket Close developed an intelligent document processing solution that has significantly reduced processing time, making the process 15 times faster. The solution, which uses Amazon Textract for OCR processing and Amazon Bedrock for foundation models (FMs), achieves a strong 90% overall accuracy in document segmentation, classification, and field extraction.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/rocket-close-transforms-mortgage-document-processing-with-amazon-bedrock-and-amazon-textract/",
-    "published": "2026-04-02T12:59:31+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 40,
-    "is_enriched": true,
-    "layer": "Market & Competitive",
-    "event_type": "partnership",
-    "vendors": [
-      "AWS"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.167,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned"
-    ],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
     "title": "AWS launches frontier agents for security testing and cloud operations",
     "summary": "I'm excited to announce that AWS Security Agent on-demand penetration testing and AWS DevOps Agent are now generally available, representing a new class of AI capabilities we announced at re:Invent called frontier agents. These autonomous systems work independently to achieve goals, scale massively to tackle concurrent tasks, and run persistently for hours or days without constant human oversight. Together, these agents are changing the way we secure and operate software. In preview, customers and partners report that AWS Security Agent compresses penetration testing timelines from weeks to hours and the AWS DevOps Agent supports 3–5x faster incident resolution.",
     "url": "https://aws.amazon.com/blogs/machine-learning/aws-launches-frontier-agents-for-security-testing-and-cloud-operations/",
@@ -129,6 +99,36 @@
     "reason_tags": [
       "vendor_mentioned",
       "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
+  },
+  {
+    "title": "Rocket Close transforms mortgage document processing with Amazon Bedrock and Amazon Textract",
+    "summary": "Through a strategic partnership with the AWS Generative AI Innovation Center (GenAIIC), Rocket Close developed an intelligent document processing solution that has significantly reduced processing time, making the process 15 times faster. The solution, which uses Amazon Textract for OCR processing and Amazon Bedrock for foundation models (FMs), achieves a strong 90% overall accuracy in document segmentation, classification, and field extraction.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/rocket-close-transforms-mortgage-document-processing-with-amazon-bedrock-and-amazon-textract/",
+    "published": "2026-04-02T12:59:31+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 39,
+    "is_enriched": true,
+    "layer": "Market & Competitive",
+    "event_type": "partnership",
+    "vendors": [
+      "AWS"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.167,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned"
     ],
     "source_type": "primary",
     "content_access": "full"
@@ -1712,32 +1712,6 @@
     "content_access": "limited"
   },
   {
-    "title": "The missing layer in Europe’s AI strategy: data ownership",
-    "summary": "As France   and Germany push digital sovereignty up the policy agenda, a more practical question is emerging: who actually owns the data driving Europe’s AI systems?  As models become increasingly com...",
-    "url": "https://tech.eu/2026/04/01/the-missing-layer-in-europes-ai-strategy-data-ownership/",
-    "published": "2026-04-01T11:58:00+00:00",
-    "feed": "Tech.eu",
-    "vendor": "Tech.eu",
-    "score": 13,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
     "title": "Mastercard carries out agentic transaction in Hong Kong",
     "summary": "Hong Kong is the latest market to get its first live Mastercard agentic transaction, with an AI booking a ride with mobility provider hoppa.",
     "url": "https://www.finextra.com/newsarticle/47521/mastercard-carries-out-agentic-transaction-in-hong-kong?utm_medium=rssfinextra&utm_source=finextrafeed",
@@ -1792,6 +1766,32 @@
     "reason_tags": [],
     "source_type": "curated",
     "content_access": "limited"
+  },
+  {
+    "title": "The missing layer in Europe’s AI strategy: data ownership",
+    "summary": "As France   and Germany push digital sovereignty up the policy agenda, a more practical question is emerging: who actually owns the data driving Europe’s AI systems?  As models become increasingly com...",
+    "url": "https://tech.eu/2026/04/01/the-missing-layer-in-europes-ai-strategy-data-ownership/",
+    "published": "2026-04-01T11:58:00+00:00",
+    "feed": "Tech.eu",
+    "vendor": "Tech.eu",
+    "score": 12,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "full"
   },
   {
     "title": "Ant Digital showcases complete AI stack",
