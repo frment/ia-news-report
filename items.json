@@ -6,7 +6,7 @@
     "published": "2026-04-07T23:32:00+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 72,
+    "score": 70,
     "is_enriched": true,
     "layer": "Infra & Open Source",
     "event_type": "pricing_limits",
@@ -40,7 +40,7 @@
     "published": "2026-04-06T17:54:00+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 71,
+    "score": 68,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "production_rollout",
@@ -68,13 +68,43 @@
     "content_access": "full"
   },
   {
+    "title": "Bitget and MuleRun to launch AI trading assistant",
+    "summary": "Bitget, the world’s largest Universal Exchange (UEX), announced a strategic product partnership with MuleRun, an industry-leading self-evolving AI Agent, to launch a personal AI-powered trading assistant that brings institutional-grade market signals to everyday investors through natural language.",
+    "url": "https://www.finextra.com/pressarticle/109376/bitget-and-mulerun-to-launch-ai-trading-assistant?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-07T11:43:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 55,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "partnership",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "partial"
+  },
+  {
     "title": "Uber is the latest to be won over by Amazon’s AI chips",
     "summary": "Uber is expanding its AWS contract to run more of its ride-sharing features on Amazon's chips. This is a thumb-of-the nose at Oracle and Google.",
     "url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
     "published": "2026-04-07T16:46:59+00:00",
     "feed": "TechCrunch",
     "vendor": "Google",
-    "score": 57,
+    "score": 54,
     "is_enriched": true,
     "layer": "Market & Competitive",
     "event_type": "partnership",
@@ -99,43 +129,13 @@
     "content_access": "limited"
   },
   {
-    "title": "Bitget and MuleRun to launch AI trading assistant",
-    "summary": "Bitget, the world’s largest Universal Exchange (UEX), announced a strategic product partnership with MuleRun, an industry-leading self-evolving AI Agent, to launch a personal AI-powered trading assistant that brings institutional-grade market signals to everyday investors through natural language.",
-    "url": "https://www.finextra.com/pressarticle/109376/bitget-and-mulerun-to-launch-ai-trading-assistant?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-04-07T11:43:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 57,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "partnership",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "partial"
-  },
-  {
     "title": "FinTech Wales and AI Wales team up to launch AI Hub",
     "summary": "FinTech Wales and AI Wales have announced a strategic partnership and launched a new AI Hub, designed to accelerate artificial intelligence innovation across Wales.",
     "url": "https://www.finextra.com/pressarticle/109372/fintech-wales-and-ai-wales-team-up-to-launch-ai-hub?utm_medium=rssfinextra&utm_source=finextrafeed",
     "published": "2026-04-07T10:27:00+00:00",
     "feed": "Finextra - Artificial Intelligence",
     "vendor": "Finextra",
-    "score": 54,
+    "score": 51,
     "is_enriched": true,
     "layer": "Market & Competitive",
     "event_type": "partnership",
@@ -161,7 +161,7 @@
     "published": "2026-04-07T04:41:59+00:00",
     "feed": "MarkTechPost",
     "vendor": "Meta",
-    "score": 53,
+    "score": 50,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "release",
@@ -195,7 +195,7 @@
     "published": "2026-04-06T08:20:19+00:00",
     "feed": "MarkTechPost",
     "vendor": "MarkTechPost",
-    "score": 52,
+    "score": 49,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "release",
@@ -226,7 +226,7 @@
     "published": "2026-04-08T05:40:19+00:00",
     "feed": "TechCrunch",
     "vendor": "Google",
-    "score": 48,
+    "score": 45,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "release",
@@ -286,48 +286,13 @@
     "content_access": "full"
   },
   {
-    "title": "How to Combine Google Search, Google Maps, and Custom Functions in a Single Gemini API Call With Context Circulation, Parallel Tool IDs, and Multi-Step Agentic Chains",
-    "summary": "<p>In this tutorial, we explore the latest Gemini API tooling updates Google announced in March 2026, specifically the ability to combine built-in tools like Google Search and Google Maps with custom function calls in a single API request. We walk through five hands-on demos that progressively build on each other, starting with the core tool [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/07/how-to-combine-google-search-google-maps-and-custom-functions-in-a-single-gemini-api-call-with-context-circulation-parallel-tool-ids-and-multi-step-agentic-chains/\">How to Combine Google Search, Google Maps, and Custom Functions in a Single Gemini API Call With Context Circulation, Parallel Tool IDs, and Multi-Step Agentic Chains</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
-    "url": "https://www.marktechpost.com/2026/04/07/how-to-combine-google-search-google-maps-and-custom-functions-in-a-single-gemini-api-call-with-context-circulation-parallel-tool-ids-and-multi-step-agentic-chains/",
-    "published": "2026-04-08T01:56:34+00:00",
-    "feed": "MarkTechPost",
-    "vendor": "Google",
-    "score": 35,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "other",
-    "vendors": [
-      "Google"
-    ],
-    "capability_flags": [
-      "tool_use_agents",
-      "retrieval_rag"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 1.0,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": true,
-    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family",
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
     "title": "OpenAI and Spotify leaders back London-based AI agent security startup in $13M seed round",
     "summary": "A London-based startup which helps mitigate risks and vulnerabilities of businesses deploying so-called AI agents or AI tools that can complete specific tasks has emerged from stealth with a $13m seed...",
     "url": "https://tech.eu/2026/04/07/openai-and-spotify-leaders-back-london-based-ai-security-agent-startup-in-13m-round/",
     "published": "2026-04-07T15:00:00+00:00",
     "feed": "Tech.eu",
     "vendor": "OpenAI",
-    "score": 35,
+    "score": 34,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "other",
@@ -356,13 +321,48 @@
     "content_access": "full"
   },
   {
+    "title": "How to Combine Google Search, Google Maps, and Custom Functions in a Single Gemini API Call With Context Circulation, Parallel Tool IDs, and Multi-Step Agentic Chains",
+    "summary": "<p>In this tutorial, we explore the latest Gemini API tooling updates Google announced in March 2026, specifically the ability to combine built-in tools like Google Search and Google Maps with custom function calls in a single API request. We walk through five hands-on demos that progressively build on each other, starting with the core tool [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/07/how-to-combine-google-search-google-maps-and-custom-functions-in-a-single-gemini-api-call-with-context-circulation-parallel-tool-ids-and-multi-step-agentic-chains/\">How to Combine Google Search, Google Maps, and Custom Functions in a Single Gemini API Call With Context Circulation, Parallel Tool IDs, and Multi-Step Agentic Chains</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
+    "url": "https://www.marktechpost.com/2026/04/07/how-to-combine-google-search-google-maps-and-custom-functions-in-a-single-gemini-api-call-with-context-circulation-parallel-tool-ids-and-multi-step-agentic-chains/",
+    "published": "2026-04-08T01:56:34+00:00",
+    "feed": "MarkTechPost",
+    "vendor": "Google",
+    "score": 33,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
+    "vendors": [
+      "Google"
+    ],
+    "capability_flags": [
+      "tool_use_agents",
+      "retrieval_rag"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": true,
+    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family",
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
     "title": "Building Intelligent Search with Amazon Bedrock and Amazon OpenSearch for hybrid RAG solutions",
     "summary": "In this post, we show how to implement a generative AI agentic assistant that uses both semantic and text-based search using Amazon Bedrock, Amazon Bedrock AgentCore, Strands Agents and Amazon OpenSearch.",
     "url": "https://aws.amazon.com/blogs/machine-learning/building-intelligent-search-with-amazon-bedrock-and-amazon-opensearch-for-hybrid-rag-solutions/",
     "published": "2026-04-06T17:49:32+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 35,
+    "score": 33,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -390,43 +390,13 @@
     "content_access": "full"
   },
   {
-    "title": "Building real-time conversational podcasts with Amazon Nova 2 Sonic",
-    "summary": "This post walks through building an automated podcast generator that creates engaging conversations between two AI hosts on any topic, demonstrating the streaming capabilities of Nova Sonic, stage-aware content filtering, and real-time audio generation.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/building-real-time-conversational-podcasts-with-amazon-nova-2-sonic/",
-    "published": "2026-04-07T16:29:11+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 34,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "multimodal"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
     "title": "Rocket Close transforms mortgage document processing with Amazon Bedrock and Amazon Textract",
     "summary": "Through a strategic partnership with the AWS Generative AI Innovation Center (GenAIIC), Rocket Close developed an intelligent document processing solution that has significantly reduced processing time, making the process 15 times faster. The solution, which uses Amazon Textract for OCR processing and Amazon Bedrock for foundation models (FMs), achieves a strong 90% overall accuracy in document segmentation, classification, and field extraction.",
     "url": "https://aws.amazon.com/blogs/machine-learning/rocket-close-transforms-mortgage-document-processing-with-amazon-bedrock-and-amazon-textract/",
     "published": "2026-04-02T12:59:31+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 34,
+    "score": 33,
     "is_enriched": true,
     "layer": "Market & Competitive",
     "event_type": "partnership",
@@ -456,7 +426,7 @@
     "published": "2026-04-07T13:00:00+00:00",
     "feed": "TechCrunch",
     "vendor": "TechCrunch",
-    "score": 33,
+    "score": 32,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "research_paper",
@@ -476,66 +446,30 @@
     "content_access": "limited"
   },
   {
-    "title": "Testing suggests Google's AI Overviews tell millions of lies per hour",
-    "summary": "Is 90 percent accuracy good enough for a search robot?",
-    "url": "https://arstechnica.com/google/2026/04/analysis-finds-google-ai-overviews-is-wrong-10-percent-of-the-time/",
-    "published": "2026-04-07T16:53:55+00:00",
-    "feed": "Ars Technica",
-    "vendor": "Google",
-    "score": 32,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [
-      "Google"
-    ],
-    "capability_flags": [
-      "retrieval_rag"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Connecting MCP servers to Amazon Bedrock AgentCore Gateway using Authorization Code flow",
-    "summary": "Amazon Bedrock AgentCore Gateway provides a centralized layer for managing how AI agents connect to tools and MCP servers across your organization. In this post, we walk through how to configure AgentCore Gateway to connect to an OAuth-protected MCP server using the Authorization Code flow.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/connecting-mcp-servers-to-amazon-bedrock-agentcore-gateway-using-authorization-code-flow/",
-    "published": "2026-04-06T14:41:46+00:00",
+    "title": "Building real-time conversational podcasts with Amazon Nova 2 Sonic",
+    "summary": "This post walks through building an automated podcast generator that creates engaging conversations between two AI hosts on any topic, demonstrating the streaming capabilities of Nova Sonic, stage-aware content filtering, and real-time audio generation.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/building-real-time-conversational-podcasts-with-amazon-nova-2-sonic/",
+    "published": "2026-04-07T16:29:11+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
     "score": 32,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
-    "vendors": [
-      "AWS"
-    ],
+    "vendors": [],
     "capability_flags": [
-      "tool_use_agents"
+      "multimodal"
     ],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
-      "vendor": 1.0,
+      "vendor": 0.6,
       "capability": 0.3333333333333333
     },
     "action_recommended": false,
     "action_text": "",
     "reason_tags": [
-      "vendor_mentioned",
       "capability_flag"
     ],
     "source_type": "primary",
@@ -606,13 +540,79 @@
     "content_access": "full"
   },
   {
+    "title": "Testing suggests Google's AI Overviews tell millions of lies per hour",
+    "summary": "Is 90 percent accuracy good enough for a search robot?",
+    "url": "https://arstechnica.com/google/2026/04/analysis-finds-google-ai-overviews-is-wrong-10-percent-of-the-time/",
+    "published": "2026-04-07T16:53:55+00:00",
+    "feed": "Ars Technica",
+    "vendor": "Google",
+    "score": 31,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [
+      "Google"
+    ],
+    "capability_flags": [
+      "retrieval_rag"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned",
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Connecting MCP servers to Amazon Bedrock AgentCore Gateway using Authorization Code flow",
+    "summary": "Amazon Bedrock AgentCore Gateway provides a centralized layer for managing how AI agents connect to tools and MCP servers across your organization. In this post, we walk through how to configure AgentCore Gateway to connect to an OAuth-protected MCP server using the Authorization Code flow.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/connecting-mcp-servers-to-amazon-bedrock-agentcore-gateway-using-authorization-code-flow/",
+    "published": "2026-04-06T14:41:46+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 30,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [
+      "AWS"
+    ],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned",
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
+  },
+  {
     "title": "Bluesky users are mastering the fine art of blaming everything on \"vibe coding\"",
     "summary": "Use of AI coding tools has become a convenient boogeyman for any tech issues.",
     "url": "https://arstechnica.com/ai/2026/04/bluesky-users-are-mastering-the-fine-art-of-blaming-everything-on-vibe-coding/",
     "published": "2026-04-07T19:09:44+00:00",
     "feed": "Ars Technica",
     "vendor": "ArsTechnica",
-    "score": 31,
+    "score": 29,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -634,128 +634,6 @@
     ],
     "source_type": "curated",
     "content_access": "full"
-  },
-  {
-    "title": "Build AI-powered employee onboarding agents with Amazon Quick",
-    "summary": "In this post, we walk through building a custom HR onboarding agent with Quick. We show how to configure an agent that understands your organization’s processes, connects to your HR systems, and automates common tasks, such as answering new-hire questions and tracking document completion.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-ai-powered-employee-onboarding-agents-with-amazon-quick/",
-    "published": "2026-04-06T18:00:06+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 30,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
-    "title": "From isolated alerts to contextual intelligence: Agentic maritime anomaly analysis with generative AI",
-    "summary": "This blog post demonstrates how Windward helps enhance and accelerate alert investigation processes by combining geospatial intelligence with generative AI, enabling analysts to focus on decision-making rather than data collection.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/from-isolated-alerts-to-contextual-intelligence-agentic-maritime-anomaly-analysis-with-generative-ai/",
-    "published": "2026-04-06T17:48:54+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 30,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
-    "title": "Agentic AI Startup Xccelera Raises ₹1.2 Crore",
-    "summary": "In a strong vote of confidence for the future of autonomous enterprise execution, early-stage AI startup Xccelera today announced that it has raised ₹1.2 crore from a group of prominent founders, including Ramakant Sharma (Livspace), Asad Khan (TestMu AI), and Amiya Pathak (Zipdial).",
-    "url": "https://www.finextra.com/pressarticle/109371/agentic-ai-startup-xccelera-raises-12-crore?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-04-07T08:56:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 29,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents",
-      "enterprise_controls"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "partial"
-  },
-  {
-    "title": "FinBox unveils MCP support for Sentinel AI",
-    "summary": "FinBox, a leading credit infrastructure platform serving over 100 enterprise lenders across banks, NBFCs, fintechs, and conglomerates, today announced support for MCP (Model Context Protocol) in Sentinel AI, its decision management platform that has facilitated over 6.5 billion decisions till date.",
-    "url": "https://www.finextra.com/pressarticle/109369/finbox-unveils-mcp-support-for-sentinel-ai?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-04-07T08:52:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 29,
-    "is_enriched": true,
-    "layer": "Infra & Open Source",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "enterprise_controls",
-      "serving_inference"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "partial"
   },
   {
     "title": "Simulate realistic users to evaluate multi-turn AI agents in Strands Evals",
@@ -788,116 +666,126 @@
     "content_access": "full"
   },
   {
-    "title": "WholeSum tops up Pre-Seed with $335K to fix AI’s trust problem in text analytics",
-    "summary": "UK-based analytics startup WholeSum has brought its total Pre-Seed funding to $1.3 million, with an additional $335,000 new investment from Love Ventures, Beamline, and strategic angels, following its...",
-    "url": "https://tech.eu/2026/04/07/wholesum-tops-up-pre-seed-with-335k-to-fix-ais-trust-problem-in-text-analytics/",
-    "published": "2026-04-07T10:04:32+00:00",
-    "feed": "Tech.eu",
-    "vendor": "Tech.eu",
-    "score": 27,
+    "title": "Build AI-powered employee onboarding agents with Amazon Quick",
+    "summary": "In this post, we walk through building a custom HR onboarding agent with Quick. We show how to configure an agent that understands your organization’s processes, connects to your HR systems, and automates common tasks, such as answering new-hire questions and tracking document completion.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-ai-powered-employee-onboarding-agents-with-amazon-quick/",
+    "published": "2026-04-06T18:00:06+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 28,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
     "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "What the heck is wrong with our AI overlords?",
-    "summary": "New profile of Sam Altman shines a light on a whole industry.",
-    "url": "https://arstechnica.com/tech-policy/2026/04/what-the-heck-is-wrong-with-our-ai-overlords/",
-    "published": "2026-04-07T20:02:25+00:00",
-    "feed": "Ars Technica",
-    "vendor": "ArsTechnica",
-    "score": 27,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Intel is going all-in on advanced chip packaging",
-    "summary": "Intel is hoping to cash in on the AI boom.",
-    "url": "https://arstechnica.com/gadgets/2026/04/intel-is-going-all-in-on-advanced-chip-packaging/",
-    "published": "2026-04-07T09:00:03+00:00",
-    "feed": "Ars Technica",
-    "vendor": "ArsTechnica",
-    "score": 27,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Google Maps can now write captions for your photos using AI",
-    "summary": "Google is rolling out new features to make it easier for users to contribute local knowledge to Maps. Most notably, Gemini can now create captions when users are looking to share a photo or video about a place.",
-    "url": "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/",
-    "published": "2026-04-07T15:30:00+00:00",
-    "feed": "TechCrunch",
-    "vendor": "Google",
-    "score": 27,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "other",
-    "vendors": [
-      "Google"
-    ],
     "capability_flags": [
-      "multimodal"
+      "tool_use_agents"
     ],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
-      "vendor": 1.0,
+      "vendor": 0.6,
       "capability": 0.3333333333333333
     },
-    "action_recommended": true,
-    "action_text": "Evaluar casos multimodales (documentos, KYC, atención) y requisitos de datos.",
+    "action_recommended": false,
+    "action_text": "",
     "reason_tags": [
-      "vendor_mentioned",
-      "llm_family",
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
+  },
+  {
+    "title": "From isolated alerts to contextual intelligence: Agentic maritime anomaly analysis with generative AI",
+    "summary": "This blog post demonstrates how Windward helps enhance and accelerate alert investigation processes by combining geospatial intelligence with generative AI, enabling analysts to focus on decision-making rather than data collection.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/from-isolated-alerts-to-contextual-intelligence-agentic-maritime-anomaly-analysis-with-generative-ai/",
+    "published": "2026-04-06T17:48:54+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 28,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
+  },
+  {
+    "title": "Agentic AI Startup Xccelera Raises ₹1.2 Crore",
+    "summary": "In a strong vote of confidence for the future of autonomous enterprise execution, early-stage AI startup Xccelera today announced that it has raised ₹1.2 crore from a group of prominent founders, including Ramakant Sharma (Livspace), Asad Khan (TestMu AI), and Amiya Pathak (Zipdial).",
+    "url": "https://www.finextra.com/pressarticle/109371/agentic-ai-startup-xccelera-raises-12-crore?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-07T08:56:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 27,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents",
+      "enterprise_controls"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
       "capability_flag"
     ],
     "source_type": "curated",
-    "content_access": "limited"
+    "content_access": "partial"
+  },
+  {
+    "title": "FinBox unveils MCP support for Sentinel AI",
+    "summary": "FinBox, a leading credit infrastructure platform serving over 100 enterprise lenders across banks, NBFCs, fintechs, and conglomerates, today announced support for MCP (Model Context Protocol) in Sentinel AI, its decision management platform that has facilitated over 6.5 billion decisions till date.",
+    "url": "https://www.finextra.com/pressarticle/109369/finbox-unveils-mcp-support-for-sentinel-ai?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-07T08:52:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 27,
+    "is_enriched": true,
+    "layer": "Infra & Open Source",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [
+      "enterprise_controls",
+      "serving_inference"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "partial"
   },
   {
     "title": "Meet ‘AutoAgent’: The Open-Source Library That Lets an AI Engineer and Optimize Its Own Agent Harness Overnight",
@@ -931,13 +819,125 @@
     "content_access": "full"
   },
   {
+    "title": "WholeSum tops up Pre-Seed with $335K to fix AI’s trust problem in text analytics",
+    "summary": "UK-based analytics startup WholeSum has brought its total Pre-Seed funding to $1.3 million, with an additional $335,000 new investment from Love Ventures, Beamline, and strategic angels, following its...",
+    "url": "https://tech.eu/2026/04/07/wholesum-tops-up-pre-seed-with-335k-to-fix-ais-trust-problem-in-text-analytics/",
+    "published": "2026-04-07T10:04:32+00:00",
+    "feed": "Tech.eu",
+    "vendor": "Tech.eu",
+    "score": 26,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "What the heck is wrong with our AI overlords?",
+    "summary": "New profile of Sam Altman shines a light on a whole industry.",
+    "url": "https://arstechnica.com/tech-policy/2026/04/what-the-heck-is-wrong-with-our-ai-overlords/",
+    "published": "2026-04-07T20:02:25+00:00",
+    "feed": "Ars Technica",
+    "vendor": "ArsTechnica",
+    "score": 26,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Intel is going all-in on advanced chip packaging",
+    "summary": "Intel is hoping to cash in on the AI boom.",
+    "url": "https://arstechnica.com/gadgets/2026/04/intel-is-going-all-in-on-advanced-chip-packaging/",
+    "published": "2026-04-07T09:00:03+00:00",
+    "feed": "Ars Technica",
+    "vendor": "ArsTechnica",
+    "score": 26,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Google Maps can now write captions for your photos using AI",
+    "summary": "Google is rolling out new features to make it easier for users to contribute local knowledge to Maps. Most notably, Gemini can now create captions when users are looking to share a photo or video about a place.",
+    "url": "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/",
+    "published": "2026-04-07T15:30:00+00:00",
+    "feed": "TechCrunch",
+    "vendor": "Google",
+    "score": 26,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
+    "vendors": [
+      "Google"
+    ],
+    "capability_flags": [
+      "multimodal"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": true,
+    "action_text": "Evaluar casos multimodales (documentos, KYC, atención) y requisitos de datos.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family",
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
     "title": "“The problem is Sam Altman”: OpenAI insiders don’t trust CEO",
     "summary": "OpenAI brainstorms ways AI can benefit humanity in effort to counter bad vibes.",
     "url": "https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/",
     "published": "2026-04-06T21:23:36+00:00",
     "feed": "Ars Technica",
     "vendor": "OpenAI",
-    "score": 26,
+    "score": 25,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "other",
@@ -960,99 +960,6 @@
     ],
     "source_type": "curated",
     "content_access": "full"
-  },
-  {
-    "title": "Anthropic Teams Up With Its Rivals to Keep AI From Hacking Everything",
-    "summary": "The AI lab's Project Glasswing will bring together Apple, Google, and more than 45 other organizations. They'll use the new Claude Mythos Preview model to test advancing AI cybersecurity capabilities.",
-    "url": "https://www.wired.com/story/anthropic-mythos-preview-project-glasswing/",
-    "published": "2026-04-07T18:49:50+00:00",
-    "feed": "Wired",
-    "vendor": "Google",
-    "score": 25,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "other",
-    "vendors": [
-      "Google",
-      "Anthropic"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation",
-    "summary": "Nvidia-backed Asia AI data center provider Firmus has now raised $1.35 billion in six months.",
-    "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
-    "published": "2026-04-07T18:46:55+00:00",
-    "feed": "TechCrunch",
-    "vendor": "NVIDIA",
-    "score": 25,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [
-      "NVIDIA"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative",
-    "summary": "The new model will be used by a small number of high-profile companies to engage in defensive cybersecurity work.",
-    "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
-    "published": "2026-04-07T18:00:00+00:00",
-    "feed": "TechCrunch",
-    "vendor": "Anthropic",
-    "score": 25,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "other",
-    "vendors": [
-      "Anthropic"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
   },
   {
     "title": "How Client Centricity Evolves Across Operational Models",
@@ -1083,66 +990,6 @@
     ],
     "source_type": "curated",
     "content_access": "partial"
-  },
-  {
-    "title": "UnionPay launches Agentic Payment Open Protocol framework",
-    "summary": "On April 2, a special taxi booking transaction was successfully completed in Hong Kong, China.",
-    "url": "https://www.finextra.com/pressarticle/109380/unionpay-launches-agentic-payment-open-protocol-framework?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-04-07T13:58:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 24,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "Former Pleo VP joins Grasp as chief product officer",
-    "summary": "Grasp, the Swedish AI startup automating high finance work using agent systems, has appointed former Pleo VP of Product Fredric Ghatan as Chief Product Officer.",
-    "url": "https://www.finextra.com/pressarticle/109373/former-pleo-vp-joins-grasp-as-chief-product-officer?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-04-07T10:30:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 24,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
   },
   {
     "title": "How to Build a Netflix VOID Video Object Removal and Inpainting Pipeline with CogVideoX, Custom Prompting, and End-to-End Sample Inference",
@@ -1177,6 +1024,159 @@
     "content_access": "full"
   },
   {
+    "title": "Anthropic Teams Up With Its Rivals to Keep AI From Hacking Everything",
+    "summary": "The AI lab's Project Glasswing will bring together Apple, Google, and more than 45 other organizations. They'll use the new Claude Mythos Preview model to test advancing AI cybersecurity capabilities.",
+    "url": "https://www.wired.com/story/anthropic-mythos-preview-project-glasswing/",
+    "published": "2026-04-07T18:49:50+00:00",
+    "feed": "Wired",
+    "vendor": "Google",
+    "score": 23,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
+    "vendors": [
+      "Google",
+      "Anthropic"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation",
+    "summary": "Nvidia-backed Asia AI data center provider Firmus has now raised $1.35 billion in six months.",
+    "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
+    "published": "2026-04-07T18:46:55+00:00",
+    "feed": "TechCrunch",
+    "vendor": "NVIDIA",
+    "score": 23,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [
+      "NVIDIA"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned"
+    ],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative",
+    "summary": "The new model will be used by a small number of high-profile companies to engage in defensive cybersecurity work.",
+    "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+    "published": "2026-04-07T18:00:00+00:00",
+    "feed": "TechCrunch",
+    "vendor": "Anthropic",
+    "score": 23,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
+    "vendors": [
+      "Anthropic"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "UnionPay launches Agentic Payment Open Protocol framework",
+    "summary": "On April 2, a special taxi booking transaction was successfully completed in Hong Kong, China.",
+    "url": "https://www.finextra.com/pressarticle/109380/unionpay-launches-agentic-payment-open-protocol-framework?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-07T13:58:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 23,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "Former Pleo VP joins Grasp as chief product officer",
+    "summary": "Grasp, the Swedish AI startup automating high finance work using agent systems, has appointed former Pleo VP of Product Fredric Ghatan as Chief Product Officer.",
+    "url": "https://www.finextra.com/pressarticle/109373/former-pleo-vp-joins-grasp-as-chief-product-officer?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-07T10:30:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 23,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
     "title": "NinjaTrader signs AI deal with Adclear",
     "summary": "Adclear has announced it is partnering with NinjaTrader Group, LLC, the US-based global leader in retail futures and trading technology, to bring the power of AI to NinjaTrader’s marketing compliance processes through Adclear’s financial promotions platform.",
     "url": "https://www.finextra.com/pressarticle/109341/ninjatrader-signs-ai-deal-with-adclear?utm_medium=rssfinextra&utm_source=finextrafeed",
@@ -1205,136 +1205,6 @@
     ],
     "source_type": "curated",
     "content_access": "partial"
-  },
-  {
-    "title": "I can’t help rooting for tiny open source AI model maker Arcee",
-    "summary": "Arcee is a tiny 26-person U.S. startup that built a high-performing, massive, open source LLM. And it's gaining popularity with OpenClaw users.",
-    "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
-    "published": "2026-04-07T21:35:02+00:00",
-    "feed": "TechCrunch",
-    "vendor": "TechCrunch",
-    "score": 22,
-    "is_enriched": true,
-    "layer": "Infra & Open Source",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "VC Eclipse has a new $1.3B fund to back — and build — ‘physical AI’ startups",
-    "summary": "Eclipse will put some of that money towards incubating, or building startups.",
-    "url": "https://techcrunch.com/2026/04/07/vc-eclipse-has-a-new-1-3b-to-back-and-build-physical-ai-startups/",
-    "published": "2026-04-07T21:24:54+00:00",
-    "feed": "TechCrunch",
-    "vendor": "TechCrunch",
-    "score": 22,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "The AI gold rush is pulling private wealth into riskier, earlier bets",
-    "summary": "On a recent episode of Equity, we  talked to Arena Private Wealth to explore a growing trend: family offices bypassing VCs to gain direct exposure to AI startups, turning them from passive investors into active participants.",
-    "url": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
-    "published": "2026-04-07T13:00:00+00:00",
-    "feed": "TechCrunch",
-    "vendor": "TechCrunch",
-    "score": 22,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "The Death of Good Enough UX in Banking Apps: How AI Is Commoditizing Digital Banking",
-    "summary": "Here’s an uncomfortable question every financial leader should ask: if your financial product can be...",
-    "url": "https://www.finextra.com/blogposting/31342/the-death-of-good-enough-ux-in-banking-apps-how-ai-is-commoditizing-digital-banking?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-04-07T10:18:21+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 22,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.167,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "Industrial policy for the Intelligence Age",
-    "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
-    "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
-    "published": "2026-04-06T02:30:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 22,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "primary",
-    "content_access": "limited"
   },
   {
     "title": "FactSet launches AI-powered ecosystem for banking",
@@ -1368,13 +1238,143 @@
     "content_access": "limited"
   },
   {
+    "title": "I can’t help rooting for tiny open source AI model maker Arcee",
+    "summary": "Arcee is a tiny 26-person U.S. startup that built a high-performing, massive, open source LLM. And it's gaining popularity with OpenClaw users.",
+    "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
+    "published": "2026-04-07T21:35:02+00:00",
+    "feed": "TechCrunch",
+    "vendor": "TechCrunch",
+    "score": 21,
+    "is_enriched": true,
+    "layer": "Infra & Open Source",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "VC Eclipse has a new $1.3B fund to back — and build — ‘physical AI’ startups",
+    "summary": "Eclipse will put some of that money towards incubating, or building startups.",
+    "url": "https://techcrunch.com/2026/04/07/vc-eclipse-has-a-new-1-3b-to-back-and-build-physical-ai-startups/",
+    "published": "2026-04-07T21:24:54+00:00",
+    "feed": "TechCrunch",
+    "vendor": "TechCrunch",
+    "score": 21,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "The AI gold rush is pulling private wealth into riskier, earlier bets",
+    "summary": "On a recent episode of Equity, we  talked to Arena Private Wealth to explore a growing trend: family offices bypassing VCs to gain direct exposure to AI startups, turning them from passive investors into active participants.",
+    "url": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
+    "published": "2026-04-07T13:00:00+00:00",
+    "feed": "TechCrunch",
+    "vendor": "TechCrunch",
+    "score": 21,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "The Death of Good Enough UX in Banking Apps: How AI Is Commoditizing Digital Banking",
+    "summary": "Here’s an uncomfortable question every financial leader should ask: if your financial product can be...",
+    "url": "https://www.finextra.com/blogposting/31342/the-death-of-good-enough-ux-in-banking-apps-how-ai-is-commoditizing-digital-banking?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-07T10:18:21+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 20,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.167,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "Industrial policy for the Intelligence Age",
+    "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+    "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+    "published": "2026-04-06T02:30:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 20,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
     "title": "The Ridiculously Nerdy Intel Bet That Could Rake in Billions",
     "summary": "Advanced chip packaging is suddenly at the center of the AI boom. Intel is going all in.",
     "url": "https://www.wired.com/story/why-chip-packaging-could-decide-the-next-phase-of-the-ai-boom/",
     "published": "2026-04-06T09:00:00+00:00",
     "feed": "Wired",
     "vendor": "Wired",
-    "score": 19,
+    "score": 18,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -1400,7 +1400,7 @@
     "published": "2026-04-02T09:49:43+00:00",
     "feed": "Finextra - Artificial Intelligence",
     "vendor": "Finextra",
-    "score": 19,
+    "score": 18,
     "is_enriched": true,
     "layer": "Banking Pulse",
     "event_type": "pilot",
@@ -1551,36 +1551,6 @@
     "content_access": "full"
   },
   {
-    "title": "Control which domains your AI agents can access",
-    "summary": "In this post, we show you how to configure AWS Network Firewall to restrict AgentCore resources to an allowlist of approved internet domains. This post focuses on domain-level filtering using SNI inspection — the first layer of a defense-in-depth approach.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/control-which-domains-your-ai-agents-can-access/",
-    "published": "2026-04-02T13:28:19+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 16,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [
-      "AWS"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned"
-    ],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
     "title": "Persist session state with filesystem configuration and execute shell commands",
     "summary": "In this post, we go through how to use managed session storage to persist your agent's filesystem state and how to execute shell commands directly in your agent's environment.",
     "url": "https://aws.amazon.com/blogs/machine-learning/persist-session-state-with-filesystem-configuration-and-execute-shell-commands/",
@@ -1634,6 +1604,36 @@
     "action_text": "",
     "reason_tags": [],
     "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Control which domains your AI agents can access",
+    "summary": "In this post, we show you how to configure AWS Network Firewall to restrict AgentCore resources to an allowlist of approved internet domains. This post focuses on domain-level filtering using SNI inspection — the first layer of a defense-in-depth approach.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/control-which-domains-your-ai-agents-can-access/",
+    "published": "2026-04-02T13:28:19+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 15,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [
+      "AWS"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned"
+    ],
+    "source_type": "primary",
     "content_access": "full"
   },
   {
@@ -1730,7 +1730,7 @@
     "published": "2026-04-01T12:05:00+00:00",
     "feed": "Finextra - Artificial Intelligence",
     "vendor": "Finextra",
-    "score": 13,
+    "score": 12,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -1786,7 +1786,7 @@
     "published": "2026-04-01T11:58:00+00:00",
     "feed": "Tech.eu",
     "vendor": "Tech.eu",
-    "score": 11,
+    "score": 10,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
