@@ -1,12 +1,46 @@
 [
   {
+    "title": "Manage AI costs with Amazon Bedrock Projects",
+    "summary": "With Amazon Bedrock Projects, you can attribute inference costs to specific workloads and analyze them in AWS Cost Explorer and AWS Data Exports. In this post, you will learn how to set up Projects end-to-end, from designing a tagging strategy to analyzing costs.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/manage-ai-costs-with-amazon-bedrock-projects/",
+    "published": "2026-04-07T23:32:00+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 72,
+    "is_enriched": true,
+    "layer": "Infra & Open Source",
+    "event_type": "pricing_limits",
+    "vendors": [
+      "AWS"
+    ],
+    "capability_flags": [
+      "pricing_limits",
+      "serving_inference"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": true,
+    "action_text": "Revisar impacto en costes/limits y actualizar supuestos del business case.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
+  },
+  {
     "title": "Accelerate agentic tool calling with serverless model customization in Amazon SageMaker AI",
     "summary": "In this post, we walk through how we fine-tuned Qwen 2.5 7B Instruct for tool calling using RLVR. We cover dataset preparation across three distinct agent behaviors, reward function design with tiered scoring, training configuration and results interpretation, evaluation on held-out data with unseen tools, and deployment.",
     "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-tool-calling-with-serverless-model-customization-in-amazon-sagemaker-ai/",
     "published": "2026-04-06T17:54:00+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 74,
+    "score": 71,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "production_rollout",
@@ -34,13 +68,100 @@
     "content_access": "full"
   },
   {
+    "title": "Uber is the latest to be won over by Amazon’s AI chips",
+    "summary": "Uber is expanding its AWS contract to run more of its ride-sharing features on Amazon's chips. This is a thumb-of-the nose at Oracle and Google.",
+    "url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
+    "published": "2026-04-07T16:46:59+00:00",
+    "feed": "TechCrunch",
+    "vendor": "Google",
+    "score": 57,
+    "is_enriched": true,
+    "layer": "Market & Competitive",
+    "event_type": "partnership",
+    "vendors": [
+      "Google",
+      "AWS"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned"
+    ],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "Bitget and MuleRun to launch AI trading assistant",
+    "summary": "Bitget, the world’s largest Universal Exchange (UEX), announced a strategic product partnership with MuleRun, an industry-leading self-evolving AI Agent, to launch a personal AI-powered trading assistant that brings institutional-grade market signals to everyday investors through natural language.",
+    "url": "https://www.finextra.com/pressarticle/109376/bitget-and-mulerun-to-launch-ai-trading-assistant?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-07T11:43:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 57,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "partnership",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "partial"
+  },
+  {
+    "title": "FinTech Wales and AI Wales team up to launch AI Hub",
+    "summary": "FinTech Wales and AI Wales have announced a strategic partnership and launched a new AI Hub, designed to accelerate artificial intelligence innovation across Wales.",
+    "url": "https://www.finextra.com/pressarticle/109372/fintech-wales-and-ai-wales-team-up-to-launch-ai-hub?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-07T10:27:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 54,
+    "is_enriched": true,
+    "layer": "Market & Competitive",
+    "event_type": "partnership",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.167,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
     "title": "Meta AI Releases EUPE: A Compact Vision Encoder Family Under 100M Parameters That Rivals Specialist Models Across Image Understanding, Dense Prediction, and VLM Tasks",
     "summary": "<p>Running powerful AI on your smartphone isn&#8217;t just a hardware problem — it&#8217;s a model architecture problem. Most state-of-the-art vision encoders are enormous, and when you trim them down to fit on an edge device, they lose the capabilities that made them useful in the first place. Worse, specialized models tend to excel at one [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/06/meta-ai-releases-eupe-a-compact-vision-encoder-family-under-100m-parameters-that-rivals-specialist-models-across-image-understanding-dense-prediction-and-vlm-tasks/\">Meta AI Releases EUPE: A Compact Vision Encoder Family Under 100M Parameters That Rivals Specialist Models Across Image Understanding, Dense Prediction, and VLM Tasks</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
     "url": "https://www.marktechpost.com/2026/04/06/meta-ai-releases-eupe-a-compact-vision-encoder-family-under-100m-parameters-that-rivals-specialist-models-across-image-understanding-dense-prediction-and-vlm-tasks/",
     "published": "2026-04-07T04:41:59+00:00",
     "feed": "MarkTechPost",
     "vendor": "Meta",
-    "score": 56,
+    "score": 53,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "release",
@@ -74,7 +195,7 @@
     "published": "2026-04-06T08:20:19+00:00",
     "feed": "MarkTechPost",
     "vendor": "MarkTechPost",
-    "score": 56,
+    "score": 52,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "release",
@@ -99,69 +220,13 @@
     "content_access": "full"
   },
   {
-    "title": "Spain’s Xoople raises $130 million Series B to map the Earth for AI",
-    "summary": "The company is also announcing a deal with L3Harris to build the sensors for Xoople's spacecraft.",
-    "url": "https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
-    "published": "2026-04-06T13:00:00+00:00",
-    "feed": "TechCrunch",
-    "vendor": "TechCrunch",
-    "score": 53,
-    "is_enriched": true,
-    "layer": "Market & Competitive",
-    "event_type": "partnership",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost",
-    "summary": "Rocket's new AI platform combines strategy, product building, and competitive intelligence, aiming to move beyond code generation.",
-    "url": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
-    "published": "2026-04-07T05:30:00+00:00",
-    "feed": "TechCrunch",
-    "vendor": "TechCrunch",
-    "score": 52,
-    "is_enriched": true,
-    "layer": "Market & Competitive",
-    "event_type": "pricing_limits",
-    "vendors": [],
-    "capability_flags": [
-      "pricing_limits"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": true,
-    "action_text": "Revisar impacto en costes/limits y actualizar supuestos del business case.",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
     "title": "Google quietly launched an AI dictation app that works offline",
     "summary": "Google's new offline-first dictation app uses Gemma AI models to take on the apps like Wispr Flow.",
-    "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-    "published": "2026-04-06T18:54:33+00:00",
+    "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+    "published": "2026-04-08T05:40:19+00:00",
     "feed": "TechCrunch",
     "vendor": "Google",
-    "score": 45,
+    "score": 48,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "release",
@@ -191,7 +256,7 @@
     "published": "2026-04-03T02:19:12Z",
     "feed": "vLLM Releases",
     "vendor": "Google",
-    "score": 39,
+    "score": 37,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "release",
@@ -221,37 +286,73 @@
     "content_access": "full"
   },
   {
-    "title": "Build reliable AI agents with Amazon Bedrock AgentCore Evaluations",
-    "summary": "In this post, we introduce Amazon Bedrock AgentCore Evaluations, a fully managed service for assessing AI agent performance across the development lifecycle. We walk through how the service measures agent accuracy across multiple quality dimensions. We explain the two evaluation approaches for development and production and share practical guidance for building agents you can deploy with confidence.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-reliable-ai-agents-with-amazon-bedrock-agentcore-evaluations/",
-    "published": "2026-03-31T22:11:23+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 38,
+    "title": "How to Combine Google Search, Google Maps, and Custom Functions in a Single Gemini API Call With Context Circulation, Parallel Tool IDs, and Multi-Step Agentic Chains",
+    "summary": "<p>In this tutorial, we explore the latest Gemini API tooling updates Google announced in March 2026, specifically the ability to combine built-in tools like Google Search and Google Maps with custom function calls in a single API request. We walk through five hands-on demos that progressively build on each other, starting with the core tool [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/07/how-to-combine-google-search-google-maps-and-custom-functions-in-a-single-gemini-api-call-with-context-circulation-parallel-tool-ids-and-multi-step-agentic-chains/\">How to Combine Google Search, Google Maps, and Custom Functions in a Single Gemini API Call With Context Circulation, Parallel Tool IDs, and Multi-Step Agentic Chains</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
+    "url": "https://www.marktechpost.com/2026/04/07/how-to-combine-google-search-google-maps-and-custom-functions-in-a-single-gemini-api-call-with-context-circulation-parallel-tool-ids-and-multi-step-agentic-chains/",
+    "published": "2026-04-08T01:56:34+00:00",
+    "feed": "MarkTechPost",
+    "vendor": "Google",
+    "score": 35,
     "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "policy_regulatory",
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
     "vendors": [
-      "AWS"
+      "Google"
     ],
     "capability_flags": [
       "tool_use_agents",
-      "eval_observability"
+      "retrieval_rag"
     ],
     "signals": {
       "banking": 0.0,
-      "regulation": 0.167,
+      "regulation": 0.0,
       "safety": 0.0,
       "vendor": 1.0,
       "capability": 0.6666666666666666
     },
     "action_recommended": true,
-    "action_text": "Revisar impacto con Compliance/Legal (deadlines, guías y obligaciones).",
+    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
     "reason_tags": [
       "vendor_mentioned",
+      "llm_family",
       "capability_flag"
     ],
-    "source_type": "primary",
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "OpenAI and Spotify leaders back London-based AI agent security startup in $13M seed round",
+    "summary": "A London-based startup which helps mitigate risks and vulnerabilities of businesses deploying so-called AI agents or AI tools that can complete specific tasks has emerged from stealth with a $13m seed...",
+    "url": "https://tech.eu/2026/04/07/openai-and-spotify-leaders-back-london-based-ai-security-agent-startup-in-13m-round/",
+    "published": "2026-04-07T15:00:00+00:00",
+    "feed": "Tech.eu",
+    "vendor": "OpenAI",
+    "score": 35,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
+    "vendors": [
+      "OpenAI"
+    ],
+    "capability_flags": [
+      "tool_use_agents",
+      "safety_security"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.167,
+      "vendor": 1.0,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": true,
+    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family",
+      "capability_flag"
+    ],
+    "source_type": "curated",
     "content_access": "full"
   },
   {
@@ -261,7 +362,7 @@
     "published": "2026-04-06T17:49:32+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 37,
+    "score": 35,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -289,34 +390,30 @@
     "content_access": "full"
   },
   {
-    "title": "AWS launches frontier agents for security testing and cloud operations",
-    "summary": "I'm excited to announce that AWS Security Agent on-demand penetration testing and AWS DevOps Agent are now generally available, representing a new class of AI capabilities we announced at re:Invent called frontier agents. These autonomous systems work independently to achieve goals, scale massively to tackle concurrent tasks, and run persistently for hours or days without constant human oversight. Together, these agents are changing the way we secure and operate software. In preview, customers and partners report that AWS Security Agent compresses penetration testing timelines from weeks to hours and the AWS DevOps Agent supports 3–5x faster incident resolution.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/aws-launches-frontier-agents-for-security-testing-and-cloud-operations/",
-    "published": "2026-03-31T16:25:32+00:00",
+    "title": "Building real-time conversational podcasts with Amazon Nova 2 Sonic",
+    "summary": "This post walks through building an automated podcast generator that creates engaging conversations between two AI hosts on any topic, demonstrating the streaming capabilities of Nova Sonic, stage-aware content filtering, and real-time audio generation.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/building-real-time-conversational-podcasts-with-amazon-nova-2-sonic/",
+    "published": "2026-04-07T16:29:11+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 37,
+    "score": 34,
     "is_enriched": true,
     "layer": "Agents & Tooling",
-    "event_type": "incident",
-    "vendors": [
-      "AWS"
-    ],
+    "event_type": "other",
+    "vendors": [],
     "capability_flags": [
-      "tool_use_agents",
-      "safety_security"
+      "multimodal"
     ],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
-      "safety": 0.167,
-      "vendor": 1.0,
-      "capability": 0.6666666666666666
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
     },
-    "action_recommended": true,
-    "action_text": "Verificar exposición (prompt-injection / data leakage) y actualizar playbooks de seguridad.",
+    "action_recommended": false,
+    "action_text": "",
     "reason_tags": [
-      "vendor_mentioned",
       "capability_flag"
     ],
     "source_type": "primary",
@@ -329,7 +426,7 @@
     "published": "2026-04-02T12:59:31+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 36,
+    "score": 34,
     "is_enriched": true,
     "layer": "Market & Competitive",
     "event_type": "partnership",
@@ -353,70 +450,62 @@
     "content_access": "full"
   },
   {
-    "title": "Build a FinOps agent using Amazon Bedrock AgentCore",
-    "summary": "In this post, you learn how to build a FinOps agent using&nbsp;Amazon Bedrock AgentCore that helps your finance team manage AWS costs across multiple accounts. This conversational agent consolidates data from&nbsp;AWS Cost Explorer,&nbsp;AWS Budgets, and&nbsp;AWS Compute Optimizer&nbsp;into a single interface, so your team can ask questions like \"What are my top cost drivers this month?\" and receive immediate answers.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-a-finops-agent-using-amazon-bedrock-agentcore/",
-    "published": "2026-03-31T17:57:16+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 35,
+    "title": "Adobe launches Acrobat-based Student Spaces, a free AI-powered study tool for students",
+    "summary": "Adobe Acrobat Student Spaces is a free tool for students to use AI and create different kinds of study material from documents.",
+    "url": "https://techcrunch.com/2026/04/07/adobe-launches-acrobat-spaces-a-free-ai-powered-study-tool-for-students/",
+    "published": "2026-04-07T13:00:00+00:00",
+    "feed": "TechCrunch",
+    "vendor": "TechCrunch",
+    "score": 33,
     "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "pricing_limits",
+    "layer": "Agents & Tooling",
+    "event_type": "research_paper",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "Testing suggests Google's AI Overviews tell millions of lies per hour",
+    "summary": "Is 90 percent accuracy good enough for a search robot?",
+    "url": "https://arstechnica.com/google/2026/04/analysis-finds-google-ai-overviews-is-wrong-10-percent-of-the-time/",
+    "published": "2026-04-07T16:53:55+00:00",
+    "feed": "Ars Technica",
+    "vendor": "Google",
+    "score": 32,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
     "vendors": [
-      "AWS"
+      "Google"
     ],
     "capability_flags": [
-      "tool_use_agents",
-      "pricing_limits"
+      "retrieval_rag"
     ],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "vendor": 1.0,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": true,
-    "action_text": "Revisar impacto en costes/limits y actualizar supuestos del business case.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
-    "title": "Accelerating software delivery with agentic QA automation using Amazon Nova Act",
-    "summary": "In this post, we demonstrate how to implement agentic QA automation through QA Studio, a reference solution built with Amazon Nova Act. You will see how to define tests in natural language that adapt automatically to UI changes, explore the serverless architecture that executes tests reliably at scale, and get step-by-step deployment guidance for your AWS environment.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act/",
-    "published": "2026-03-31T17:46:50+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 35,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "policy_regulatory",
-    "vendors": [
-      "AWS"
-    ],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.167,
-      "safety": 0.0,
-      "vendor": 1.0,
       "capability": 0.3333333333333333
     },
-    "action_recommended": true,
-    "action_text": "Revisar impacto con Compliance/Legal (deadlines, guías y obligaciones).",
+    "action_recommended": false,
+    "action_text": "",
     "reason_tags": [
       "vendor_mentioned",
       "capability_flag"
     ],
-    "source_type": "primary",
+    "source_type": "curated",
     "content_access": "full"
   },
   {
@@ -426,7 +515,7 @@
     "published": "2026-04-06T14:41:46+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 34,
+    "score": 32,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -459,7 +548,7 @@
     "published": "2026-04-03T21:28:14+00:00",
     "feed": "Wired",
     "vendor": "Meta",
-    "score": 34,
+    "score": 32,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "incident",
@@ -493,7 +582,7 @@
     "published": "2026-04-02T11:27:34+00:00",
     "feed": "Tech.eu",
     "vendor": "Tech.eu",
-    "score": 34,
+    "score": 32,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "production_rollout",
@@ -517,23 +606,23 @@
     "content_access": "full"
   },
   {
-    "title": "Building an AI powered system for compliance evidence collection",
-    "summary": "In this post, we show you how to build a similar system for your organization. You will learn the architecture decisions, implementation details, and deployment process that can help you automate your own compliance workflows.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-system-for-compliance-evidence-collection/",
-    "published": "2026-03-31T17:52:15+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 33,
+    "title": "Bluesky users are mastering the fine art of blaming everything on \"vibe coding\"",
+    "summary": "Use of AI coding tools has become a convenient boogeyman for any tech issues.",
+    "url": "https://arstechnica.com/ai/2026/04/bluesky-users-are-mastering-the-fine-art-of-blaming-everything-on-vibe-coding/",
+    "published": "2026-04-07T19:09:44+00:00",
+    "feed": "Ars Technica",
+    "vendor": "ArsTechnica",
+    "score": 31,
     "is_enriched": true,
     "layer": "Agents & Tooling",
-    "event_type": "production_rollout",
+    "event_type": "other",
     "vendors": [],
     "capability_flags": [
-      "enterprise_controls"
+      "tool_use_agents"
     ],
     "signals": {
       "banking": 0.0,
-      "regulation": 0.0,
+      "regulation": 0.167,
       "safety": 0.0,
       "vendor": 0.6,
       "capability": 0.3333333333333333
@@ -543,7 +632,7 @@
     "reason_tags": [
       "capability_flag"
     ],
-    "source_type": "primary",
+    "source_type": "curated",
     "content_access": "full"
   },
   {
@@ -553,7 +642,7 @@
     "published": "2026-04-06T18:00:06+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 32,
+    "score": 30,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -583,7 +672,7 @@
     "published": "2026-04-06T17:48:54+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 32,
+    "score": 30,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -607,13 +696,75 @@
     "content_access": "full"
   },
   {
+    "title": "Agentic AI Startup Xccelera Raises ₹1.2 Crore",
+    "summary": "In a strong vote of confidence for the future of autonomous enterprise execution, early-stage AI startup Xccelera today announced that it has raised ₹1.2 crore from a group of prominent founders, including Ramakant Sharma (Livspace), Asad Khan (TestMu AI), and Amiya Pathak (Zipdial).",
+    "url": "https://www.finextra.com/pressarticle/109371/agentic-ai-startup-xccelera-raises-12-crore?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-07T08:56:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 29,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents",
+      "enterprise_controls"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "partial"
+  },
+  {
+    "title": "FinBox unveils MCP support for Sentinel AI",
+    "summary": "FinBox, a leading credit infrastructure platform serving over 100 enterprise lenders across banks, NBFCs, fintechs, and conglomerates, today announced support for MCP (Model Context Protocol) in Sentinel AI, its decision management platform that has facilitated over 6.5 billion decisions till date.",
+    "url": "https://www.finextra.com/pressarticle/109369/finbox-unveils-mcp-support-for-sentinel-ai?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-07T08:52:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 29,
+    "is_enriched": true,
+    "layer": "Infra & Open Source",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [
+      "enterprise_controls",
+      "serving_inference"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "partial"
+  },
+  {
     "title": "Simulate realistic users to evaluate multi-turn AI agents in Strands Evals",
     "summary": "In this post, we explore how ActorSimulator in Strands Evaluations SDK addresses the challenge with structured user simulation that integrates into your evaluation pipeline.",
     "url": "https://aws.amazon.com/blogs/machine-learning/simulate-realistic-users-to-evaluate-multi-turn-ai-agents-in-strands-evals/",
     "published": "2026-04-02T17:34:02+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 32,
+    "score": 29,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "release",
@@ -637,59 +788,106 @@
     "content_access": "full"
   },
   {
-    "title": "How to Build Production-Ready Agentic Systems with Z.AI GLM-5 Using Thinking Mode, Tool Calling, Streaming, and Multi-Turn Workflows",
-    "summary": "<p>In this tutorial, we explore the full capabilities of Z.AI’s GLM-5 model and build a complete understanding of how to use it for real-world, agentic applications. We start from the fundamentals by setting up the environment using the Z.AI SDK and its OpenAI-compatible interface, and then progressively move on to advanced features such as streaming [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/03/how-to-build-production-ready-agentic-systems-with-z-ai-glm-5-using-thinking-mode-tool-calling-streaming-and-multi-turn-workflows/\">How to Build Production-Ready Agentic Systems with Z.AI GLM-5 Using Thinking Mode, Tool Calling, Streaming, and Multi-Turn Workflows</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
-    "url": "https://www.marktechpost.com/2026/04/03/how-to-build-production-ready-agentic-systems-with-z-ai-glm-5-using-thinking-mode-tool-calling-streaming-and-multi-turn-workflows/",
-    "published": "2026-04-04T03:06:56+00:00",
-    "feed": "MarkTechPost",
-    "vendor": "MarkTechPost",
-    "score": 31,
+    "title": "WholeSum tops up Pre-Seed with $335K to fix AI’s trust problem in text analytics",
+    "summary": "UK-based analytics startup WholeSum has brought its total Pre-Seed funding to $1.3 million, with an additional $335,000 new investment from Love Ventures, Beamline, and strategic angels, following its...",
+    "url": "https://tech.eu/2026/04/07/wholesum-tops-up-pre-seed-with-335k-to-fix-ais-trust-problem-in-text-analytics/",
+    "published": "2026-04-07T10:04:32+00:00",
+    "feed": "Tech.eu",
+    "vendor": "Tech.eu",
+    "score": 27,
     "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "release",
+    "layer": "Agents & Tooling",
+    "event_type": "other",
     "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
+    "capability_flags": [],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "vendor": 0.6,
-      "capability": 0.3333333333333333
+      "capability": 0.0
     },
-    "action_recommended": true,
-    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
-    "reason_tags": [
-      "capability_flag"
-    ],
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
     "source_type": "curated",
     "content_access": "full"
   },
   {
-    "title": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
-    "summary": "OpenAI proposes taxes on AI profits, public wealth funds, and expanded safety nets to address job loss and inequality, blending redistribution with capitalism as policymakers debate AI’s economic impact.",
-    "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
-    "published": "2026-04-06T15:55:55+00:00",
+    "title": "What the heck is wrong with our AI overlords?",
+    "summary": "New profile of Sam Altman shines a light on a whole industry.",
+    "url": "https://arstechnica.com/tech-policy/2026/04/what-the-heck-is-wrong-with-our-ai-overlords/",
+    "published": "2026-04-07T20:02:25+00:00",
+    "feed": "Ars Technica",
+    "vendor": "ArsTechnica",
+    "score": 27,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Intel is going all-in on advanced chip packaging",
+    "summary": "Intel is hoping to cash in on the AI boom.",
+    "url": "https://arstechnica.com/gadgets/2026/04/intel-is-going-all-in-on-advanced-chip-packaging/",
+    "published": "2026-04-07T09:00:03+00:00",
+    "feed": "Ars Technica",
+    "vendor": "ArsTechnica",
+    "score": 27,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Google Maps can now write captions for your photos using AI",
+    "summary": "Google is rolling out new features to make it easier for users to contribute local knowledge to Maps. Most notably, Gemini can now create captions when users are looking to share a photo or video about a place.",
+    "url": "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/",
+    "published": "2026-04-07T15:30:00+00:00",
     "feed": "TechCrunch",
-    "vendor": "OpenAI",
-    "score": 29,
+    "vendor": "Google",
+    "score": 27,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "other",
     "vendors": [
-      "OpenAI"
+      "Google"
     ],
     "capability_flags": [
-      "multimodal",
-      "safety_security"
+      "multimodal"
     ],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "vendor": 1.0,
-      "capability": 0.6666666666666666
+      "capability": 0.3333333333333333
     },
     "action_recommended": true,
     "action_text": "Evaluar casos multimodales (documentos, KYC, atención) y requisitos de datos.",
@@ -702,44 +900,13 @@
     "content_access": "limited"
   },
   {
-    "title": "“The problem is Sam Altman”: OpenAI Insiders don’t trust CEO",
-    "summary": "OpenAI brainstorms ways AI can benefit humanity in effort to counter bad vibes.",
-    "url": "https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/",
-    "published": "2026-04-06T21:23:36+00:00",
-    "feed": "Ars Technica",
-    "vendor": "OpenAI",
-    "score": 28,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "other",
-    "vendors": [
-      "OpenAI"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
     "title": "Meet ‘AutoAgent’: The Open-Source Library That Lets an AI Engineer and Optimize Its Own Agent Harness Overnight",
     "summary": "<p>There&#8217;s a particular kind of tedium that every AI engineer knows intimately: the prompt-tuning loop. You write a system prompt, run your agent against a benchmark, read the failure traces, tweak the prompt, add a tool, rerun. Repeat this a few dozen times and you might move the needle. It&#8217;s grunt work dressed up in [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/05/meet-autoagent-the-open-source-library-that-lets-an-ai-engineer-and-optimize-its-own-agent-harness-overnight/\">Meet &#8216;AutoAgent&#8217;: The Open-Source Library That Lets an AI Engineer and Optimize Its Own Agent Harness Overnight</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
     "url": "https://www.marktechpost.com/2026/04/05/meet-autoagent-the-open-source-library-that-lets-an-ai-engineer-and-optimize-its-own-agent-harness-overnight/",
     "published": "2026-04-05T09:21:16+00:00",
     "feed": "MarkTechPost",
     "vendor": "MarkTechPost",
-    "score": 28,
+    "score": 27,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "research_paper",
@@ -764,13 +931,137 @@
     "content_access": "full"
   },
   {
+    "title": "“The problem is Sam Altman”: OpenAI insiders don’t trust CEO",
+    "summary": "OpenAI brainstorms ways AI can benefit humanity in effort to counter bad vibes.",
+    "url": "https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/",
+    "published": "2026-04-06T21:23:36+00:00",
+    "feed": "Ars Technica",
+    "vendor": "OpenAI",
+    "score": 26,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
+    "vendors": [
+      "OpenAI"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Anthropic Teams Up With Its Rivals to Keep AI From Hacking Everything",
+    "summary": "The AI lab's Project Glasswing will bring together Apple, Google, and more than 45 other organizations. They'll use the new Claude Mythos Preview model to test advancing AI cybersecurity capabilities.",
+    "url": "https://www.wired.com/story/anthropic-mythos-preview-project-glasswing/",
+    "published": "2026-04-07T18:49:50+00:00",
+    "feed": "Wired",
+    "vendor": "Google",
+    "score": 25,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
+    "vendors": [
+      "Google",
+      "Anthropic"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation",
+    "summary": "Nvidia-backed Asia AI data center provider Firmus has now raised $1.35 billion in six months.",
+    "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
+    "published": "2026-04-07T18:46:55+00:00",
+    "feed": "TechCrunch",
+    "vendor": "NVIDIA",
+    "score": 25,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [
+      "NVIDIA"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned"
+    ],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative",
+    "summary": "The new model will be used by a small number of high-profile companies to engage in defensive cybersecurity work.",
+    "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+    "published": "2026-04-07T18:00:00+00:00",
+    "feed": "TechCrunch",
+    "vendor": "Anthropic",
+    "score": 25,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
+    "vendors": [
+      "Anthropic"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
     "title": "How Client Centricity Evolves Across Operational Models",
     "summary": "In this FinextraTV Interview from the Communify Intelligence Experience, Lisa Salvi, Managing Director, Business Consulting and Education, Charles Schwab, explored the position of smaller firms and institutions when it comes to client centricity, and the utilisation of AI. Salvi explains that client centricity is much easier as a smaller firm, enabling an ability to be everything to everyone, however as growth occurs, operational efficiency changes and client segmentation becomes more important. Segmentation, she said, allows an organisation to create more granular, client-centric experiences according to segments and, equally, provides the ability to monitor the cost management of individual segments. Lastly, Salvi described the rapid pace of AI development which could help assist in client segmentation.",
     "url": "https://www.finextra.com/videoarticle/3477/how-client-centricity-evolves-across-operational-models?utm_medium=rssfinextra&utm_source=finextrafeed",
     "published": "2026-04-02T11:00:00+00:00",
     "feed": "Finextra - Artificial Intelligence",
     "vendor": "Finextra",
-    "score": 27,
+    "score": 25,
     "is_enriched": true,
     "layer": "Market & Competitive",
     "event_type": "pricing_limits",
@@ -794,76 +1085,12 @@
     "content_access": "partial"
   },
   {
-    "title": "Google DeepMind’s Research Lets an LLM Rewrite Its Own Game Theory Algorithms — And It Outperformed the Experts",
-    "summary": "<p>Designing algorithms for Multi-Agent Reinforcement Learning (MARL) in imperfect-information games — scenarios where players act sequentially and cannot see each other&#8217;s private information, like poker — has historically relied on manual iteration. Researchers identify weighting schemes, discounting rules, and equilibrium solvers through intuition and trial-and-error. Google DeepMind researchers proposes AlphaEvolve, an LLM-powered evolutionary coding agent [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/03/google-deepminds-research-lets-an-llm-rewrite-its-own-game-theory-algorithms-and-it-outperformed-the-experts/\">Google DeepMind&#8217;s Research Lets an LLM Rewrite Its Own Game Theory Algorithms — And It Outperformed the Experts</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
-    "url": "https://www.marktechpost.com/2026/04/03/google-deepminds-research-lets-an-llm-rewrite-its-own-game-theory-algorithms-and-it-outperformed-the-experts/",
-    "published": "2026-04-03T22:26:00+00:00",
-    "feed": "MarkTechPost",
-    "vendor": "Google",
-    "score": 25,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "research_paper",
-    "vendors": [
-      "Google"
-    ],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": true,
-    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family",
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "NinjaTrader signs AI deal with Adclear",
-    "summary": "Adclear has announced it is partnering with NinjaTrader Group, LLC, the US-based global leader in retail futures and trading technology, to bring the power of AI to NinjaTrader’s marketing compliance processes through Adclear’s financial promotions platform.",
-    "url": "https://www.finextra.com/pressarticle/109341/ninjatrader-signs-ai-deal-with-adclear?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-04-01T10:37:00+00:00",
+    "title": "UnionPay launches Agentic Payment Open Protocol framework",
+    "summary": "On April 2, a special taxi booking transaction was successfully completed in Hong Kong, China.",
+    "url": "https://www.finextra.com/pressarticle/109380/unionpay-launches-agentic-payment-open-protocol-framework?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-07T13:58:00+00:00",
     "feed": "Finextra - Artificial Intelligence",
     "vendor": "Finextra",
-    "score": 25,
-    "is_enriched": true,
-    "layer": "Market & Competitive",
-    "event_type": "partnership",
-    "vendors": [],
-    "capability_flags": [
-      "enterprise_controls"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "partial"
-  },
-  {
-    "title": "AI design platform Picsart launches a creator monetization program",
-    "summary": "The program invites creators to create original content with Picsart tools for a specific campaign, share it on their social channels, and earn revenue based on how their audience engages.",
-    "url": "https://techcrunch.com/2026/04/06/ai-design-platform-picsart-launches-a-creator-monetization-program/",
-    "published": "2026-04-07T04:01:00+00:00",
-    "feed": "TechCrunch",
-    "vendor": "TechCrunch",
     "score": 24,
     "is_enriched": true,
     "layer": "Agents & Tooling",
@@ -888,29 +1115,33 @@
     "content_access": "limited"
   },
   {
-    "title": "Industrial policy for the Intelligence Age",
-    "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
-    "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
-    "published": "2026-04-06T02:30:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
+    "title": "Former Pleo VP joins Grasp as chief product officer",
+    "summary": "Grasp, the Swedish AI startup automating high finance work using agent systems, has appointed former Pleo VP of Product Fredric Ghatan as Chief Product Officer.",
+    "url": "https://www.finextra.com/pressarticle/109373/former-pleo-vp-joins-grasp-as-chief-product-officer?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-07T10:30:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
     "score": 24,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
     "vendors": [],
-    "capability_flags": [],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "vendor": 0.6,
-      "capability": 0.0
+      "capability": 0.3333333333333333
     },
     "action_recommended": false,
     "action_text": "",
-    "reason_tags": [],
-    "source_type": "primary",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
     "content_access": "limited"
   },
   {
@@ -946,13 +1177,173 @@
     "content_access": "full"
   },
   {
+    "title": "NinjaTrader signs AI deal with Adclear",
+    "summary": "Adclear has announced it is partnering with NinjaTrader Group, LLC, the US-based global leader in retail futures and trading technology, to bring the power of AI to NinjaTrader’s marketing compliance processes through Adclear’s financial promotions platform.",
+    "url": "https://www.finextra.com/pressarticle/109341/ninjatrader-signs-ai-deal-with-adclear?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-01T10:37:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 23,
+    "is_enriched": true,
+    "layer": "Market & Competitive",
+    "event_type": "partnership",
+    "vendors": [],
+    "capability_flags": [
+      "enterprise_controls"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "partial"
+  },
+  {
+    "title": "I can’t help rooting for tiny open source AI model maker Arcee",
+    "summary": "Arcee is a tiny 26-person U.S. startup that built a high-performing, massive, open source LLM. And it's gaining popularity with OpenClaw users.",
+    "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
+    "published": "2026-04-07T21:35:02+00:00",
+    "feed": "TechCrunch",
+    "vendor": "TechCrunch",
+    "score": 22,
+    "is_enriched": true,
+    "layer": "Infra & Open Source",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "VC Eclipse has a new $1.3B fund to back — and build — ‘physical AI’ startups",
+    "summary": "Eclipse will put some of that money towards incubating, or building startups.",
+    "url": "https://techcrunch.com/2026/04/07/vc-eclipse-has-a-new-1-3b-to-back-and-build-physical-ai-startups/",
+    "published": "2026-04-07T21:24:54+00:00",
+    "feed": "TechCrunch",
+    "vendor": "TechCrunch",
+    "score": 22,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "The AI gold rush is pulling private wealth into riskier, earlier bets",
+    "summary": "On a recent episode of Equity, we  talked to Arena Private Wealth to explore a growing trend: family offices bypassing VCs to gain direct exposure to AI startups, turning them from passive investors into active participants.",
+    "url": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
+    "published": "2026-04-07T13:00:00+00:00",
+    "feed": "TechCrunch",
+    "vendor": "TechCrunch",
+    "score": 22,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "The Death of Good Enough UX in Banking Apps: How AI Is Commoditizing Digital Banking",
+    "summary": "Here’s an uncomfortable question every financial leader should ask: if your financial product can be...",
+    "url": "https://www.finextra.com/blogposting/31342/the-death-of-good-enough-ux-in-banking-apps-how-ai-is-commoditizing-digital-banking?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-07T10:18:21+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 22,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.167,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "Industrial policy for the Intelligence Age",
+    "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+    "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+    "published": "2026-04-06T02:30:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 22,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
     "title": "FactSet launches AI-powered ecosystem for banking",
     "summary": "FactSet (NYSE:FDS | NASDAQ:FDS), a global financial digital platform and enterprise solutions provider, today announced the alpha launch of FactSet AI for Banking, an AI-powered workflow automation ecosystem.",
     "url": "https://www.finextra.com/pressarticle/109348/factset-launches-ai-powered-ecosystem-for-banking?utm_medium=rssfinextra&utm_source=finextrafeed",
     "published": "2026-04-01T13:21:00+00:00",
     "feed": "Finextra - Artificial Intelligence",
     "vendor": "Finextra",
-    "score": 24,
+    "score": 22,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "release",
@@ -977,110 +1368,13 @@
     "content_access": "limited"
   },
   {
-    "title": "Can your governance keep pace with your AI ambitions? AI risk intelligence in the agentic era",
-    "summary": "Traditional frameworks designed for static deployments cannot address the dynamic interactions that define agentic workloads. AI Risk Intelligence (AIRI), from AWS Generative AI Innovation Center, provides the automated rigor required to govern agents at enterprise scale—a fundamental reimagining of how security, operations, and governance work together systemically.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/can-your-governance-keep-pace-with-your-ai-ambitions-ai-risk-intelligence-in-the-agentic-era/",
-    "published": "2026-03-31T15:36:17+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 24,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [
-      "AWS"
-    ],
-    "capability_flags": [
-      "tool_use_agents",
-      "safety_security",
-      "enterprise_controls"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.167,
-      "vendor": 1.0,
-      "capability": 1.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
-    "title": "OpenClaw gives users yet another reason to be freaked out about security",
-    "summary": "The viral AI agentic tool let attackers silently gain admin unauthenticated access.",
-    "url": "https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/",
-    "published": "2026-04-03T20:30:15+00:00",
-    "feed": "Ars Technica",
-    "vendor": "ArsTechnica",
-    "score": 23,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents",
-      "safety_security",
-      "enterprise_controls"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.167,
-      "vendor": 0.6,
-      "capability": 1.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Regnology adds agentic AI layer to regulatory reporting platform",
-    "summary": "Regnology, a global leading provider at the intersection of regulatory, risk, finance and supervisory technology, today announced the evolution of Ascend, the next‑generation Regnology platform.",
-    "url": "https://www.finextra.com/pressarticle/109331/regnology-adds-agentic-ai-layer-to-regulatory-reporting-platform?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-03-31T15:56:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 23,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "policy_regulatory",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.167,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": true,
-    "action_text": "Revisar impacto con Compliance/Legal (deadlines, guías y obligaciones).",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
     "title": "The Ridiculously Nerdy Intel Bet That Could Rake in Billions",
     "summary": "Advanced chip packaging is suddenly at the center of the AI boom. Intel is going all in.",
     "url": "https://www.wired.com/story/why-chip-packaging-could-decide-the-next-phase-of-the-ai-boom/",
     "published": "2026-04-06T09:00:00+00:00",
     "feed": "Wired",
     "vendor": "Wired",
-    "score": 21,
+    "score": 19,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -1098,58 +1392,6 @@
     "reason_tags": [],
     "source_type": "curated",
     "content_access": "limited"
-  },
-  {
-    "title": "Iran threatens ‘Stargate’ AI data centers",
-    "summary": "Iran said it will target U.S.-linked data centers with new missile strikes, as the war between the U.S. and Iran escalates.",
-    "url": "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
-    "published": "2026-04-06T18:06:28+00:00",
-    "feed": "TechCrunch",
-    "vendor": "TechCrunch",
-    "score": 21,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "\"Cognitive surrender\" leads AI users to abandon logical thinking, research finds",
-    "summary": "Experiments show large majorities uncritically accepting \"faulty\" AI answers.",
-    "url": "https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/",
-    "published": "2026-04-03T21:06:15+00:00",
-    "feed": "Ars Technica",
-    "vendor": "ArsTechnica",
-    "score": 20,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "research_paper",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
   },
   {
     "title": "Top 7 fintech trends for 2026: AI orchestration, instant payments and embedded finance",
@@ -1158,7 +1400,7 @@
     "published": "2026-04-02T09:49:43+00:00",
     "feed": "Finextra - Artificial Intelligence",
     "vendor": "Finextra",
-    "score": 20,
+    "score": 19,
     "is_enriched": true,
     "layer": "Banking Pulse",
     "event_type": "pilot",
@@ -1179,67 +1421,6 @@
       "capability_flag"
     ],
     "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "Inside the Creative Artificial Intelligence (AI) Stack: Where Human Vision and Artificial Intelligence Meet to Design Future Fashion",
-    "summary": "<p>Fashion has always been about anticipation, determining what one would prefer to wear before they know it themselves. It’s meant in terms of intuition, presentation, experience, and the “good eye”. Today, it can be conveyed through algorithms, neural networks, and machine learning. Artificial Intelligence is no longer at the dregs, but very much at the [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/05/inside-the-creative-artificial-intelligence-ai-stack-where-human-vision-and-artificial-intelligence-meet-to-design-future-fashion/\">Inside the Creative Artificial Intelligence (AI) Stack: Where Human Vision and Artificial Intelligence Meet to Design Future Fashion</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
-    "url": "https://www.marktechpost.com/2026/04/05/inside-the-creative-artificial-intelligence-ai-stack-where-human-vision-and-artificial-intelligence-meet-to-design-future-fashion/",
-    "published": "2026-04-05T08:45:37+00:00",
-    "feed": "MarkTechPost",
-    "vendor": "MarkTechPost",
-    "score": 18,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "multimodal"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Gemma 4: Byte for byte, the most capable open models",
-    "summary": "Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.",
-    "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
-    "published": "2026-04-02T16:00:49+00:00",
-    "feed": "DeepMind Blog",
-    "vendor": "Google",
-    "score": 18,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "reasoning",
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "primary",
     "content_access": "limited"
   },
   {
@@ -1279,13 +1460,74 @@
     "content_access": "limited"
   },
   {
+    "title": "Inside the Creative Artificial Intelligence (AI) Stack: Where Human Vision and Artificial Intelligence Meet to Design Future Fashion",
+    "summary": "<p>Fashion has always been about anticipation, determining what one would prefer to wear before they know it themselves. It’s meant in terms of intuition, presentation, experience, and the “good eye”. Today, it can be conveyed through algorithms, neural networks, and machine learning. Artificial Intelligence is no longer at the dregs, but very much at the [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/05/inside-the-creative-artificial-intelligence-ai-stack-where-human-vision-and-artificial-intelligence-meet-to-design-future-fashion/\">Inside the Creative Artificial Intelligence (AI) Stack: Where Human Vision and Artificial Intelligence Meet to Design Future Fashion</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
+    "url": "https://www.marktechpost.com/2026/04/05/inside-the-creative-artificial-intelligence-ai-stack-where-human-vision-and-artificial-intelligence-meet-to-design-future-fashion/",
+    "published": "2026-04-05T08:45:37+00:00",
+    "feed": "MarkTechPost",
+    "vendor": "MarkTechPost",
+    "score": 17,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [
+      "multimodal"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Gemma 4: Byte for byte, the most capable open models",
+    "summary": "Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.",
+    "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+    "published": "2026-04-02T16:00:49+00:00",
+    "feed": "DeepMind Blog",
+    "vendor": "Google",
+    "score": 17,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [
+      "reasoning",
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 0.6,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
     "title": "Netflix AI Team Just Open-Sourced VOID: an AI Model That Erases Objects From Videos — Physics and All",
     "summary": "<p>Video editing has always had a dirty secret: removing an object from footage is easy; making the scene look like it was never there is brutally hard. Take out a person holding a guitar, and you&#8217;re left with a floating instrument that defies gravity. Hollywood VFX teams spend weeks fixing exactly this kind of problem. [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/04/netflix-ai-team-just-open-sourced-void-an-ai-model-that-erases-objects-from-videos-physics-and-all/\">Netflix AI Team Just Open-Sourced VOID: an AI Model That Erases Objects From Videos — Physics and All</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
     "url": "https://www.marktechpost.com/2026/04/04/netflix-ai-team-just-open-sourced-void-an-ai-model-that-erases-objects-from-videos-physics-and-all/",
     "published": "2026-04-04T09:03:26+00:00",
     "feed": "MarkTechPost",
     "vendor": "MarkTechPost",
-    "score": 17,
+    "score": 16,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -1315,7 +1557,7 @@
     "published": "2026-04-02T13:28:19+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 17,
+    "score": 16,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -1345,7 +1587,7 @@
     "published": "2026-04-02T12:52:07+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 17,
+    "score": 16,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -1369,221 +1611,14 @@
     "content_access": "full"
   },
   {
-    "title": "Gradient Labs gives every bank customer an AI account manager",
-    "summary": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
-    "url": "https://openai.com/index/gradient-labs",
-    "published": "2026-04-01T02:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 17,
-    "is_enriched": true,
-    "layer": "Infra & Open Source",
-    "event_type": "other",
-    "vendors": [
-      "OpenAI"
-    ],
-    "capability_flags": [
-      "serving_inference"
-    ],
-    "signals": {
-      "banking": 0.333,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
     "title": "Meet MaxToki: The AI That Predicts How Your Cells Age — and What to Do About It",
     "summary": "<p>Most foundation models in biology have a fundamental blind spot: they see cells as frozen snapshots. Give a model a single-cell transcriptome — a readout of which genes are active in a cell at a given moment — and it can tell you a lot about what that cell is doing right now. What it [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/05/meet-maxtoki-the-ai-that-predicts-how-your-cells-age-and-what-to-do-about-it/\">Meet MaxToki: The AI That Predicts How Your Cells Age — and What to Do About It</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
     "url": "https://www.marktechpost.com/2026/04/05/meet-maxtoki-the-ai-that-predicts-how-your-cells-age-and-what-to-do-about-it/",
     "published": "2026-04-05T20:50:14+00:00",
     "feed": "MarkTechPost",
     "vendor": "MarkTechPost",
-    "score": 16,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Accelerating the next phase of AI",
-    "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
-    "url": "https://openai.com/index/accelerating-the-next-phase-ai",
-    "published": "2026-03-31T13:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 16,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "other",
-    "vendors": [
-      "OpenAI"
-    ],
-    "capability_flags": [
-      "enterprise_controls"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
-    "summary": "",
-    "url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
-    "published": "2026-03-31T15:10:41+00:00",
-    "feed": "Hugging Face Blog",
-    "vendor": "HuggingFace",
-    "score": 16,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "multimodal",
-      "enterprise_controls"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "Daylit launches AI agents for AR collections & real-time cash intelligence",
-    "summary": "Daylit today launched its AI agents platform for accounts receivable (AR), enabling finance teams to accelerate collection and transform receivables into a strategic driver of working capital performance.",
-    "url": "https://www.finextra.com/pressarticle/109334/daylit-launches-ai-agents-for-ar-collections--real-time-cash-intelligence?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-03-31T18:40:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 16,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "release",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Priorizar lectura de release notes + prueba rápida (compatibilidad, breaking changes).",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "CGI puts AI agents to work on credit default management",
-    "summary": "CGI (TSX: GIB.A) (NYSE: GIB) today announced the launch of new AI capabilities within CGI Credit Studio, its cloud-native platform for default management.",
-    "url": "https://www.finextra.com/pressarticle/109328/cgi-puts-ai-agents-to-work-on-credit-default-management?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-03-31T12:07:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 16,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "release",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Priorizar lectura de release notes + prueba rápida (compatibilidad, breaking changes).",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use",
-    "summary": "AI skeptics aren’t the only ones warning users not to unthinkingly trust models’ outputs — that’s what the AI companies say themselves in their terms of service.",
-    "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
-    "published": "2026-04-05T18:51:37+00:00",
-    "feed": "TechCrunch",
-    "vendor": "Microsoft",
     "score": 15,
     "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "other",
-    "vendors": [
-      "Microsoft"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "Trump ignores biggest reasons his AI data center buildout is failing",
-    "summary": "Nearly 50% of data center projects delayed as China holds key to power infrastructure.",
-    "url": "https://arstechnica.com/tech-policy/2026/04/sad-trumps-ai-data-center-push-is-failing-blame-his-own-tariffs/",
-    "published": "2026-04-03T20:43:14+00:00",
-    "feed": "Ars Technica",
-    "vendor": "ArsTechnica",
-    "score": 14,
-    "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
     "vendors": [],
@@ -1600,37 +1635,6 @@
     "reason_tags": [],
     "source_type": "curated",
     "content_access": "full"
-  },
-  {
-    "title": "OpenAI acquires TBPN",
-    "summary": "OpenAI acquires TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.",
-    "url": "https://openai.com/index/openai-acquires-tbpn",
-    "published": "2026-04-02T10:30:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 14,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "other",
-    "vendors": [
-      "OpenAI"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
   },
   {
     "title": "Welcome Gemma 4: Frontier multimodal intelligence on device",
@@ -1689,6 +1693,37 @@
     "content_access": "limited"
   },
   {
+    "title": "OpenAI acquires TBPN",
+    "summary": "OpenAI acquires TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.",
+    "url": "https://openai.com/index/openai-acquires-tbpn",
+    "published": "2026-04-02T10:30:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 13,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
+    "vendors": [
+      "OpenAI"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
     "title": "Visa and Ramp to use agentic AI to automate corporate bill pay",
     "summary": "Visa and financial operations platform Ramp are introducing AI agents to automate corporate bill payments.",
     "url": "https://www.finextra.com/newsarticle/47526/visa-and-ramp-to-use-agentic-ai-to-automate-corporate-bill-pay?utm_medium=rssfinextra&utm_source=finextrafeed",
@@ -1705,36 +1740,6 @@
     ],
     "signals": {
       "banking": 0.167,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "Mastercard carries out agentic transaction in Hong Kong",
-    "summary": "Hong Kong is the latest market to get its first live Mastercard agentic transaction, with an AI booking a ride with mobility provider hoppa.",
-    "url": "https://www.finextra.com/newsarticle/47521/mastercard-carries-out-agentic-transaction-in-hong-kong?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-04-01T00:01:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 12,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "vendor": 0.6,
