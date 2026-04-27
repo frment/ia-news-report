@@ -37,13 +37,45 @@
     "content_access": "full"
   },
   {
+    "title": "China kills Meta’s acquisition of Manus as US-China AI rivalry deepens",
+    "summary": "The unwinding of Meta’s deal shows how tech founders struggle to cut China ties.",
+    "url": "https://arstechnica.com/ai/2026/04/china-kills-metas-acquisition-of-manus-as-us-china-ai-rivalry-deepens/",
+    "published": "2026-04-27T18:12:04+00:00",
+    "feed": "Ars Technica",
+    "vendor": "Meta",
+    "score": 71,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "mna",
+    "vendors": [
+      "Meta"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
     "title": "German robotics startup Sereact raises $110M",
     "summary": "German robotics startup Sereact has raised $110m in a Series B funding round, with the funding used to develop and scale its latest AI model and US expansion, it announced today.The round was led by S...",
     "url": "https://tech.eu/2026/04/27/german-robotics-startup-sereact-raises-110m/",
     "published": "2026-04-27T09:24:00+00:00",
     "feed": "Tech.eu",
     "vendor": "Tech.eu",
-    "score": 70,
+    "score": 69,
     "is_enriched": true,
     "layer": "Market & Competitive",
     "event_type": "mna",
@@ -161,6 +193,38 @@
     "content_access": "limited"
   },
   {
+    "title": "OpenMOSS Releases MOSS-Audio: An Open-Source Foundation Model for Speech, Sound, Music, and Time-Aware Audio Reasoning",
+    "summary": "<p>The model unifies speech, environmental sound, music, and temporal reasoning into a single architecture — and outperforms every open-source model tested on general audio benchmarks, including systems more than four times its size.</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/27/openmoss-releases-moss-audio-an-open-source-foundation-model-for-speech-sound-music-and-time-aware-audio-reasoning/\">OpenMOSS Releases MOSS-Audio: An Open-Source Foundation Model for Speech, Sound, Music, and Time-Aware Audio Reasoning</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
+    "url": "https://www.marktechpost.com/2026/04/27/openmoss-releases-moss-audio-an-open-source-foundation-model-for-speech-sound-music-and-time-aware-audio-reasoning/",
+    "published": "2026-04-27T18:36:06+00:00",
+    "feed": "MarkTechPost",
+    "vendor": "MarkTechPost",
+    "score": 58,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "release",
+    "vendors": [],
+    "capability_flags": [
+      "reasoning",
+      "multimodal"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": true,
+    "action_text": "Evaluar casos multimodales (documentos, KYC, atención) y requisitos de datos.",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
     "title": "Meta AI Releases Sapiens2: A High-Resolution Human-Centric Vision Model for Pose, Segmentation, Normals, Pointmap, and Albedo",
     "summary": "<p>Meta Reality Labs releases a new foundation model family for human-centric vision that pushes pose estimation, segmentation, and 3D geometry to new state-of-the-art levels — all from a single backbone.</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/27/meta-ai-releases-sapiens2-a-high-resolution-human-centric-vision-model-for-pose-segmentation-normals-pointmap-and-albedo/\">Meta AI Releases Sapiens2: A High-Resolution Human-Centric Vision Model for Pose, Segmentation, Normals, Pointmap, and Albedo</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
     "url": "https://www.marktechpost.com/2026/04/27/meta-ai-releases-sapiens2-a-high-resolution-human-centric-vision-model-for-pose-segmentation-normals-pointmap-and-albedo/",
@@ -196,39 +260,38 @@
     "content_access": "full"
   },
   {
-    "title": "Build Strands Agents with SageMaker AI models and MLflow",
-    "summary": "In this post, we demonstrate how to build AI agents using Strands Agents SDK with models deployed on SageMaker AI endpoints. You will learn how to deploy foundation models from SageMaker JumpStart, integrate them with Strands Agents, and establish production-grade observability using SageMaker Serverless MLflow for agent tracing. We also cover how to implement A/B testing across multiple model variants and evaluate agent performance using MLflow metrics and show how you can build, deploy, and continuously improve AI agents on infrastructure you control.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-strands-agents-with-sagemaker-ai-models-and-mlflow/",
-    "published": "2026-04-27T16:50:41+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
+    "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+    "summary": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft get more cash in a revenue-share agreement.",
+    "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+    "published": "2026-04-27T17:40:38+00:00",
+    "feed": "TechCrunch",
+    "vendor": "OpenAI",
     "score": 57,
     "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "partnership",
     "vendors": [
+      "OpenAI",
+      "Microsoft",
       "AWS"
     ],
-    "capability_flags": [
-      "tool_use_agents",
-      "eval_observability"
-    ],
+    "capability_flags": [],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
       "vendor": 1.0,
-      "capability": 0.6666666666666666
+      "capability": 0.0
     },
-    "action_recommended": false,
-    "action_text": "",
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
     "reason_tags": [
       "vendor_mentioned",
-      "capability_flag"
+      "llm_family"
     ],
-    "source_type": "primary",
-    "content_access": "full"
+    "source_type": "curated",
+    "content_access": "limited"
   },
   {
     "title": "The Download: DeepSeek’s latest AI breakthrough, and the race to build world models",
@@ -289,21 +352,22 @@
     "content_access": "full"
   },
   {
-    "title": "Get to your first working agent in minutes: Announcing new features in Amazon Bedrock AgentCore",
-    "summary": "Today, we're introducing new capabilities that further streamline the agent building experience, removing the infrastructure barriers that slow teams down at every stage of agent development from the first prototype through production deployment.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/get-to-your-first-working-agent-in-minutes-announcing-new-features-in-amazon-bedrock-agentcore/",
-    "published": "2026-04-22T19:13:56+00:00",
+    "title": "Build Strands Agents with SageMaker AI models and MLflow",
+    "summary": "In this post, we demonstrate how to build AI agents using Strands Agents SDK with models deployed on SageMaker AI endpoints. You will learn how to deploy foundation models from SageMaker JumpStart, integrate them with Strands Agents, and establish production-grade observability using SageMaker Serverless MLflow for agent tracing. We also cover how to implement A/B testing across multiple model variants and evaluate agent performance using MLflow metrics and show how you can build, deploy, and continuously improve AI agents on infrastructure you control.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-strands-agents-with-sagemaker-ai-models-and-mlflow/",
+    "published": "2026-04-27T16:50:41+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 55,
+    "score": 53,
     "is_enriched": true,
     "layer": "Agents & Tooling",
-    "event_type": "production_rollout",
+    "event_type": "tooling_update",
     "vendors": [
       "AWS"
     ],
     "capability_flags": [
-      "tool_use_agents"
+      "tool_use_agents",
+      "eval_observability"
     ],
     "signals": {
       "banking": 0.0,
@@ -311,7 +375,7 @@
       "safety": 0.0,
       "strategic": 0.0,
       "vendor": 1.0,
-      "capability": 0.3333333333333333
+      "capability": 0.6666666666666666
     },
     "action_recommended": false,
     "action_text": "",
@@ -323,13 +387,49 @@
     "content_access": "full"
   },
   {
+    "title": "Build a Reinforcement Learning Powered Agent that Learns to Retrieve Relevant Long-Term Memories for Accurate LLM Question Answering",
+    "summary": "<p>In this tutorial, we build a Reinforcement Learning–driven agent that learns how to retrieve relevant memories from a long-term memory bank. We start by constructing a synthetic memory dataset and generating queries that require the agent to recall specific information. Using OpenAI embeddings, we convert both memories and queries into vector representations, enabling similarity signals [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/27/build-a-reinforcement-learning-powered-agent-that-learns-to-retrieve-relevant-long-term-memories/\">Build a Reinforcement Learning Powered Agent that Learns to Retrieve Relevant Long-Term Memories for Accurate LLM Question Answering</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
+    "url": "https://www.marktechpost.com/2026/04/27/build-a-reinforcement-learning-powered-agent-that-learns-to-retrieve-relevant-long-term-memories/",
+    "published": "2026-04-27T18:58:20+00:00",
+    "feed": "MarkTechPost",
+    "vendor": "OpenAI",
+    "score": 52,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "tooling_update",
+    "vendors": [
+      "OpenAI"
+    ],
+    "capability_flags": [
+      "tool_use_agents",
+      "retrieval_rag"
+    ],
+    "signals": {
+      "banking": 0.167,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": true,
+    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family",
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
     "title": "How AI and Automation Will Power The FCA’s Open Finance (or any Regulator’s!) Framework",
     "summary": "Earlier this month, the Financial Conduct Authority (FCA) published a  roadmap for open finance as a...",
     "url": "https://www.finextra.com/blogposting/31500/how-ai-and-automation-will-power-the-fcas-open-finance-or-any-regulators-framework?utm_medium=rssfinextra&utm_source=finextrafeed",
     "published": "2026-04-27T09:56:53+00:00",
     "feed": "Finextra - Artificial Intelligence",
     "vendor": "Finextra",
-    "score": 52,
+    "score": 51,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "policy_regulatory",
@@ -375,41 +475,6 @@
     "reason_tags": [],
     "source_type": "curated",
     "content_access": "limited"
-  },
-  {
-    "title": "How to Build a Fully Searchable AI Knowledge Base with OpenKB, OpenRouter, and Llama",
-    "summary": "<p>In this tutorial, we explore how to build and query a local knowledge base with OpenKB using a free, open model via OpenRouter. We securely retrieve the API key with getpass, set up the environment without hardcoding secrets, and initialize a structured, wiki-style knowledge base from scratch. As we move through the workflow, we add [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/26/how-to-build-a-fully-searchable-ai-knowledge-base-with-openkb-openrouter-and-llama/\">How to Build a Fully Searchable AI Knowledge Base with OpenKB, OpenRouter, and Llama</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
-    "url": "https://www.marktechpost.com/2026/04/26/how-to-build-a-fully-searchable-ai-knowledge-base-with-openkb-openrouter-and-llama/",
-    "published": "2026-04-27T05:20:25+00:00",
-    "feed": "MarkTechPost",
-    "vendor": "Meta",
-    "score": 49,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "tooling_update",
-    "vendors": [
-      "Meta"
-    ],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": true,
-    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family",
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
   },
   {
     "title": "Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents",
@@ -632,48 +697,13 @@
     "content_access": "partial"
   },
   {
-    "title": "A Coding Implementation on kvcached for Elastic KV Cache Memory, Bursty LLM Serving, and Multi-Model GPU Sharing",
-    "summary": "<p>In this tutorial, we explore kvcached, a dynamic KV-cache implementation on top of vLLM, to understand how dynamic KV-cache allocation transforms GPU memory usage for large language models. We begin by setting up the environment and deploying lightweight Qwen2.5 models through an OpenAI-compatible API, ensuring a realistic inference workflow. We then design controlled experiments where [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/25/a-coding-implementation-on-kvcached-for-elastic-kv-cache-memory-bursty-llm-serving-and-multi-model-gpu-sharing/\">A Coding Implementation on kvcached for Elastic KV Cache Memory, Bursty LLM Serving, and Multi-Model GPU Sharing</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
-    "url": "https://www.marktechpost.com/2026/04/25/a-coding-implementation-on-kvcached-for-elastic-kv-cache-memory-bursty-llm-serving-and-multi-model-gpu-sharing/",
-    "published": "2026-04-25T21:30:28+00:00",
-    "feed": "MarkTechPost",
-    "vendor": "vLLM",
-    "score": 49,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
-    "vendors": [
-      "vLLM"
-    ],
-    "capability_flags": [
-      "tool_use_agents",
-      "serving_inference"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
     "title": "Three reasons why DeepSeek’s new model matters",
     "summary": "On April 24, Chinese AI firm DeepSeek released a preview of V4, its long-awaited new flagship model. The model can process much longer prompts than its last generation, thanks to a new design that helps it handle large amounts of text more efficiently. Like DeepSeek’s previous models, V4 is open source, meaning it is available&#8230;",
     "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
     "published": "2026-04-24T21:40:58+00:00",
     "feed": "MIT Technology Review",
     "vendor": "MIT",
-    "score": 49,
+    "score": 48,
     "is_enriched": true,
     "layer": "Infra & Open Source",
     "event_type": "release",
@@ -902,69 +932,6 @@
     "content_access": "partial"
   },
   {
-    "title": "Building Workforce AI Agents with Visier and Amazon Quick",
-    "summary": "In this post, we show how connecting the Visier Workforce AI platform with Amazon Quick through Model Context Protocol (MCP) gives every knowledge worker a unified agentic workspace to ask questions in. Visier helps ground the workspace in live workforce data and the organizational context that surrounds it while letting your users act on the conversational results without switching tools.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/building-workforce-ai-agents-with-visier-and-amazon-quick/",
-    "published": "2026-04-24T18:04:20+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 45,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
-    "title": "How to build scalable web apps with OpenAI's Privacy Filter",
-    "summary": "",
-    "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
-    "published": "2026-04-27T00:00:00+00:00",
-    "feed": "Hugging Face Blog",
-    "vendor": "OpenAI",
-    "score": 44,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "tooling_update",
-    "vendors": [
-      "OpenAI"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
     "title": "Top 7 Benchmarks That Actually Matter for Agentic Reasoning in Large Language Models",
     "summary": "<p>As AI agents move from research demos to production deployments, one question has become impossible to ignore: how do you actually know if an agent is good? Perplexity scores and MMLU leaderboard numbers tell you very little about whether a model can navigate a real website, resolve a GitHub issue, or reliably handle a customer [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/26/top-7-benchmarks-that-actually-matter-for-agentic-reasoning-in-large-language-models/\">Top 7 Benchmarks That Actually Matter for Agentic Reasoning in Large Language Models</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
     "url": "https://www.marktechpost.com/2026/04/26/top-7-benchmarks-that-actually-matter-for-agentic-reasoning-in-large-language-models/",
@@ -1029,105 +996,6 @@
     "content_access": "full"
   },
   {
-    "title": "Google DeepMind Introduces Vision Banana: An Instruction-Tuned Image Generator That Beats SAM 3 on Segmentation and Depth Anything V3 on Metric Depth Estimation",
-    "summary": "<p>A new Google paper argues that image generation pretraining is to computer vision what GPT-style pretraining is to NLP — and the benchmark numbers back that up.</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/25/google-deepmind-introduces-vision-banana-an-instruction-tuned-image-generator-that-beats-sam-3-on-segmentation-and-depth-anything-v3-on-metric-depth-estimation/\">Google DeepMind Introduces Vision Banana: An Instruction-Tuned Image Generator That Beats SAM 3 on Segmentation and Depth Anything V3 on Metric Depth Estimation</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
-    "url": "https://www.marktechpost.com/2026/04/25/google-deepmind-introduces-vision-banana-an-instruction-tuned-image-generator-that-beats-sam-3-on-segmentation-and-depth-anything-v3-on-metric-depth-estimation/",
-    "published": "2026-04-25T07:44:05+00:00",
-    "feed": "MarkTechPost",
-    "vendor": "Google",
-    "score": 43,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "research_paper",
-    "vendors": [
-      "Google"
-    ],
-    "capability_flags": [
-      "multimodal",
-      "eval_observability"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": true,
-    "action_text": "Evaluar casos multimodales (documentos, KYC, atención) y requisitos de datos.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family",
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Moomoo launches agentic investing",
-    "summary": "Moomoo, a leading global investment and trading platform, today announced the launch of Moomoo API Skills, an innovative capability designed to lead retail investors into the era of agentic investing.",
-    "url": "https://www.finextra.com/pressarticle/109584/moomoo-launches-agentic-investing?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-04-23T16:46:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 42,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "mna",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "Scaling Codex to enterprises worldwide",
-    "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
-    "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
-    "published": "2026-04-21T00:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 42,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "production_rollout",
-    "vendors": [
-      "OpenAI"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
     "title": "Europe’s AI-native founders are building faster — and younger — than ever",
     "summary": "Today, research released by global VC firm Antler highlights that a new generation of founders is reshaping European tech — younger, more mobile, and thriving under the pressure of the AI era.   Drawn...",
     "url": "https://tech.eu/2026/04/27/europes-ai-native-founders-are-building-faster-and-younger-than-ever/",
@@ -1155,20 +1023,19 @@
     "content_access": "full"
   },
   {
-    "title": "Rebuilding the data stack for AI",
-    "summary": "Artificial intelligence may be dominating boardroom agendas, but many enterprises are discovering that the biggest obstacle to meaningful adoption is the state of their data. While consumer-facing AI tools have dazzled users with speed and ease, enterprise leaders are discovering that deploying AI at scale requires something far less glamorous but far more consequential: data&#8230;",
-    "url": "https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/",
-    "published": "2026-04-27T13:00:00+00:00",
-    "feed": "MIT Technology Review",
-    "vendor": "MIT",
+    "title": "Moomoo launches agentic investing",
+    "summary": "Moomoo, a leading global investment and trading platform, today announced the launch of Moomoo API Skills, an innovative capability designed to lead retail investors into the era of agentic investing.",
+    "url": "https://www.finextra.com/pressarticle/109584/moomoo-launches-agentic-investing?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-23T16:46:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
     "score": 41,
     "is_enriched": true,
     "layer": "Agents & Tooling",
-    "event_type": "other",
+    "event_type": "mna",
     "vendors": [],
     "capability_flags": [
-      "tool_use_agents",
-      "enterprise_controls"
+      "tool_use_agents"
     ],
     "signals": {
       "banking": 0.0,
@@ -1176,7 +1043,7 @@
       "safety": 0.0,
       "strategic": 0.0,
       "vendor": 0.6,
-      "capability": 0.6666666666666666
+      "capability": 0.3333333333333333
     },
     "action_recommended": false,
     "action_text": "",
@@ -1184,25 +1051,24 @@
       "capability_flag"
     ],
     "source_type": "curated",
-    "content_access": "full"
+    "content_access": "limited"
   },
   {
-    "title": "Cost-effective multilingual audio transcription at scale with Parakeet-TDT and AWS Batch",
-    "summary": "In this post, we walk through building a scalable, event-driven transcription pipeline that automatically processes audio files uploaded to Amazon Simple Storage Service (Amazon S3), and show you how to use Amazon EC2 Spot Instances and buffered streaming inference to further reduce costs.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/cost-effective-multilingual-audio-transcription-at-scale-with-parakeet-tdt-and-aws-batch/",
-    "published": "2026-04-22T21:05:01+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
+    "title": "ollama/ollama: v0.21.1",
+    "summary": "## What's Changed\r\n### Kimi CLI\r\nYou can now install and run the Kimi CLI through Ollama.\r\n\r\n```\r\nollama launch kimi --model kimi-k2.6:cloud\r\n```\r\nKimi CLI with Kimi K2.6 excels at long horizon agentic execution tasks through a multi-agent system.\r\n\r\n  * **MLX runner adds logprobs support** for compatible models\r\n  * **Faster MLX sampling** with fused top-P and top-K in a single sort pass, plus repeat penalties applied in the sampler\r\n  * **Improved MLX prompt tokenization** by moving tokenizati",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.21.1",
+    "published": "2026-04-22T00:18:02Z",
+    "feed": "Ollama Releases",
+    "vendor": "Ollama",
     "score": 41,
     "is_enriched": true,
-    "layer": "Infra & Open Source",
-    "event_type": "tooling_update",
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "release",
     "vendors": [
-      "AWS"
+      "Ollama"
     ],
     "capability_flags": [
-      "multimodal",
-      "serving_inference"
+      "tool_use_agents"
     ],
     "signals": {
       "banking": 0.0,
@@ -1210,10 +1076,10 @@
       "safety": 0.0,
       "strategic": 0.0,
       "vendor": 1.0,
-      "capability": 0.6666666666666666
+      "capability": 0.3333333333333333
     },
-    "action_recommended": false,
-    "action_text": "",
+    "action_recommended": true,
+    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
     "reason_tags": [
       "vendor_mentioned",
       "capability_flag"
@@ -1249,13 +1115,82 @@
     "content_access": "limited"
   },
   {
+    "title": "Get to your first working agent in minutes: Announcing new features in Amazon Bedrock AgentCore",
+    "summary": "Today, we're introducing new capabilities that further streamline the agent building experience, removing the infrastructure barriers that slow teams down at every stage of agent development from the first prototype through production deployment.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/get-to-your-first-working-agent-in-minutes-announcing-new-features-in-amazon-bedrock-agentcore/",
+    "published": "2026-04-22T19:13:56+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 40,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "production_rollout",
+    "vendors": [
+      "AWS"
+    ],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned",
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
+  },
+  {
+    "title": "How to Build a Fully Searchable AI Knowledge Base with OpenKB, OpenRouter, and Llama",
+    "summary": "<p>In this tutorial, we explore how to build and query a local knowledge base with OpenKB using a free, open model via OpenRouter. We securely retrieve the API key with getpass, set up the environment without hardcoding secrets, and initialize a structured, wiki-style knowledge base from scratch. As we move through the workflow, we add [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/26/how-to-build-a-fully-searchable-ai-knowledge-base-with-openkb-openrouter-and-llama/\">How to Build a Fully Searchable AI Knowledge Base with OpenKB, OpenRouter, and Llama</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
+    "url": "https://www.marktechpost.com/2026/04/26/how-to-build-a-fully-searchable-ai-knowledge-base-with-openkb-openrouter-and-llama/",
+    "published": "2026-04-27T05:20:25+00:00",
+    "feed": "MarkTechPost",
+    "vendor": "Meta",
+    "score": 39,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "tooling_update",
+    "vendors": [
+      "Meta"
+    ],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": true,
+    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family",
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
     "title": "UK government in talks with Anthropic for Mythos UK release amidst warnings",
     "summary": "The UK government is in talks with Anthropic to release its Claude Mythos cybersecurity platform to British businesses.",
     "url": "https://www.finextra.com/newsarticle/47630/uk-government-in-talks-with-anthropic-for-mythos-uk-release-amidst-warnings?utm_medium=rssfinextra&utm_source=finextrafeed",
     "published": "2026-04-24T10:24:00+00:00",
     "feed": "Finextra - Artificial Intelligence",
     "vendor": "Anthropic",
-    "score": 40,
+    "score": 39,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "release",
@@ -1335,102 +1270,6 @@
     "content_access": "limited"
   },
   {
-    "title": "Amazon SageMaker AI now supports optimized generative AI inference recommendations",
-    "summary": "Today, Amazon SageMaker AI&nbsp; supports optimized generative AI inference recommendations. By delivering validated, optimal deployment configurations with performance metrics, Amazon SageMaker AI keeps your model developers focused on building accurate models, not managing infrastructure.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-supports-optimized-generative-ai-inference-recommendations/",
-    "published": "2026-04-22T19:15:08+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 38,
-    "is_enriched": true,
-    "layer": "Infra & Open Source",
-    "event_type": "tooling_update",
-    "vendors": [
-      "AWS"
-    ],
-    "capability_flags": [
-      "serving_inference"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
-    "title": "The missing step between hype and profit",
-    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. In February, I picked up a flyer at an anti-AI march in London. I can’t say for sure whether or not its writers meant to riff on South Park’s underpants gnomes. But&#8230;",
-    "url": "https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/",
-    "published": "2026-04-27T16:13:41+00:00",
-    "feed": "MIT Technology Review",
-    "vendor": "MIT",
-    "score": 37,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "xAI Launches grok-voice-think-fast-1.0: Topping τ-voice Bench at 67.3%, Outperforming Gemini, GPT Realtime, and More",
-    "summary": "<p>The new flagship voice model outperforms Gemini, GPT Realtime, and its own predecessor across retail, airline, and telecom workflows</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/25/xai-launches-grok-voice-think-fast-1-0-topping-%cf%84-voice-bench-at-67-3-outperforming-gemini-gpt-realtime-and-more/\">xAI Launches grok-voice-think-fast-1.0: Topping τ-voice Bench at 67.3%, Outperforming Gemini, GPT Realtime, and More</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
-    "url": "https://www.marktechpost.com/2026/04/25/xai-launches-grok-voice-think-fast-1-0-topping-%cf%84-voice-bench-at-67-3-outperforming-gemini-gpt-realtime-and-more/",
-    "published": "2026-04-25T22:36:57+00:00",
-    "feed": "MarkTechPost",
-    "vendor": "Google",
-    "score": 37,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "other",
-    "vendors": [
-      "Google"
-    ],
-    "capability_flags": [
-      "multimodal"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": true,
-    "action_text": "Evaluar casos multimodales (documentos, KYC, atención) y requisitos de datos.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family",
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
     "title": "Partnering with industry leaders to accelerate AI transformation",
     "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
     "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
@@ -1463,37 +1302,6 @@
     "content_access": "limited"
   },
   {
-    "title": "Company-wise memory in Amazon Bedrock with Amazon Neptune and Mem0",
-    "summary": "Company-wise memory in Amazon Bedrock, powered by Amazon Neptune and Mem0, provides AI agents with persistent, company-specific context—enabling them to learn, adapt, and respond intelligently across multiple interactions. TrendMicro, one of the largest antivirus software companies in the world, developed the Trend’s Companion chatbot, so their customers can explore information through natural, conversational interactions",
-    "url": "https://aws.amazon.com/blogs/machine-learning/company-wise-memory-in-amazon-bedrock-with-amazon-neptune-and-mem0/",
-    "published": "2026-04-22T15:56:24+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 36,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
-    "vendors": [
-      "AWS"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned"
-    ],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
     "title": "Aurionpro introduces AI operating layer for trade finance",
     "summary": "Aurionpro Solutions Limited (BSE: 532668 | NSE: AURIONPRO) a global technology company serving the banking and payments industry, today announced the launch of Fintra, an AI-native trade finance platform that uses specialized AI agents to process trade finance instruments, paired with an operating layer designed for human governance at every decision point.",
     "url": "https://www.finextra.com/pressarticle/109564/aurionpro-introduces-ai-operating-layer-for-trade-finance?utm_medium=rssfinextra&utm_source=finextrafeed",
@@ -1524,95 +1332,6 @@
     ],
     "source_type": "curated",
     "content_access": "partial"
-  },
-  {
-    "title": "The LoRA Assumption That Breaks in Production",
-    "summary": "<p>LoRA is widely used for fine-tuning large models because it’s efficient, but it quietly assumes that all updates to a model are similar. In reality, they’re not. When you fine-tune for style (like tone, format, or persona), the changes are simple and concentrated in just a few dimensions — which LoRA handles well with low-rank [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/26/the-lora-assumption-that-breaks-in-production/\">The LoRA Assumption That Breaks in Production </a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
-    "url": "https://www.marktechpost.com/2026/04/26/the-lora-assumption-that-breaks-in-production/",
-    "published": "2026-04-27T05:33:44+00:00",
-    "feed": "MarkTechPost",
-    "vendor": "MarkTechPost",
-    "score": 35,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Atech raises Pre-Seed to unlock a new era of Physical AI builders with the &quot;Lovable for hardware&quot;",
-    "summary": "AI hardware startup Atech has raised a Pre-Seed round with participation from Nordic Makers, Emblem, Lovable, Sequoia Scout Fund (Sequoia), and Andreessen Horowitz Scout Fund (A16z).  Founded by Vladi...",
-    "url": "https://tech.eu/2026/04/27/atech-raises-pre-seed-to-unlock-the-next-wave-of-physical-ai-builders/",
-    "published": "2026-04-27T06:00:00+00:00",
-    "feed": "Tech.eu",
-    "vendor": "Tech.eu",
-    "score": 35,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Introducing workspace agents in ChatGPT",
-    "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
-    "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
-    "published": "2026-04-22T10:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 35,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "announcement",
-    "vendors": [
-      "OpenAI"
-    ],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": true,
-    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
   },
   {
     "title": "Robinhood Venture Fund invests $75 million in OpenAI",
@@ -1714,15 +1433,203 @@
     "content_access": "full"
   },
   {
-    "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_Coding_Course_herosocial.max-600x600.format-webp.webp\">Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-    "published": "2026-04-27T13:00:00+00:00",
-    "feed": "Google AI Blog",
-    "vendor": "Google",
+    "title": "An open-source spec for orchestration: Symphony",
+    "summary": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
+    "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
+    "published": "2026-04-27T00:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
     "score": 34,
     "is_enriched": true,
     "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "Choco automates food distribution with AI agents",
+    "summary": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
+    "url": "https://openai.com/index/choco",
+    "published": "2026-04-27T00:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 34,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
+    "vendors": [
+      "OpenAI"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "How to build scalable web apps with OpenAI's Privacy Filter",
+    "summary": "",
+    "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+    "published": "2026-04-27T00:00:00+00:00",
+    "feed": "Hugging Face Blog",
+    "vendor": "OpenAI",
+    "score": 34,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "tooling_update",
+    "vendors": [
+      "OpenAI"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "The missing step between hype and profit",
+    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. In February, I picked up a flyer at an anti-AI march in London. I can’t say for sure whether or not its writers meant to riff on South Park’s underpants gnomes. But&#8230;",
+    "url": "https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/",
+    "published": "2026-04-27T16:13:41+00:00",
+    "feed": "MIT Technology Review",
+    "vendor": "MIT",
+    "score": 34,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Rebuilding the data stack for AI",
+    "summary": "Artificial intelligence may be dominating boardroom agendas, but many enterprises are discovering that the biggest obstacle to meaningful adoption is the state of their data. While consumer-facing AI tools have dazzled users with speed and ease, enterprise leaders are discovering that deploying AI at scale requires something far less glamorous but far more consequential: data&#8230;",
+    "url": "https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/",
+    "published": "2026-04-27T13:00:00+00:00",
+    "feed": "MIT Technology Review",
+    "vendor": "MIT",
+    "score": 33,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents",
+      "enterprise_controls"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Introducing GPT-5.5",
+    "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
+    "url": "https://openai.com/index/introducing-gpt-5-5",
+    "published": "2026-04-23T11:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 32,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "research_paper",
+    "vendors": [
+      "OpenAI"
+    ],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned",
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data",
+    "summary": "Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion.",
+    "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+    "published": "2026-04-27T17:24:21+00:00",
+    "feed": "TechCrunch",
+    "vendor": "Google",
+    "score": 31,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "other",
     "vendors": [
       "Google"
@@ -1736,13 +1643,259 @@
       "vendor": 1.0,
       "capability": 0.0
     },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "Building Workforce AI Agents with Visier and Amazon Quick",
+    "summary": "In this post, we show how connecting the Visier Workforce AI platform with Amazon Quick through Model Context Protocol (MCP) gives every knowledge worker a unified agentic workspace to ask questions in. Visier helps ground the workspace in live workforce data and the organizational context that surrounds it while letting your users act on the conversational results without switching tools.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/building-workforce-ai-agents-with-visier-and-amazon-quick/",
+    "published": "2026-04-24T18:04:20+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 31,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "tooling_update",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
     "action_recommended": false,
     "action_text": "",
     "reason_tags": [
-      "vendor_mentioned"
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
+  },
+  {
+    "title": "AI lowers moral barriers to crime, expanding pool of would-be fraudsters",
+    "summary": "Early sessions on the second day of Nacha’s Smarter Faster Payments conference in San Diego, California, focused on how AI is lowering the barrier for entry for cyber attackers and allowing them to morally separate themselves from their victims.",
+    "url": "https://www.finextra.com/newsarticle/47646/ai-lowers-moral-barriers-to-crime-expanding-pool-of-would-be-fraudsters?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-27T19:00:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 30,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.167,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "partial"
+  },
+  {
+    "title": "xAI Launches grok-voice-think-fast-1.0: Topping τ-voice Bench at 67.3%, Outperforming Gemini, GPT Realtime, and More",
+    "summary": "<p>The new flagship voice model outperforms Gemini, GPT Realtime, and its own predecessor across retail, airline, and telecom workflows</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/25/xai-launches-grok-voice-think-fast-1-0-topping-%cf%84-voice-bench-at-67-3-outperforming-gemini-gpt-realtime-and-more/\">xAI Launches grok-voice-think-fast-1.0: Topping τ-voice Bench at 67.3%, Outperforming Gemini, GPT Realtime, and More</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
+    "url": "https://www.marktechpost.com/2026/04/25/xai-launches-grok-voice-think-fast-1-0-topping-%cf%84-voice-bench-at-67-3-outperforming-gemini-gpt-realtime-and-more/",
+    "published": "2026-04-25T22:36:57+00:00",
+    "feed": "MarkTechPost",
+    "vendor": "Google",
+    "score": 30,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
+    "vendors": [
+      "Google"
+    ],
+    "capability_flags": [
+      "multimodal"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": true,
+    "action_text": "Evaluar casos multimodales (documentos, KYC, atención) y requisitos de datos.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family",
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "AI needs a strong data fabric to deliver business value",
+    "summary": "Artificial intelligence is moving quickly in the enterprise, from experimentation to everyday use. Organizations are deploying copilots, agents, and predictive systems across finance, supply chains, human resources, and customer operations. By the end of 2025, half of companies used AI in at least three business functions, according to a recent survey. But as AI becomes&#8230;",
+    "url": "https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/",
+    "published": "2026-04-22T10:05:06+00:00",
+    "feed": "MIT Technology Review",
+    "vendor": "MIT",
+    "score": 30,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "research_paper",
+    "vendors": [],
+    "capability_flags": [
+      "enterprise_controls"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Cost-effective multilingual audio transcription at scale with Parakeet-TDT and AWS Batch",
+    "summary": "In this post, we walk through building a scalable, event-driven transcription pipeline that automatically processes audio files uploaded to Amazon Simple Storage Service (Amazon S3), and show you how to use Amazon EC2 Spot Instances and buffered streaming inference to further reduce costs.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/cost-effective-multilingual-audio-transcription-at-scale-with-parakeet-tdt-and-aws-batch/",
+    "published": "2026-04-22T21:05:01+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 28,
+    "is_enriched": true,
+    "layer": "Infra & Open Source",
+    "event_type": "tooling_update",
+    "vendors": [
+      "AWS"
+    ],
+    "capability_flags": [
+      "multimodal",
+      "serving_inference"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned",
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
+  },
+  {
+    "title": "Scaling Codex to enterprises worldwide",
+    "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
+    "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+    "published": "2026-04-21T00:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 28,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "production_rollout",
+    "vendors": [
+      "OpenAI"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
     ],
     "source_type": "primary",
     "content_access": "limited"
+  },
+  {
+    "title": "The LoRA Assumption That Breaks in Production",
+    "summary": "<p>LoRA is widely used for fine-tuning large models because it’s efficient, but it quietly assumes that all updates to a model are similar. In reality, they’re not. When you fine-tune for style (like tone, format, or persona), the changes are simple and concentrated in just a few dimensions — which LoRA handles well with low-rank [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/26/the-lora-assumption-that-breaks-in-production/\">The LoRA Assumption That Breaks in Production </a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
+    "url": "https://www.marktechpost.com/2026/04/26/the-lora-assumption-that-breaks-in-production/",
+    "published": "2026-04-27T05:33:44+00:00",
+    "feed": "MarkTechPost",
+    "vendor": "MarkTechPost",
+    "score": 27,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Atech raises Pre-Seed to unlock a new era of Physical AI builders with the &quot;Lovable for hardware&quot;",
+    "summary": "AI hardware startup Atech has raised a Pre-Seed round with participation from Nordic Makers, Emblem, Lovable, Sequoia Scout Fund (Sequoia), and Andreessen Horowitz Scout Fund (A16z).  Founded by Vladi...",
+    "url": "https://tech.eu/2026/04/27/atech-raises-pre-seed-to-unlock-the-next-wave-of-physical-ai-builders/",
+    "published": "2026-04-27T06:00:00+00:00",
+    "feed": "Tech.eu",
+    "vendor": "Tech.eu",
+    "score": 27,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "full"
   },
   {
     "title": "Here’s How Much San Francisco Tech Companies Pay for Police Protection",
@@ -1751,7 +1904,7 @@
     "published": "2026-04-27T10:00:00+00:00",
     "feed": "Wired",
     "vendor": "OpenAI",
-    "score": 33,
+    "score": 27,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "other",
@@ -1780,167 +1933,32 @@
     "content_access": "limited"
   },
   {
-    "title": "Introducing GPT-5.5",
-    "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
-    "url": "https://openai.com/index/introducing-gpt-5-5",
-    "published": "2026-04-23T11:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 33,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "research_paper",
-    "vendors": [
-      "OpenAI"
-    ],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "Plugins and skills",
-    "summary": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-    "url": "https://openai.com/academy/codex-plugins-and-skills",
-    "published": "2026-04-23T10:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 33,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "Codex settings",
-    "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
-    "url": "https://openai.com/academy/codex-settings",
-    "published": "2026-04-23T10:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 33,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "Applying multimodal biological foundation models across therapeutics and patient care",
-    "summary": "In this post, we'll explore how multimodal BioFMs work, showcase real-world applications in drug discovery and clinical development, and contextualize how AWS enables organizations to build and deploy multimodal BioFMs.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/applying-multimodal-biological-foundation-models-across-therapeutics-and-patient-care/",
-    "published": "2026-04-23T16:17:29+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 33,
+    "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_Coding_Course_herosocial.max-600x600.format-webp.webp\">Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+    "published": "2026-04-27T13:00:00+00:00",
+    "feed": "Google AI Blog",
+    "vendor": "Google",
+    "score": 27,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
     "vendors": [
-      "AWS"
+      "Google"
     ],
-    "capability_flags": [
-      "multimodal"
-    ],
+    "capability_flags": [],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
       "vendor": 1.0,
-      "capability": 0.3333333333333333
+      "capability": 0.0
     },
     "action_recommended": false,
     "action_text": "",
     "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
-    "title": "Introducing ChatGPT Images 2.0",
-    "summary": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
-    "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
-    "published": "2026-04-21T12:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 33,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "announcement",
-    "vendors": [
-      "OpenAI"
-    ],
-    "capability_flags": [
-      "reasoning",
-      "multimodal"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": true,
-    "action_text": "Evaluar casos multimodales (documentos, KYC, atención) y requisitos de datos.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family",
-      "capability_flag"
+      "vendor_mentioned"
     ],
     "source_type": "primary",
     "content_access": "limited"
@@ -1952,7 +1970,7 @@
     "published": "2026-04-27T03:55:41+00:00",
     "feed": "Finextra - Artificial Intelligence",
     "vendor": "Finextra",
-    "score": 32,
+    "score": 27,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -1978,51 +1996,52 @@
     "content_access": "limited"
   },
   {
-    "title": "Speeding up agentic workflows with WebSockets in the Responses API",
-    "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-    "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-    "published": "2026-04-22T10:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 32,
+    "title": "Applying multimodal biological foundation models across therapeutics and patient care",
+    "summary": "In this post, we'll explore how multimodal BioFMs work, showcase real-world applications in drug discovery and clinical development, and contextualize how AWS enables organizations to build and deploy multimodal BioFMs.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/applying-multimodal-biological-foundation-models-across-therapeutics-and-patient-care/",
+    "published": "2026-04-23T16:17:29+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 27,
     "is_enriched": true,
     "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
-    "vendors": [],
+    "event_type": "other",
+    "vendors": [
+      "AWS"
+    ],
     "capability_flags": [
-      "tool_use_agents",
-      "serving_inference"
+      "multimodal"
     ],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.6666666666666666
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
     },
     "action_recommended": false,
     "action_text": "",
     "reason_tags": [
+      "vendor_mentioned",
       "capability_flag"
     ],
     "source_type": "primary",
-    "content_access": "limited"
+    "content_access": "full"
   },
   {
-    "title": "From developer desks to the whole organization: Running Claude Cowork in Amazon Bedrock",
-    "summary": "Today, we're excited to announce Claude Cowork in Amazon Bedrock. You can now run Cowork and Claude Code Desktop through Amazon Bedrock, directly or using an LLM gateway. In this post, we walk through how Claude Cowork integrates with Amazon Bedrock and show an example of how knowledge workers use it in practice.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/",
-    "published": "2026-04-21T19:13:49+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "Anthropic",
-    "score": 32,
+    "title": "Making ChatGPT better for clinicians",
+    "summary": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
+    "url": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+    "published": "2026-04-22T15:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 27,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "tooling_update",
+    "event_type": "research_paper",
     "vendors": [
-      "Anthropic",
-      "AWS"
+      "OpenAI"
     ],
     "capability_flags": [],
     "signals": {
@@ -2040,7 +2059,7 @@
       "llm_family"
     ],
     "source_type": "primary",
-    "content_access": "full"
+    "content_access": "limited"
   },
   {
     "title": "8 Gemini tips for organizing your space (and life)",
@@ -2049,7 +2068,7 @@
     "published": "2026-04-24T19:00:00+00:00",
     "feed": "Google AI Blog",
     "vendor": "Google",
-    "score": 31,
+    "score": 25,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "other",
@@ -2081,7 +2100,7 @@
     "published": "2026-04-24T09:00:00+00:00",
     "feed": "MIT Technology Review",
     "vendor": "MIT",
-    "score": 31,
+    "score": 25,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -2106,152 +2125,35 @@
     "content_access": "full"
   },
   {
-    "title": "Working with Codex",
-    "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-    "url": "https://openai.com/academy/working-with-codex",
-    "published": "2026-04-23T10:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 31,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.167,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "How to get started with Codex",
-    "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
-    "url": "https://openai.com/academy/codex-how-to-start",
-    "published": "2026-04-23T10:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 31,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.167,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "Workspace agents",
-    "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
-    "url": "https://openai.com/academy/workspace-agents",
-    "published": "2026-04-22T10:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 31,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "tooling_update",
-    "vendors": [
-      "OpenAI"
-    ],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": true,
-    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "AI needs a strong data fabric to deliver business value",
-    "summary": "Artificial intelligence is moving quickly in the enterprise, from experimentation to everyday use. Organizations are deploying copilots, agents, and predictive systems across finance, supply chains, human resources, and customer operations. By the end of 2025, half of companies used AI in at least three business functions, according to a recent survey. But as AI becomes&#8230;",
-    "url": "https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/",
-    "published": "2026-04-22T10:05:06+00:00",
-    "feed": "MIT Technology Review",
-    "vendor": "MIT",
-    "score": 31,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "research_paper",
-    "vendors": [],
-    "capability_flags": [
-      "enterprise_controls"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "End-to-end lineage with DVC and Amazon SageMaker AI MLflow apps",
-    "summary": "In this post, we show how to combine DVC (Data Version Control), Amazon SageMaker AI, and Amazon SageMaker AI MLflow Apps to build end-to-end ML model lineage. We walk through two deployable patterns — dataset-level lineage and record-level lineage — that you can run in your own AWS account using the companion notebooks.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/end-to-end-lineage-with-dvc-and-amazon-sagemaker-ai-mlflow-apps/",
-    "published": "2026-04-21T16:43:03+00:00",
+    "title": "Amazon SageMaker AI now supports optimized generative AI inference recommendations",
+    "summary": "Today, Amazon SageMaker AI&nbsp; supports optimized generative AI inference recommendations. By delivering validated, optimal deployment configurations with performance metrics, Amazon SageMaker AI keeps your model developers focused on building accurate models, not managing infrastructure.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-supports-optimized-generative-ai-inference-recommendations/",
+    "published": "2026-04-22T19:15:08+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 31,
+    "score": 25,
     "is_enriched": true,
-    "layer": "Agents & Tooling",
+    "layer": "Infra & Open Source",
     "event_type": "tooling_update",
     "vendors": [
       "AWS"
     ],
-    "capability_flags": [],
+    "capability_flags": [
+      "serving_inference"
+    ],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
       "vendor": 1.0,
-      "capability": 0.0
+      "capability": 0.3333333333333333
     },
     "action_recommended": false,
     "action_text": "",
     "reason_tags": [
-      "vendor_mentioned"
+      "vendor_mentioned",
+      "capability_flag"
     ],
     "source_type": "primary",
     "content_access": "full"
@@ -2263,7 +2165,7 @@
     "published": "2026-04-27T13:03:00+00:00",
     "feed": "Wired",
     "vendor": "Meta",
-    "score": 30,
+    "score": 24,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "other",
@@ -2295,7 +2197,7 @@
     "published": "2026-04-27T13:08:59+00:00",
     "feed": "TechCrunch",
     "vendor": "OpenAI",
-    "score": 30,
+    "score": 24,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "other",
@@ -2321,208 +2223,75 @@
     "content_access": "limited"
   },
   {
-    "title": "Automations",
-    "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
-    "url": "https://openai.com/academy/codex-automations",
-    "published": "2026-04-23T10:00:00+00:00",
+    "title": "Introducing workspace agents in ChatGPT",
+    "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+    "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+    "published": "2026-04-22T10:00:00+00:00",
     "feed": "OpenAI Blog",
     "vendor": "OpenAI",
-    "score": 30,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "Introducing OpenAI Privacy Filter",
-    "summary": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
-    "url": "https://openai.com/index/introducing-openai-privacy-filter",
-    "published": "2026-04-22T00:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 30,
+    "score": 24,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "announcement",
     "vendors": [
       "OpenAI"
     ],
-    "capability_flags": [],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
       "vendor": 1.0,
-      "capability": 0.0
+      "capability": 0.3333333333333333
     },
     "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
     "reason_tags": [
       "vendor_mentioned",
-      "llm_family"
+      "llm_family",
+      "capability_flag"
     ],
     "source_type": "primary",
     "content_access": "limited"
   },
   {
-    "title": "Fact or fiction: Exploring the reality of AI in payments testing",
-    "summary": "Exploring the expectations and realities of AI in payments testing.",
-    "url": "https://www.finextra.com/event-info/611/fact-or-fiction-exploring-the-reality-of-ai-in-payments-testing?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-05-28T15:00:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 28,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.167,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "The Man Behind AlphaGo Thinks AI Is Taking the Wrong Path",
-    "summary": "David Silver has a new billion-dollar company that aims to build AI “superlearners.”",
-    "url": "https://www.wired.com/story/david-silver-ai-ineffable-intelligence-reinforcement-learning/",
-    "published": "2026-04-27T14:00:00+00:00",
-    "feed": "Wired",
-    "vendor": "Wired",
-    "score": 28,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "Anthropic created a test marketplace for agent-on-agent commerce",
-    "summary": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
-    "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
-    "published": "2026-04-25T21:43:37+00:00",
-    "feed": "TechCrunch",
-    "vendor": "Anthropic",
-    "score": 28,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "other",
-    "vendors": [
-      "Anthropic"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "OpenAI CEO apologizes to Tumbler Ridge community",
-    "summary": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting.",
-    "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
-    "published": "2026-04-25T17:17:56+00:00",
-    "feed": "TechCrunch",
+    "title": "Introducing ChatGPT Images 2.0",
+    "summary": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
+    "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
+    "published": "2026-04-21T12:00:00+00:00",
+    "feed": "OpenAI Blog",
     "vendor": "OpenAI",
-    "score": 28,
+    "score": 24,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "other",
+    "event_type": "announcement",
     "vendors": [
       "OpenAI"
     ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.167,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family"
+    "capability_flags": [
+      "reasoning",
+      "multimodal"
     ],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
-    "title": "Man faces 5 years in prison for using AI to fake sighting of runaway wolf",
-    "summary": "Beloved wolf gripped the nation after burrowing out of the zoo.",
-    "url": "https://arstechnica.com/tech-policy/2026/04/after-wolf-escaped-zoo-man-arrested-for-creating-fake-ai-sighting-for-fun/",
-    "published": "2026-04-24T15:05:23+00:00",
-    "feed": "Ars Technica",
-    "vendor": "ArsTechnica",
-    "score": 28,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
+      "vendor": 1.0,
+      "capability": 0.6666666666666666
     },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
+    "action_recommended": true,
+    "action_text": "Evaluar casos multimodales (documentos, KYC, atención) y requisitos de datos.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family",
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
   },
   {
     "title": "Here’s how our TPUs power increasingly demanding AI workloads.",
@@ -2531,7 +2300,7 @@
     "published": "2026-04-23T12:00:00+00:00",
     "feed": "Google AI Blog",
     "vendor": "Google",
-    "score": 28,
+    "score": 23,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -2559,126 +2328,13 @@
     "content_access": "limited"
   },
   {
-    "title": "Making ChatGPT better for clinicians",
-    "summary": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
-    "url": "https://openai.com/index/making-chatgpt-better-for-clinicians",
-    "published": "2026-04-22T15:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 28,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "research_paper",
-    "vendors": [
-      "OpenAI"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "The Download: introducing the 10 Things That Matter in AI Right Now",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: 10 Things That Matter in AI Right Now What actually matters in AI right now? It’s getting harder to tell amid the constant launches, hype, and warnings. To cut through&#8230;",
-    "url": "https://www.technologyreview.com/2026/04/22/1136310/the-download-10-things-that-matter-in-ai-right-now/",
-    "published": "2026-04-22T12:10:00+00:00",
-    "feed": "MIT Technology Review",
-    "vendor": "MIT",
-    "score": 28,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "announcement",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Verda raises $117M to scale AI cloud infrastructure built on clean Nordic power",
-    "summary": "Helsinki-based AI infrastructure company Verda (formerly DataCrunch ) has raised $117 million in new funding. The round comprises equity funding led by Lifeline Ventures with participation from byFoun...",
-    "url": "https://tech.eu/2026/04/24/verda-raises-117m-to-scale-ai-cloud-infrastructure-built-on-clean-nordic-power/",
-    "published": "2026-04-24T08:05:05+00:00",
-    "feed": "Tech.eu",
-    "vendor": "Tech.eu",
-    "score": 27,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Sofia-based Quillon raises $1.5M for audit-grade AI in accounting",
-    "summary": "Quillon, an AI platform for technical accountingand financial reporting, today announced the close of $1.5 million in pre-seedfunding and its rebrand from Acclara AI. The round was led by 42CAP, withp...",
-    "url": "https://tech.eu/2026/04/24/sofia-based-quillon-raises-15m-for-audit-grade-ai-in-accounting/",
-    "published": "2026-04-24T07:13:29+00:00",
-    "feed": "Tech.eu",
-    "vendor": "Tech.eu",
-    "score": 27,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
     "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
     "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.max-600x600.format-webp.webp\">Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
     "url": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
     "published": "2026-04-21T14:30:00+00:00",
     "feed": "Google AI Blog",
     "vendor": "Google",
-    "score": 27,
+    "score": 23,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -2707,166 +2363,31 @@
     "content_access": "partial"
   },
   {
-    "title": "GPT-5.5 Bio Bug Bounty",
-    "summary": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
-    "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
-    "published": "2026-04-23T00:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 26,
+    "title": "The Man Behind AlphaGo Thinks AI Is Taking the Wrong Path",
+    "summary": "David Silver has a new billion-dollar company that aims to build AI “superlearners.”",
+    "url": "https://www.wired.com/story/david-silver-ai-ineffable-intelligence-reinforcement-learning/",
+    "published": "2026-04-27T14:00:00+00:00",
+    "feed": "Wired",
+    "vendor": "Wired",
+    "score": 22,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
-    "vendors": [
-      "OpenAI"
-    ],
-    "capability_flags": [
-      "safety_security"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "GPT-5.5 System Card",
-    "summary": "",
-    "url": "https://openai.com/index/gpt-5-5-system-card",
-    "published": "2026-04-23T11:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 25,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [
-      "OpenAI"
-    ],
+    "vendors": [],
     "capability_flags": [],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
-      "vendor": 1.0,
+      "vendor": 0.6,
       "capability": 0.0
     },
     "action_recommended": false,
     "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "Top 10 uses for Codex at work",
-    "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
-    "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
-    "published": "2026-04-23T10:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 25,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "We're launching two specialized TPUs for the agentic era.",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Were_launching_two_TPUs_social.max-600x600.format-webp.webp\">The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
-    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
-    "published": "2026-04-22T12:00:00+00:00",
-    "feed": "Google AI Blog",
-    "vendor": "Google",
-    "score": 25,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [
-      "Google"
-    ],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "Ballerine goes live with AI merchant fraud detection tech",
-    "summary": "Ballerine, the AI-native merchant risk and compliance platform, goes live with a new agentic detection solution, Scam & Fraud API Detection, that identifies high-risk merchants and fraud networks before transactions occur in less than 60 seconds.",
-    "url": "https://www.finextra.com/pressarticle/109558/ballerine-goes-live-with-ai-merchant-fraud-detection-tech?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-04-22T13:56:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 25,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents",
-      "enterprise_controls"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.167,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
+    "reason_tags": [],
     "source_type": "curated",
-    "content_access": "partial"
+    "content_access": "limited"
   },
   {
     "title": "Why Financial Institutions Need a Representation Lifecycle for the AI Era",
@@ -2896,29 +2417,34 @@
     "content_access": "limited"
   },
   {
-    "title": "These AI Thirst Trap Creators Say They’re Misunderstood",
-    "summary": "A viral red carpet moment shone light on a group of hunky Instagram influencers—and the followers who are too horny to care that they’re not real.",
-    "url": "https://www.wired.com/story/gay-ai-instagram-influencers-red-carpet/",
-    "published": "2026-04-24T09:30:00+00:00",
-    "feed": "Wired",
-    "vendor": "Wired",
+    "title": "Anthropic created a test marketplace for agent-on-agent commerce",
+    "summary": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
+    "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+    "published": "2026-04-25T21:43:37+00:00",
+    "feed": "TechCrunch",
+    "vendor": "Anthropic",
     "score": 22,
     "is_enriched": true,
-    "layer": "Agents & Tooling",
+    "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "other",
-    "vendors": [],
+    "vendors": [
+      "Anthropic"
+    ],
     "capability_flags": [],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
-      "vendor": 0.6,
+      "vendor": 1.0,
       "capability": 0.0
     },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
     "source_type": "curated",
     "content_access": "limited"
   },
@@ -2954,35 +2480,119 @@
     "content_access": "limited"
   },
   {
-    "title": "Lloyds strengthens resposible AI expertise",
-    "summary": "Lloyds Banking Group is strengthening its Responsible AI capability as it progresses into the next phase of its AI strategy, with a series of specialist hires to deepen its expertise in governance, research and assurance.",
-    "url": "https://www.finextra.com/pressarticle/109540/lloyds-strengthens-resposible-ai-expertise?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-04-21T12:18:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
+    "title": "GPT-5.5 Bio Bug Bounty",
+    "summary": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
+    "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+    "published": "2026-04-23T00:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
     "score": 22,
     "is_enriched": true,
     "layer": "Agents & Tooling",
-    "event_type": "research_paper",
-    "vendors": [],
-    "capability_flags": [
-      "enterprise_controls"
+    "event_type": "other",
+    "vendors": [
+      "OpenAI"
     ],
+    "capability_flags": [
+      "safety_security"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned",
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "Fact or fiction: Exploring the reality of AI in payments testing",
+    "summary": "Exploring the expectations and realities of AI in payments testing.",
+    "url": "https://www.finextra.com/event-info/611/fact-or-fiction-exploring-the-reality-of-ai-in-payments-testing?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-05-28T15:00:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 21,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
     "signals": {
       "banking": 0.167,
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
       "vendor": 0.6,
-      "capability": 0.3333333333333333
+      "capability": 0.0
     },
     "action_recommended": false,
     "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
+    "reason_tags": [],
     "source_type": "curated",
     "content_access": "limited"
+  },
+  {
+    "title": "Verda raises $117M to scale AI cloud infrastructure built on clean Nordic power",
+    "summary": "Helsinki-based AI infrastructure company Verda (formerly DataCrunch ) has raised $117 million in new funding. The round comprises equity funding led by Lifeline Ventures with participation from byFoun...",
+    "url": "https://tech.eu/2026/04/24/verda-raises-117m-to-scale-ai-cloud-infrastructure-built-on-clean-nordic-power/",
+    "published": "2026-04-24T08:05:05+00:00",
+    "feed": "Tech.eu",
+    "vendor": "Tech.eu",
+    "score": 21,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Sofia-based Quillon raises $1.5M for audit-grade AI in accounting",
+    "summary": "Quillon, an AI platform for technical accountingand financial reporting, today announced the close of $1.5 million in pre-seedfunding and its rebrand from Acclara AI. The round was led by 42CAP, withp...",
+    "url": "https://tech.eu/2026/04/24/sofia-based-quillon-raises-15m-for-audit-grade-ai-in-accounting/",
+    "published": "2026-04-24T07:13:29+00:00",
+    "feed": "Tech.eu",
+    "vendor": "Tech.eu",
+    "score": 21,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "full"
   },
   {
     "title": "5 Reasons to Think Twice Before Using ChatGPT—or Any Chatbot—for Financial Advice",
@@ -3017,29 +2627,224 @@
     "content_access": "limited"
   },
   {
-    "title": "At 'AI Coachella,' Stanford Students Line Up to Learn From Silicon Valley Royalty",
-    "summary": "CS 153 has gone viral on the Palo Alto campus—and on X. Not everyone is happy about it.",
-    "url": "https://www.wired.com/story/stanford-cs-class-ai-coachella-ben-horowitz/",
-    "published": "2026-04-23T18:24:37+00:00",
-    "feed": "Wired",
-    "vendor": "Wired",
+    "title": "Codex settings",
+    "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+    "url": "https://openai.com/academy/codex-settings",
+    "published": "2026-04-23T10:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
     "score": 21,
     "is_enriched": true,
     "layer": "Agents & Tooling",
-    "event_type": "other",
+    "event_type": "tooling_update",
     "vendors": [],
-    "capability_flags": [],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
       "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "Plugins and skills",
+    "summary": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+    "url": "https://openai.com/academy/codex-plugins-and-skills",
+    "published": "2026-04-23T10:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 21,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "tooling_update",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+    "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+    "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+    "published": "2026-04-22T10:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 21,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "tooling_update",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents",
+      "serving_inference"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "Company-wise memory in Amazon Bedrock with Amazon Neptune and Mem0",
+    "summary": "Company-wise memory in Amazon Bedrock, powered by Amazon Neptune and Mem0, provides AI agents with persistent, company-specific context—enabling them to learn, adapt, and respond intelligently across multiple interactions. TrendMicro, one of the largest antivirus software companies in the world, developed the Trend’s Companion chatbot, so their customers can explore information through natural, conversational interactions",
+    "url": "https://aws.amazon.com/blogs/machine-learning/company-wise-memory-in-amazon-bedrock-with-amazon-neptune-and-mem0/",
+    "published": "2026-04-22T15:56:24+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 21,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "tooling_update",
+    "vendors": [
+      "AWS"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
       "capability": 0.0
     },
     "action_recommended": false,
     "action_text": "",
-    "reason_tags": [],
+    "reason_tags": [
+      "vendor_mentioned"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
+  },
+  {
+    "title": "We're launching two specialized TPUs for the agentic era.",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Were_launching_two_TPUs_social.max-600x600.format-webp.webp\">The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
+    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+    "published": "2026-04-22T12:00:00+00:00",
+    "feed": "Google AI Blog",
+    "vendor": "Google",
+    "score": 21,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [
+      "Google"
+    ],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned",
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "Ballerine goes live with AI merchant fraud detection tech",
+    "summary": "Ballerine, the AI-native merchant risk and compliance platform, goes live with a new agentic detection solution, Scam & Fraud API Detection, that identifies high-risk merchants and fraud networks before transactions occur in less than 60 seconds.",
+    "url": "https://www.finextra.com/pressarticle/109558/ballerine-goes-live-with-ai-merchant-fraud-detection-tech?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-22T13:56:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 21,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents",
+      "enterprise_controls"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.167,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "partial"
+  },
+  {
+    "title": "Lloyds strengthens resposible AI expertise",
+    "summary": "Lloyds Banking Group is strengthening its Responsible AI capability as it progresses into the next phase of its AI strategy, with a series of specialist hires to deepen its expertise in governance, research and assurance.",
+    "url": "https://www.finextra.com/pressarticle/109540/lloyds-strengthens-resposible-ai-expertise?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-21T12:18:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 21,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "research_paper",
+    "vendors": [],
+    "capability_flags": [
+      "enterprise_controls"
+    ],
+    "signals": {
+      "banking": 0.167,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
     "source_type": "curated",
     "content_access": "limited"
   },
@@ -3071,16 +2876,199 @@
     "content_access": "limited"
   },
   {
-    "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+    "title": "GPT-5.5 System Card",
     "summary": "",
-    "url": "https://deepmind.google/blog/decoupled-diloco/",
-    "published": "2026-04-22T10:20:03+00:00",
-    "feed": "DeepMind Blog",
-    "vendor": "Google",
+    "url": "https://openai.com/index/gpt-5-5-system-card",
+    "published": "2026-04-23T11:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
     "score": 20,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
+    "vendors": [
+      "OpenAI"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "Top 10 uses for Codex at work",
+    "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+    "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+    "published": "2026-04-23T10:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 20,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "Workspace agents",
+    "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+    "url": "https://openai.com/academy/workspace-agents",
+    "published": "2026-04-22T10:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 20,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "tooling_update",
+    "vendors": [
+      "OpenAI"
+    ],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": true,
+    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family",
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "Introducing OpenAI Privacy Filter",
+    "summary": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
+    "url": "https://openai.com/index/introducing-openai-privacy-filter",
+    "published": "2026-04-22T00:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 20,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "announcement",
+    "vendors": [
+      "OpenAI"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "How to get started with Codex",
+    "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+    "url": "https://openai.com/academy/codex-how-to-start",
+    "published": "2026-04-23T10:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 19,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "tooling_update",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.167,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "Working with Codex",
+    "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+    "url": "https://openai.com/academy/working-with-codex",
+    "published": "2026-04-23T10:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 19,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "tooling_update",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.167,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "Automations",
+    "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+    "url": "https://openai.com/academy/codex-automations",
+    "published": "2026-04-23T10:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 18,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "tooling_update",
     "vendors": [],
     "capability_flags": [],
     "signals": {
@@ -3098,13 +3086,158 @@
     "content_access": "limited"
   },
   {
+    "title": "From developer desks to the whole organization: Running Claude Cowork in Amazon Bedrock",
+    "summary": "Today, we're excited to announce Claude Cowork in Amazon Bedrock. You can now run Cowork and Claude Code Desktop through Amazon Bedrock, directly or using an LLM gateway. In this post, we walk through how Claude Cowork integrates with Amazon Bedrock and show an example of how knowledge workers use it in practice.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/",
+    "published": "2026-04-21T19:13:49+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "Anthropic",
+    "score": 18,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "tooling_update",
+    "vendors": [
+      "Anthropic",
+      "AWS"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
+  },
+  {
+    "title": "These AI Thirst Trap Creators Say They’re Misunderstood",
+    "summary": "A viral red carpet moment shone light on a group of hunky Instagram influencers—and the followers who are too horny to care that they’re not real.",
+    "url": "https://www.wired.com/story/gay-ai-instagram-influencers-red-carpet/",
+    "published": "2026-04-24T09:30:00+00:00",
+    "feed": "Wired",
+    "vendor": "Wired",
+    "score": 17,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "The Download: introducing the 10 Things That Matter in AI Right Now",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: 10 Things That Matter in AI Right Now What actually matters in AI right now? It’s getting harder to tell amid the constant launches, hype, and warnings. To cut through&#8230;",
+    "url": "https://www.technologyreview.com/2026/04/22/1136310/the-download-10-things-that-matter-in-ai-right-now/",
+    "published": "2026-04-22T12:10:00+00:00",
+    "feed": "MIT Technology Review",
+    "vendor": "MIT",
+    "score": 17,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "announcement",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "End-to-end lineage with DVC and Amazon SageMaker AI MLflow apps",
+    "summary": "In this post, we show how to combine DVC (Data Version Control), Amazon SageMaker AI, and Amazon SageMaker AI MLflow Apps to build end-to-end ML model lineage. We walk through two deployable patterns — dataset-level lineage and record-level lineage — that you can run in your own AWS account using the companion notebooks.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/end-to-end-lineage-with-dvc-and-amazon-sagemaker-ai-mlflow-apps/",
+    "published": "2026-04-21T16:43:03+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 17,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "tooling_update",
+    "vendors": [
+      "AWS"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
+  },
+  {
+    "title": "At 'AI Coachella,' Stanford Students Line Up to Learn From Silicon Valley Royalty",
+    "summary": "CS 153 has gone viral on the Palo Alto campus—and on X. Not everyone is happy about it.",
+    "url": "https://www.wired.com/story/stanford-cs-class-ai-coachella-ben-horowitz/",
+    "published": "2026-04-23T18:24:37+00:00",
+    "feed": "Wired",
+    "vendor": "Wired",
+    "score": 16,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
     "title": "Savvy Wealth debuts AI for advisors",
     "summary": "Savvy Wealth, an AI-native registered investment advisor (RIA) for independent financial advisors, today unveiled Savvy Intelligence, a new agentic AI product within Savvy’s vertically integrated platform.",
     "url": "https://www.finextra.com/pressarticle/109562/savvy-wealth-debuts-ai-for-advisors?utm_medium=rssfinextra&utm_source=finextrafeed",
     "published": "2026-04-22T14:53:00+00:00",
     "feed": "Finextra - Artificial Intelligence",
     "vendor": "Finextra",
-    "score": 20,
+    "score": 16,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -3129,20 +3262,20 @@
     "content_access": "limited"
   },
   {
-    "title": "FCA announces second cohort for AI Live Testing",
-    "summary": "Eight new firms, including Barclays, Experian, Lloyds Banking Group (Scottish Widows), and UBS, have been chosen by the FCA to live test AI applications",
-    "url": "https://www.finextra.com/newsarticle/47612/fca-announces-second-cohort-for-ai-live-testing?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-04-21T11:51:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 20,
+    "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+    "summary": "",
+    "url": "https://deepmind.google/blog/decoupled-diloco/",
+    "published": "2026-04-22T10:20:03+00:00",
+    "feed": "DeepMind Blog",
+    "vendor": "Google",
+    "score": 15,
     "is_enriched": true,
     "layer": "Agents & Tooling",
-    "event_type": "announcement",
+    "event_type": "other",
     "vendors": [],
     "capability_flags": [],
     "signals": {
-      "banking": 0.167,
+      "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
@@ -3152,7 +3285,7 @@
     "action_recommended": false,
     "action_text": "",
     "reason_tags": [],
-    "source_type": "curated",
+    "source_type": "primary",
     "content_access": "limited"
   },
   {
@@ -3162,7 +3295,7 @@
     "published": "2026-04-21T10:42:00+00:00",
     "feed": "Finextra - Artificial Intelligence",
     "vendor": "Finextra",
-    "score": 18,
+    "score": 15,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -3193,7 +3326,7 @@
     "published": "2026-04-21T10:09:58+00:00",
     "feed": "Hugging Face Blog",
     "vendor": "HuggingFace",
-    "score": 17,
+    "score": 13,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -3220,7 +3353,7 @@
     "published": "2026-04-21T00:00:00+00:00",
     "feed": "Hugging Face Blog",
     "vendor": "HuggingFace",
-    "score": 14,
+    "score": 13,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "commentary",
@@ -3239,5 +3372,52 @@
     "reason_tags": [],
     "source_type": "primary",
     "content_access": "limited"
+  },
+  {
+    "title": "FCA announces second cohort for AI Live Testing",
+    "summary": "Eight new firms, including Barclays, Experian, Lloyds Banking Group (Scottish Widows), and UBS, have been chosen by the FCA to live test AI applications",
+    "url": "https://www.finextra.com/newsarticle/47612/fca-announces-second-cohort-for-ai-live-testing?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-04-21T11:51:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 12,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "announcement",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.167,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "ollama/ollama: v0.21.2",
+    "summary": "## What's Changed\r\n  * Improved reliability of the OpenClaw onboarding flow in `ollama launch`\r\n  * Recommended models in `ollama launch` now appear in a fixed, canonical order\r\n  * OpenClaw integration now bundles Ollama's web search plugin in OpenClaw\r\n\r\n## New Contributors\r\n* @madflow made their first contribution in https://github.com/ollama/ollama/pull/15733\r\n\r\n**Full Changelog:** https://github.com/ollama/ollama/compare/v0.21.1...v0.21.2\r\n",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.21.2",
+    "published": "2026-04-23T02:29:24Z",
+    "feed": "Ollama Releases",
+    "vendor": "OpenSource",
+    "score": 0,
+    "is_enriched": false,
+    "layer": "",
+    "event_type": "",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {},
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "primary",
+    "content_access": ""
   }
 ]
