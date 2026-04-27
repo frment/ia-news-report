@@ -352,41 +352,6 @@
     "content_access": "full"
   },
   {
-    "title": "Build Strands Agents with SageMaker AI models and MLflow",
-    "summary": "In this post, we demonstrate how to build AI agents using Strands Agents SDK with models deployed on SageMaker AI endpoints. You will learn how to deploy foundation models from SageMaker JumpStart, integrate them with Strands Agents, and establish production-grade observability using SageMaker Serverless MLflow for agent tracing. We also cover how to implement A/B testing across multiple model variants and evaluate agent performance using MLflow metrics and show how you can build, deploy, and continuously improve AI agents on infrastructure you control.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-strands-agents-with-sagemaker-ai-models-and-mlflow/",
-    "published": "2026-04-27T16:50:41+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 53,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
-    "vendors": [
-      "AWS"
-    ],
-    "capability_flags": [
-      "tool_use_agents",
-      "eval_observability"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
     "title": "Build a Reinforcement Learning Powered Agent that Learns to Retrieve Relevant Long-Term Memories for Accurate LLM Question Answering",
     "summary": "<p>In this tutorial, we build a Reinforcement Learning–driven agent that learns how to retrieve relevant memories from a long-term memory bank. We start by constructing a synthetic memory dataset and generating queries that require the agent to recall specific information. Using OpenAI embeddings, we convert both memories and queries into vector representations, enabling similarity signals [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/04/27/build-a-reinforcement-learning-powered-agent-that-learns-to-retrieve-relevant-long-term-memories/\">Build a Reinforcement Learning Powered Agent that Learns to Retrieve Relevant Long-Term Memories for Accurate LLM Question Answering</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
     "url": "https://www.marktechpost.com/2026/04/27/build-a-reinforcement-learning-powered-agent-that-learns-to-retrieve-relevant-long-term-memories/",
@@ -420,6 +385,41 @@
       "capability_flag"
     ],
     "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Build Strands Agents with SageMaker AI models and MLflow",
+    "summary": "In this post, we demonstrate how to build AI agents using Strands Agents SDK with models deployed on SageMaker AI endpoints. You will learn how to deploy foundation models from SageMaker JumpStart, integrate them with Strands Agents, and establish production-grade observability using SageMaker Serverless MLflow for agent tracing. We also cover how to implement A/B testing across multiple model variants and evaluate agent performance using MLflow metrics and show how you can build, deploy, and continuously improve AI agents on infrastructure you control.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-strands-agents-with-sagemaker-ai-models-and-mlflow/",
+    "published": "2026-04-27T16:50:41+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 52,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "tooling_update",
+    "vendors": [
+      "AWS"
+    ],
+    "capability_flags": [
+      "tool_use_agents",
+      "eval_observability"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned",
+      "capability_flag"
+    ],
+    "source_type": "primary",
     "content_access": "full"
   },
   {
@@ -1054,40 +1054,6 @@
     "content_access": "limited"
   },
   {
-    "title": "ollama/ollama: v0.21.1",
-    "summary": "## What's Changed\r\n### Kimi CLI\r\nYou can now install and run the Kimi CLI through Ollama.\r\n\r\n```\r\nollama launch kimi --model kimi-k2.6:cloud\r\n```\r\nKimi CLI with Kimi K2.6 excels at long horizon agentic execution tasks through a multi-agent system.\r\n\r\n  * **MLX runner adds logprobs support** for compatible models\r\n  * **Faster MLX sampling** with fused top-P and top-K in a single sort pass, plus repeat penalties applied in the sampler\r\n  * **Improved MLX prompt tokenization** by moving tokenizati",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.21.1",
-    "published": "2026-04-22T00:18:02Z",
-    "feed": "Ollama Releases",
-    "vendor": "Ollama",
-    "score": 41,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "release",
-    "vendors": [
-      "Ollama"
-    ],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": true,
-    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
     "title": "Apple's Next CEO Needs to Launch a Killer AI Product",
     "summary": "Tim Cook was a great CEO, but he didn’t crack AI.  It’s job number 1 for John Ternus.",
     "url": "https://www.wired.com/story/apples-next-ceo-needs-to-launch-a-killer-ai-product/",
@@ -1534,7 +1500,7 @@
     "published": "2026-04-27T16:13:41+00:00",
     "feed": "MIT Technology Review",
     "vendor": "MIT",
-    "score": 34,
+    "score": 33,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -1774,41 +1740,6 @@
       "capability_flag"
     ],
     "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Cost-effective multilingual audio transcription at scale with Parakeet-TDT and AWS Batch",
-    "summary": "In this post, we walk through building a scalable, event-driven transcription pipeline that automatically processes audio files uploaded to Amazon Simple Storage Service (Amazon S3), and show you how to use Amazon EC2 Spot Instances and buffered streaming inference to further reduce costs.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/cost-effective-multilingual-audio-transcription-at-scale-with-parakeet-tdt-and-aws-batch/",
-    "published": "2026-04-22T21:05:01+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 28,
-    "is_enriched": true,
-    "layer": "Infra & Open Source",
-    "event_type": "tooling_update",
-    "vendors": [
-      "AWS"
-    ],
-    "capability_flags": [
-      "multimodal",
-      "serving_inference"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "primary",
     "content_access": "full"
   },
   {
@@ -2062,36 +1993,39 @@
     "content_access": "limited"
   },
   {
-    "title": "8 Gemini tips for organizing your space (and life)",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_hero.max-600x600.format-webp.webp\">Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
-    "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-    "published": "2026-04-24T19:00:00+00:00",
-    "feed": "Google AI Blog",
-    "vendor": "Google",
-    "score": 25,
+    "title": "Cost-effective multilingual audio transcription at scale with Parakeet-TDT and AWS Batch",
+    "summary": "In this post, we walk through building a scalable, event-driven transcription pipeline that automatically processes audio files uploaded to Amazon Simple Storage Service (Amazon S3), and show you how to use Amazon EC2 Spot Instances and buffered streaming inference to further reduce costs.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/cost-effective-multilingual-audio-transcription-at-scale-with-parakeet-tdt-and-aws-batch/",
+    "published": "2026-04-22T21:05:01+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 27,
     "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "other",
+    "layer": "Infra & Open Source",
+    "event_type": "tooling_update",
     "vendors": [
-      "Google"
+      "AWS"
     ],
-    "capability_flags": [],
+    "capability_flags": [
+      "multimodal",
+      "serving_inference"
+    ],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
       "vendor": 1.0,
-      "capability": 0.0
+      "capability": 0.6666666666666666
     },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "action_recommended": false,
+    "action_text": "",
     "reason_tags": [
       "vendor_mentioned",
-      "llm_family"
+      "capability_flag"
     ],
     "source_type": "primary",
-    "content_access": "partial"
+    "content_access": "full"
   },
   {
     "title": "Health-care AI is here. We don’t know if it actually helps patients.",
@@ -2122,40 +2056,6 @@
       "capability_flag"
     ],
     "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Amazon SageMaker AI now supports optimized generative AI inference recommendations",
-    "summary": "Today, Amazon SageMaker AI&nbsp; supports optimized generative AI inference recommendations. By delivering validated, optimal deployment configurations with performance metrics, Amazon SageMaker AI keeps your model developers focused on building accurate models, not managing infrastructure.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-supports-optimized-generative-ai-inference-recommendations/",
-    "published": "2026-04-22T19:15:08+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 25,
-    "is_enriched": true,
-    "layer": "Infra & Open Source",
-    "event_type": "tooling_update",
-    "vendors": [
-      "AWS"
-    ],
-    "capability_flags": [
-      "serving_inference"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "primary",
     "content_access": "full"
   },
   {
@@ -2223,6 +2123,38 @@
     "content_access": "limited"
   },
   {
+    "title": "8 Gemini tips for organizing your space (and life)",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_hero.max-600x600.format-webp.webp\">Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+    "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+    "published": "2026-04-24T19:00:00+00:00",
+    "feed": "Google AI Blog",
+    "vendor": "Google",
+    "score": 24,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
+    "vendors": [
+      "Google"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "primary",
+    "content_access": "partial"
+  },
+  {
     "title": "Introducing workspace agents in ChatGPT",
     "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
     "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
@@ -2256,6 +2188,40 @@
     ],
     "source_type": "primary",
     "content_access": "limited"
+  },
+  {
+    "title": "Amazon SageMaker AI now supports optimized generative AI inference recommendations",
+    "summary": "Today, Amazon SageMaker AI&nbsp; supports optimized generative AI inference recommendations. By delivering validated, optimal deployment configurations with performance metrics, Amazon SageMaker AI keeps your model developers focused on building accurate models, not managing infrastructure.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-supports-optimized-generative-ai-inference-recommendations/",
+    "published": "2026-04-22T19:15:08+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 24,
+    "is_enriched": true,
+    "layer": "Infra & Open Source",
+    "event_type": "tooling_update",
+    "vendors": [
+      "AWS"
+    ],
+    "capability_flags": [
+      "serving_inference"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned",
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
   },
   {
     "title": "Introducing ChatGPT Images 2.0",
@@ -2689,38 +2655,6 @@
     "content_access": "limited"
   },
   {
-    "title": "Speeding up agentic workflows with WebSockets in the Responses API",
-    "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-    "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-    "published": "2026-04-22T10:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 21,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents",
-      "serving_inference"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
     "title": "Company-wise memory in Amazon Bedrock with Amazon Neptune and Mem0",
     "summary": "Company-wise memory in Amazon Bedrock, powered by Amazon Neptune and Mem0, provides AI agents with persistent, company-specific context—enabling them to learn, adapt, and respond intelligently across multiple interactions. TrendMicro, one of the largest antivirus software companies in the world, developed the Trend’s Companion chatbot, so their customers can explore information through natural, conversational interactions",
     "url": "https://aws.amazon.com/blogs/machine-learning/company-wise-memory-in-amazon-bedrock-with-amazon-neptune-and-mem0/",
@@ -2938,6 +2872,38 @@
     "content_access": "limited"
   },
   {
+    "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+    "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+    "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+    "published": "2026-04-22T10:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 20,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "tooling_update",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents",
+      "serving_inference"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
     "title": "Workspace agents",
     "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
     "url": "https://openai.com/academy/workspace-agents",
@@ -2979,7 +2945,7 @@
     "published": "2026-04-22T00:00:00+00:00",
     "feed": "OpenAI Blog",
     "vendor": "OpenAI",
-    "score": 20,
+    "score": 19,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "announcement",
@@ -3011,34 +2977,7 @@
     "published": "2026-04-23T10:00:00+00:00",
     "feed": "OpenAI Blog",
     "vendor": "OpenAI",
-    "score": 19,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.167,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
-    "title": "Working with Codex",
-    "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-    "url": "https://openai.com/academy/working-with-codex",
-    "published": "2026-04-23T10:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 19,
+    "score": 18,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "tooling_update",
@@ -3074,6 +3013,33 @@
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "Working with Codex",
+    "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+    "url": "https://openai.com/academy/working-with-codex",
+    "published": "2026-04-23T10:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 18,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "tooling_update",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.167,
       "safety": 0.0,
       "strategic": 0.0,
       "vendor": 0.6,
@@ -3202,33 +3168,6 @@
     ],
     "source_type": "primary",
     "content_access": "full"
-  },
-  {
-    "title": "At 'AI Coachella,' Stanford Students Line Up to Learn From Silicon Valley Royalty",
-    "summary": "CS 153 has gone viral on the Palo Alto campus—and on X. Not everyone is happy about it.",
-    "url": "https://www.wired.com/story/stanford-cs-class-ai-coachella-ben-horowitz/",
-    "published": "2026-04-23T18:24:37+00:00",
-    "feed": "Wired",
-    "vendor": "Wired",
-    "score": 16,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "limited"
   },
   {
     "title": "Savvy Wealth debuts AI for advisors",
@@ -3399,25 +3338,5 @@
     "reason_tags": [],
     "source_type": "curated",
     "content_access": "limited"
-  },
-  {
-    "title": "ollama/ollama: v0.21.2",
-    "summary": "## What's Changed\r\n  * Improved reliability of the OpenClaw onboarding flow in `ollama launch`\r\n  * Recommended models in `ollama launch` now appear in a fixed, canonical order\r\n  * OpenClaw integration now bundles Ollama's web search plugin in OpenClaw\r\n\r\n## New Contributors\r\n* @madflow made their first contribution in https://github.com/ollama/ollama/pull/15733\r\n\r\n**Full Changelog:** https://github.com/ollama/ollama/compare/v0.21.1...v0.21.2\r\n",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.21.2",
-    "published": "2026-04-23T02:29:24Z",
-    "feed": "Ollama Releases",
-    "vendor": "OpenSource",
-    "score": 0,
-    "is_enriched": false,
-    "layer": "",
-    "event_type": "",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {},
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "primary",
-    "content_access": ""
   }
 ]
