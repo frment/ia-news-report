@@ -189,6 +189,25 @@ button{font:inherit}
 .vr-severity-high{color:#b42d2d}
 .vr-severity-medium{color:#a16207}
 .vr-severity-low{color:var(--muted)}
+.strategic-delta-wrap{display:grid;gap:var(--space-md)}
+.strategic-delta-kpis{grid-template-columns:repeat(auto-fit,minmax(120px,1fr))}
+.waterfall-grid{display:grid;gap:10px}
+.waterfall-item{display:grid;grid-template-columns:minmax(140px,auto) minmax(0,1fr) auto;gap:var(--space-sm);align-items:center}
+.waterfall-meta{display:grid;gap:2px}
+.waterfall-week{font-size:var(--text-xs);color:var(--muted);font-weight:var(--weight-semi)}
+.waterfall-total{font-size:var(--text-sm);font-weight:var(--weight-bold);color:var(--text)}
+.waterfall-track{height:14px;background:var(--panel-strong);border-radius:999px;overflow:hidden;position:relative}
+.waterfall-bar{height:100%;border-radius:999px;min-width:6px}
+.waterfall-bar.waterfall-neutral{background:#9aa9ba}
+.waterfall-bar.waterfall-up{background:linear-gradient(90deg,#1f7a4d 0%,#39a86e 100%)}
+.waterfall-bar.waterfall-down{background:linear-gradient(90deg,#a63b3b 0%,#d26b6b 100%)}
+.waterfall-delta{font-size:var(--text-sm);font-weight:var(--weight-bold);min-width:48px;text-align:right}
+.waterfall-delta.waterfall-up{color:#1f7a4d}
+.waterfall-delta.waterfall-down{color:#a63b3b}
+.waterfall-delta.waterfall-neutral{color:var(--muted)}
+.strategic-delta-tabs{margin-top:var(--space-sm);align-self:start}
+.theme-waterfall-grid{margin-top:var(--space-md)}
+.theme-waterfall-item .waterfall-week{font-size:var(--text-sm);color:var(--text-secondary)}
 .metrics-tag-list{display:flex;flex-wrap:wrap;gap:var(--space-sm);list-style:none;margin:0;padding:0}
 .metrics-tag{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border-radius:var(--radius-pill);background:var(--panel-strong);font-size:var(--text-xs);font-weight:var(--weight-medium);color:var(--text-secondary)}
 .metrics-tag-count{font-weight:var(--weight-bold);color:var(--accent-ink)}
@@ -490,13 +509,13 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
   <header class="hero-strip">
     <div class="hero-strip-left">
       <h1>Radar de eventos IA</h1>
-      <p class="hero-strip-sub">Global: 4 eventos canónicos · 71 items · 2026-04-27 09:15</p>
+      <p class="hero-strip-sub">Global: 4 eventos canónicos · 102 items · 2026-04-27 17:10</p>
     </div>
     <div class="hero-kpis" role="region" aria-label="Métricas clave">
-      <div class="hero-kpi-cell"><span class="hero-kpi-value">52.35</span><span class="hero-kpi-label">Prioridad líder</span></div>
+      <div class="hero-kpi-cell"><span class="hero-kpi-value">60.00</span><span class="hero-kpi-label">Prioridad líder</span></div>
         <div class="hero-kpi-cell"><span class="hero-kpi-value">4</span><span class="hero-kpi-label">Global</span></div>
-      <div class="hero-kpi-cell"><span class="hero-kpi-value">11</span><span class="hero-kpi-label">Canónicos</span></div>
-      <div class="hero-kpi-cell"><span class="hero-kpi-value">11<small style="font-size:.6em;opacity:.5"> (100%)</small></span><span class="hero-kpi-label">Accionables</span></div>
+      <div class="hero-kpi-cell"><span class="hero-kpi-value">9</span><span class="hero-kpi-label">Canónicos</span></div>
+      <div class="hero-kpi-cell"><span class="hero-kpi-value">9<small style="font-size:.6em;opacity:.5"> (100%)</small></span><span class="hero-kpi-label">Accionables</span></div>
     </div>
   </header>
   <!-- ── Content shell ── -->
@@ -504,7 +523,7 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
     <!-- ── Tabs: single view bar ── -->
     <div class="tab-bar" role="tablist" aria-label="Vistas del briefing">
       <button type="button" class="tab-btn" role="tab" aria-selected="true" aria-controls="panel-home" data-view="global" id="tab-global">Global</button>
-      <button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-home" data-view="strategy" id="tab-strategy">Strategy</button><button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-home" data-view="risk" id="tab-risk">Risk / Compliance</button><button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-home" data-view="it" id="tab-it">IT / Architecture</button><button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-home" data-view="sourcing" id="tab-sourcing">Sourcing / Vendor Management</button>
+      <button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-home" data-view="strategy" id="tab-strategy">Strategy</button><button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-home" data-view="risk" id="tab-risk">Risk / Compliance</button><button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-home" data-view="it" id="tab-it">IT / Architecture</button><button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-home" data-view="sourcing" id="tab-sourcing">Sourcing / Vendor Management</button><button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-home" data-view="market_watch" id="tab-market_watch">Market Watch</button>
       <button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-metricas" id="tab-metricas">Métricas</button>
     </div>
     <!-- ── Panel: Home (cards) ── -->
@@ -517,28 +536,28 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
           <p id="profile-empty-body">No hay señales claramente prioritarias para este perfil en esta edición.</p>
         </div>
         <div class="home-cards" id="home-cards">
-    <article class="home-card" data-exposure="risk sourcing" data-priority="52.35" data-pscore-it="60.94" data-pboost-it="0.1640" data-pprimary-it="0" data-pscore-risk="52.35" data-pboost-risk="0.0000" data-pprimary-risk="1" data-pscore-sourcing="58.63" data-pboost-sourcing="0.1200" data-pprimary-sourcing="1" data-pscore-strategy="58.00" data-pboost-strategy="0.1080" data-pprimary-strategy="0">
+    <article class="home-card" data-exposure="it" data-priority="60.00" data-pscore-it="66.00" data-pboost-it="0.1000" data-pprimary-it="1" data-pscore-market_watch="78.00" data-pboost-market_watch="0.3000" data-pprimary-market_watch="0" data-pscore-risk="60.00" data-pboost-risk="0.0000" data-pprimary-risk="0" data-pscore-sourcing="74.80" data-pboost-sourcing="0.2467" data-pprimary-sourcing="0" data-pscore-strategy="74.40" data-pboost-strategy="0.2400" data-pprimary-strategy="0">
       <div class="home-card-head">
         <span class="home-rank">1</span>
         <div class="home-card-intro">
-          <h2>Advertencia: la suposición de LoRA puede fallar en producción para ajustes de función</h2>
+          <h2>China ordena a Meta deshacer la compra de Manus (~$2B), poniendo en pausa la integración para agentes de IA</h2>
           <div class="meta-line">
-            
-        <span class="home-pill profile-view-chip" data-for-profile="risk" hidden>Risk / Compliance</span><span class="home-pill profile-view-chip" data-for-profile="sourcing" hidden>Sourcing / Vendor Management</span>
-            <span class="home-pill score">Prioridad 52.35</span>
-            <span class="home-pill evidence-pill">1 fuente · evidencia moderada</span>
-            <span class="meta-chip">MarkTechPost</span>
+            <span class="home-pill profile-pill">Lanzamiento</span>
+        <span class="home-pill profile-view-chip" data-for-profile="it" hidden>IT / Architecture</span>
+            <span class="home-pill score">Prioridad 60.00</span>
+            <span class="home-pill evidence-pill">2 fuentes · evidencia moderada</span>
+            <span class="meta-chip">TechCrunch</span>
             <span class="dot"></span>
-            <span class="meta-chip">2026-04-27 05:33</span>
+            <span class="meta-chip">2026-04-27 13:16</span>
           </div>
         </div>
       </div>
-      <p class="home-summary">Un artículo de MarkTechPost sostiene que la hipótesis central de LoRA —que las actualizaciones del modelo son de bajo rango y similares— se rompe en producción cuando el ajuste requiere cambios dispersos y de alta dimensión.</p>
-      <div class="home-role-row" aria-label="Exposición por rol"><span class="home-pill exposure">Risk / Compliance</span><span class="home-pill exposure">Sourcing / Vendor Management</span></div>
-      <p class="home-signal">Si LLMs ajustados con LoRA operan procesos bancarios críticos, pueden perder precisión en extracción, razonamiento y cumplimiento…</p>
+      <p class="home-summary">Autoridades en China habrían ordenado a Meta revertir la adquisición de Manus (~$2B) tras una investigación de varios meses. Esto interrumpe o reconfigura la integración de Manus en la hoja de ruta de agentes de IA de Meta.</p>
+      <div class="home-role-row" aria-label="Exposición por rol"><span class="home-pill exposure">IT / Architecture</span></div>
+      <p class="home-signal">Aumenta la incertidumbre sobre disponibilidad y tiempos de funcionalidades de agentes de IA en el stack de Meta…</p>
       <div class="home-cta">
         <button type="button" class="home-detail-btn detail-trigger" aria-controls="event-card-1-detail" aria-expanded="false">Ver detalle</button>
-        <a class="home-source-link" href="https://marktechpost.com/2026/04/26/the-lora-assumption-that-breaks-in-production" target="_blank" rel="noopener">Fuente ↗</a>
+        <a class="home-source-link" href="https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe" target="_blank" rel="noopener">Fuente ↗</a>
       </div>
       
     <div id="event-card-1-detail" class="detail-wrap">
@@ -548,55 +567,55 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
           <section class="detail-priority">
             <div class="detail-priority-head">
               <div class="detail-priority-score-wrap">
-                <span class="detail-priority-value">52.35</span>
+                <span class="detail-priority-value">60.00</span>
                 <span class="detail-priority-label">Score</span>
               </div>
               <div class="detail-priority-reasons">
                 <h4>Por qué aparece ahora</h4>
-                <ul><li>Recent event based on the latest available published timestamp</li><li>Primary source identified for the event</li><li>Event includes concrete follow-up actions</li></ul>
+                <ul><li>Recent event based on the latest available published timestamp</li><li>Multiple corroborating sources in the cluster</li><li>Action recommended in source data</li></ul>
               </div>
             </div>
-            <details class="detail-factors-box"><summary>Ver factores de prioridad</summary><div class="factor-stack"><div class="factor-row"><div><p class="factor-label">Señal base</p></div><strong class="factor-value">+23.45</strong></div><div class="factor-row"><div><p class="factor-label">Recencia</p></div><strong class="factor-value">+19.90</strong></div><div class="factor-row"><div><p class="factor-label">Fuerza de evidencia</p></div><strong class="factor-value">+6.00</strong></div><div class="factor-row"><div><p class="factor-label">Accionabilidad</p></div><strong class="factor-value">+3.00</strong></div></div></details>
+            <details class="detail-factors-box"><summary>Ver factores de prioridad</summary><div class="factor-stack"><div class="factor-row"><div><p class="factor-label">Recencia</p></div><strong class="factor-value">+19.89</strong></div><div class="factor-row"><div><p class="factor-label">Señal base</p></div><strong class="factor-value">+17.36</strong></div><div class="factor-row"><div><p class="factor-label">Accionabilidad</p></div><strong class="factor-value">+10.00</strong></div><div class="factor-row"><div><p class="factor-label">Fuerza de evidencia</p></div><strong class="factor-value">+8.25</strong></div></div></details>
           </section>
           <!-- Action grid -->
           <div class="detail-actions">
             <section class="detail-action-card">
               <h4>Quién está expuesto</h4>
-              <ul><li>Risk / Compliance</li><li>Sourcing / Vendor Management</li></ul>
+              <ul><li>IT / Architecture</li></ul>
             </section>
-            <section class="detail-action-card">
+            <section class="detail-action-card highlight-block">
               <h4>Qué hacer ahora</h4>
-              <ul><li>Inventariar todos los despliegues (propios y de terceros) que usen LoRA y etiquetarlos por tipo de cambio: estilo vs función; asignar criticidad por proceso.</li><li>Implementar un benchmark por dominio con métricas duras (exactitud de campos, tasa de alucinación, latencia) y comparar base vs LoRA (distintos rangos) vs alternativas; bloquear promoción a producción si no supera umbrales.</li><li>Para procesos críticos, activar mitigaciones: aumentar el rango de LoRA, combinar con capas adicionales o pasar a fine-tuning selectivo; desplegar en canary con rollback automático.</li><li>Actualizar due diligence a proveedores: exigir divulgación del método de adaptación, resultados en tareas funcionales del banco y SLOs con penalidades por degradación.</li></ul>
+              <ul><li>Owner: Arquitectura de IA — Enviar RFI a Meta solicitando roadmap de agentes de IA sin Manus y plan de sustitución tras el unwind en China; resultado: respuesta oficial archivada y revisada en comité técnico en ≤30 días.</li><li>Owner: Procurement/Legal — Preparar addendum con Meta incorporando cláusula de terminación por cambios regulatorios en China y hitos de entrega de funcionalidades de agentes; resultado: borrador validado internamente y remitido al proveedor en ≤30 días.</li></ul>
             </section>
           </div>
           <!-- Why it matters (teaser + PRO CTA) -->
           <section class="detail-action-card detail-insight-teaser">
             <h4>Por qué importa</h4>
-            <ul><li>Si LLMs ajustados con LoRA operan procesos bancarios críticos, pueden perder precisión en extracción, razonamiento y cumplimiento, elevando riesgo operativo y retrabajo. Esto añade costes no planificados (monitorización, hotfixes, rollbacks) y potenciales incumplimientos de SLA en C&amp;IB.</li></ul>
+            <ul><li>Aumenta la incertidumbre sobre disponibilidad y tiempos de funcionalidades de agentes de IA en el stack de Meta, con riesgo de lock-in y retrasos de producción. En C&amp;IB, complica decisiones de plataforma y despliegues con exposición a China, afectando costes de transición y cumplimiento.</li></ul>
             <button type="button" class="insight-trigger" data-insight="event-card-1-insight">Ver análisis completo →</button>
           </section>
           <!-- Evidence -->
           <details class="detail-evidence-box" open>
-            <summary>Evidencia (No hay fuentes corroborantes además de la fuente principal)</summary>
+            <summary>Evidencia (1 fuente(s) corroborante(s) además de la fuente principal)</summary>
             <div class="detail-evidence-content">
               <section class="list-panel evidence-panel observable">
                 <h4>Snippet principal</h4>
-                <ul><li>1 clean source record(s); primary source MarkTechPost; license mode full_text_available; primary timestamp 2026-04-27 05:33; 2 editorial evidence point(s); 1 source-backed snippet(s).</li><li>Single-source event with an identifiable primary source; corroboration remains limited.</li></ul>
+                <ul><li>2 clean source record(s); primary source TechCrunch; license mode mixed_access; 1 corroborating source(s); primary timestamp 2026-04-27 13:16; 3 editorial evidence point(s); 2 source-backed snippet(s).</li><li>Moderate corroboration with a named primary source, one supporting source, and corroborating timestamps fall within a 24-hour window.</li></ul>
               </section>
               <section class="list-panel evidence-panel editorial">
                 <h4>Evidencia editorial</h4>
-                <ul><li>Artículo de MarkTechPost que argumenta que LoRA asume actualizaciones similares y falla en producción para cambios de función; afirma mejor desempeño en ajustes de estilo: https://www.marktechpost.com/2026/04/26/the-lora-assumption-that-breaks-in-production/</li><li>Con la evidencia disponible no se observan fuentes primarias ni benchmarks reproducibles en el contenido citado; la corroboración externa es limitada.</li></ul>
+                <ul><li>No hay fuente primaria disponible; corroboración baja (0.2) y un único claim con confianza 0.52.</li><li>El resumen indica que China habría ordenado a Meta deshacer la adquisición multibillonaria de Manus, afectando su apuesta en agentes de IA.</li><li>Evento clasificado como mna en LLM Landscape &amp; Behavioral Shifts con anclas: Meta, Manus y China.</li></ul>
               </section>
               <section class="list-panel evidence-panel confidence-panel">
                 <h4>Racional de confianza</h4>
-                <p class="support-copy">Single-source event with an identifiable primary source; corroboration remains limited.</p>
+                <p class="support-copy">Moderate corroboration with a named primary source, one supporting source, and corroborating timestamps fall within a 24-hour window.</p>
               </section>
             </div>
           </details>
-          <div class="detail-related"><h4>Relacionados</h4><ul class="compact-list"><li>The LoRA Assumption That Breaks in Production</li></ul></div>
+          <div class="detail-related"><h4>Relacionados</h4><ul class="compact-list"><li>China blocks Meta’s $2B Manus deal after months-long probe</li><li>Meta AI Releases Sapiens2: A High-Resolution Human-Centric Vision Model for Pose</li></ul></div>
           <!-- Detail footer -->
           <div class="detail-foot">
-            <a class="detail-cta-link" href="https://marktechpost.com/2026/04/26/the-lora-assumption-that-breaks-in-production" target="_blank" rel="noopener">Abrir fuente original ↗</a>
+            <a class="detail-cta-link" href="https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe" target="_blank" rel="noopener">Abrir fuente original ↗</a>
             <a class="detail-explorer-link" href="explorer.html">Abrir análisis completo en Explorer →</a>
             <button type="button" class="detail-copy-btn copy-summary-trigger">Copiar resumen</button>
           </div>
@@ -609,31 +628,31 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
         <header class="insight-header">
           <div class="insight-header-left">
             <span class="insight-eyebrow">Lectura de impacto</span>
-            <h3 class="insight-title">Advertencia: la suposición de LoRA puede fallar en producción para ajustes de función</h3>
+            <h3 class="insight-title">China ordena a Meta deshacer la compra de Manus (~$2B), poniendo en pausa la integración para agentes de IA</h3>
           </div>
           <button type="button" class="insight-close" aria-label="Cerrar">&times;</button>
         </header>
         <div class="insight-body">
           <section class="insight-section">
             <h4>Por qué importa</h4>
-            <ul class="insight-list"><li>Si LLMs ajustados con LoRA operan procesos bancarios críticos, pueden perder precisión en extracción, razonamiento y cumplimiento, elevando riesgo operativo y retrabajo. Esto añade costes no planificados (monitorización, hotfixes, rollbacks) y potenciales incumplimientos de SLA en C&amp;IB.</li></ul>
+            <ul class="insight-list"><li>Aumenta la incertidumbre sobre disponibilidad y tiempos de funcionalidades de agentes de IA en el stack de Meta, con riesgo de lock-in y retrasos de producción. En C&amp;IB, complica decisiones de plataforma y despliegues con exposición a China, afectando costes de transición y cumplimiento.</li></ul>
           </section>
           <section class="insight-section">
             <h4>Implicación para C&amp;IB</h4>
-            <ul class="insight-list"><li>Cartera de casos de uso: emplear LoRA donde el objetivo sea estilo (plantillas de pitchbooks, tono de comunicaciones) y evitarlo en función (análisis financiero, parsing de contratos, instrucciones de pagos) salvo que se valide con mayor rango o técnicas alternativas.</li><li>Riesgo operativo y gobierno: documentar en el expediente de modelo la hipótesis de bajo rango de LoRA y exigir pruebas de robustez por tipo de tarea; añadir controles de deriva y despliegues canary para detectar roturas silenciosas ante cambios de dominio o prompts.</li><li>Decisión de partner/proveedor: requerir a vendors transparencia sobre método de adaptación (LoRA y rango, u otros) y resultados por tareas funcionales; priorizar ofertas con rutas de ajuste mixtas (LoRA + fine-tuning selectivo) y SLOs de calidad verificables.</li></ul>
+            <ul class="insight-list"><li>Build-vs-buy: aplazar dependencias core en capacidades de Manus dentro del stack de agentes de IA de Meta y priorizar componentes internos portables hasta que Meta comunique sustituciones y fechas, considerando el impacto del unwind en China.</li><li>Dependencia de proveedor: introducir una capa de abstracción para orquestación de agentes que minimice uso de APIs propietarias atadas a Manus/Meta, permitiendo pivotar si el cambio forzado en China altera el roadmap.</li><li>Riesgo operativo en banca C&amp;IB: para pilotos de asistentes sobre plataformas de Meta con presencia de usuarios/datos en China, definir segmentación regional y plan de contingencia hasta confirmar alcance del unwind.</li></ul>
           </section>
           <section class="insight-section">
             <h4>Quién está expuesto</h4>
-            <ul class="insight-list"><li>Risk / Compliance</li><li>Sourcing / Vendor Management</li></ul>
+            <ul class="insight-list"><li>IT / Architecture</li></ul>
           </section>
           <section class="insight-section">
             <h4>Recomendaciones</h4>
-            <ul class="insight-list"><li>Inventariar todos los despliegues (propios y de terceros) que usen LoRA y etiquetarlos por tipo de cambio: estilo vs función; asignar criticidad por proceso.</li><li>Implementar un benchmark por dominio con métricas duras (exactitud de campos, tasa de alucinación, latencia) y comparar base vs LoRA (distintos rangos) vs alternativas; bloquear promoción a producción si no supera umbrales.</li><li>Para procesos críticos, activar mitigaciones: aumentar el rango de LoRA, combinar con capas adicionales o pasar a fine-tuning selectivo; desplegar en canary con rollback automático.</li><li>Actualizar due diligence a proveedores: exigir divulgación del método de adaptación, resultados en tareas funcionales del banco y SLOs con penalidades por degradación.</li></ul>
+            <ul class="insight-list"><li>Owner: Arquitectura de IA — Enviar RFI a Meta solicitando roadmap de agentes de IA sin Manus y plan de sustitución tras el unwind en China; resultado: respuesta oficial archivada y revisada en comité técnico en ≤30 días.</li><li>Owner: Procurement/Legal — Preparar addendum con Meta incorporando cláusula de terminación por cambios regulatorios en China y hitos de entrega de funcionalidades de agentes; resultado: borrador validado internamente y remitido al proveedor en ≤30 días.</li></ul>
           </section>
         </div>
         <footer class="insight-footer">
-          <span class="insight-meta">MarkTechPost · 2026-04-27 05:33</span>
-          <span class="insight-meta">1 fuente · evidencia moderada</span>
+          <span class="insight-meta">TechCrunch · 2026-04-27 13:16</span>
+          <span class="insight-meta">2 fuentes · evidencia moderada</span>
         </footer>
       </div>
     </div>
@@ -641,28 +660,28 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
     
     </article>
     
-    <article class="home-card" data-exposure="risk sourcing" data-priority="51.38" data-pscore-it="53.44" data-pboost-it="0.0400" data-pprimary-it="0" data-pscore-risk="51.38" data-pboost-risk="0.0000" data-pprimary-risk="1" data-pscore-sourcing="67.14" data-pboost-sourcing="0.3067" data-pprimary-sourcing="1" data-pscore-strategy="60.63" data-pboost-strategy="0.1800" data-pprimary-strategy="0">
+    <article class="home-card" data-exposure="sourcing" data-priority="53.02" data-pscore-it="68.08" data-pboost-it="0.2840" data-pprimary-it="0" data-pscore-market_watch="56.20" data-pboost-market_watch="0.0600" data-pprimary-market_watch="0" data-pscore-risk="53.02" data-pboost-risk="0.0000" data-pprimary-risk="0" data-pscore-sourcing="59.38" data-pboost-sourcing="0.1200" data-pprimary-sourcing="1" data-pscore-strategy="55.56" data-pboost-strategy="0.0480" data-pprimary-strategy="0">
       <div class="home-card-head">
         <span class="home-rank">2</span>
         <div class="home-card-intro">
-          <h2>DeepMind y la República de Corea anuncian alianza para impulsar avances científicos con IA de frontera</h2>
+          <h2>MIT Technology Review reporta un preview de DeepSeek V4 con soporte de prompts más largos</h2>
           <div class="meta-line">
-            <span class="home-pill profile-pill">Mercado</span>
-        <span class="home-pill profile-view-chip" data-for-profile="risk" hidden>Risk / Compliance</span><span class="home-pill profile-view-chip" data-for-profile="sourcing" hidden>Sourcing / Vendor Management</span>
-            <span class="home-pill score">Prioridad 51.38</span>
+            <span class="home-pill profile-pill">Lanzamiento</span>
+        <span class="home-pill profile-view-chip" data-for-profile="sourcing" hidden>Sourcing / Vendor Management</span>
+            <span class="home-pill score">Prioridad 53.02</span>
             <span class="home-pill evidence-pill">1 fuente · evidencia moderada</span>
-            <span class="meta-chip">DeepMind Blog</span>
+            <span class="meta-chip">MIT Technology Review</span>
             <span class="dot"></span>
-            <span class="meta-chip">2026-04-27 07:00</span>
+            <span class="meta-chip">2026-04-27 12:10</span>
           </div>
         </div>
       </div>
-      <p class="home-summary">Google DeepMind anunció una alianza con el gobierno de la República de Corea para acelerar avances científicos mediante modelos de IA de frontera. El anuncio proviene de un comunicado oficial de la compañía.</p>
-      <div class="home-role-row" aria-label="Exposición por rol"><span class="home-pill exposure">Risk / Compliance</span><span class="home-pill exposure">Sourcing / Vendor Management</span></div>
-      <p class="home-signal">La iniciativa puede concentrar talento, datos y proyectos científicos en el ecosistema coreano alrededor de tecnología Google/DeepMind…</p>
+      <p class="home-summary">MIT Technology Review informó que DeepSeek publicó un preview de su modelo V4 con capacidad para manejar prompts significativamente más largos. No hay fuente primaria del proveedor ni detalles públicos confirmados de API, límites o SLA.</p>
+      <div class="home-role-row" aria-label="Exposición por rol"><span class="home-pill exposure">Sourcing / Vendor Management</span></div>
+      <p class="home-signal">Si se confirma, una ventana de contexto ampliada puede reducir complejidad de RAG y pipelines de chunking, con impacto en costes y latencia.</p>
       <div class="home-cta">
         <button type="button" class="home-detail-btn detail-trigger" aria-controls="event-card-2-detail" aria-expanded="false">Ver detalle</button>
-        <a class="home-source-link" href="https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea" target="_blank" rel="noopener">Fuente ↗</a>
+        <a class="home-source-link" href="https://technologyreview.com/2026/04/27/1136438/the-download-deepseek-v4-ai-world-models" target="_blank" rel="noopener">Fuente ↗</a>
       </div>
       
     <div id="event-card-2-detail" class="detail-wrap">
@@ -672,7 +691,7 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
           <section class="detail-priority">
             <div class="detail-priority-head">
               <div class="detail-priority-score-wrap">
-                <span class="detail-priority-value">51.38</span>
+                <span class="detail-priority-value">53.02</span>
                 <span class="detail-priority-label">Score</span>
               </div>
               <div class="detail-priority-reasons">
@@ -680,23 +699,23 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
                 <ul><li>Recent event based on the latest available published timestamp</li><li>Primary source identified for the event</li><li>Action recommended in source data</li></ul>
               </div>
             </div>
-            <details class="detail-factors-box"><summary>Ver factores de prioridad</summary><div class="factor-stack"><div class="factor-row"><div><p class="factor-label">Señal base</p></div><strong class="factor-value">+22.40</strong></div><div class="factor-row"><div><p class="factor-label">Recencia</p></div><strong class="factor-value">+19.98</strong></div><div class="factor-row"><div><p class="factor-label">Accionabilidad</p></div><strong class="factor-value">+8.00</strong></div><div class="factor-row"><div><p class="factor-label">Fuerza de evidencia</p></div><strong class="factor-value">+6.00</strong></div></div></details>
+            <details class="detail-factors-box"><summary>Ver factores de prioridad</summary><div class="factor-stack"><div class="factor-row"><div><p class="factor-label">Recencia</p></div><strong class="factor-value">+19.82</strong></div><div class="factor-row"><div><p class="factor-label">Señal base</p></div><strong class="factor-value">+16.80</strong></div><div class="factor-row"><div><p class="factor-label">Accionabilidad</p></div><strong class="factor-value">+8.00</strong></div><div class="factor-row"><div><p class="factor-label">Fuerza de evidencia</p></div><strong class="factor-value">+6.00</strong></div></div></details>
           </section>
           <!-- Action grid -->
           <div class="detail-actions">
             <section class="detail-action-card">
               <h4>Quién está expuesto</h4>
-              <ul><li>Risk / Compliance</li><li>Sourcing / Vendor Management</li></ul>
+              <ul><li>Sourcing / Vendor Management</li></ul>
             </section>
-            <section class="detail-action-card">
+            <section class="detail-action-card highlight-block">
               <h4>Qué hacer ahora</h4>
-              <ul><li>Mapear clientes con huella en Corea y pipeline de I+D susceptible de IA científica; abrir conversaciones sobre necesidades de financiación, coinversión y selección de partner tecnológico.</li><li>Realizar due diligence técnica y contractual de modelos aplicables de Google DeepMind para ciencia computacional (prueba acotada en sandbox, TCO, cláusulas de PI y datos).</li><li>Preparar una postura de cumplimiento para flujos Corea–otros países: evaluación de transferencia y residencia de datos, y términos de PI en contratos de co-innovación.</li><li>Monitorear el detalle oficial del alcance (áreas cubiertas, acceso a cómputo, gobernanza) y actualizar criterios de selección de proveedores cuando se publiquen términos concretos.</li></ul>
+              <ul><li>Owner: Arquitectura de IA. En 30 días, confirmar o descartar disponibilidad de API/SDK y Términos de Uso de DeepSeek V4 (preview) y emitir una matriz de riesgos (legal, data residency, SLA) aprobada por Legal y Seguridad.</li><li>Owner: Data Science/ML Ops. En 30 días, ejecutar un micro-benchmark con documentos largos públicos comparando el RAG actual vs hipótesis de contexto largo de DeepSeek V4; entregar reporte con calidad, latencia y coste estimado por caso, sin usar datos de clientes.</li></ul>
             </section>
           </div>
           <!-- Why it matters (teaser + PRO CTA) -->
-          <section class="detail-action-card detail-insight-teaser highlight-block">
+          <section class="detail-action-card detail-insight-teaser">
             <h4>Por qué importa</h4>
-            <ul><li>La iniciativa puede concentrar talento, datos y proyectos científicos en el ecosistema coreano alrededor de tecnología Google/DeepMind, alterando decisiones de proveedor y colaboración en Asia. Para la banca corporativa, clientes con I+D intensivo podrían reorientar inversiones y requerir financiación y asesoría para proyectos basados en estos modelos.</li></ul>
+            <ul><li>Si se confirma, una ventana de contexto ampliada puede reducir complejidad de RAG y pipelines de chunking, con impacto en costes y latencia. En C&amp;IB, podría acelerar análisis de contratos y due diligence, pero la ausencia de especificaciones frena time-to-production y eleva riesgo de lock-in prematuro.</li></ul>
             <button type="button" class="insight-trigger" data-insight="event-card-2-insight">Ver análisis completo →</button>
           </section>
           <!-- Evidence -->
@@ -705,11 +724,11 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
             <div class="detail-evidence-content">
               <section class="list-panel evidence-panel observable">
                 <h4>Snippet principal</h4>
-                <ul><li>1 clean source record(s); primary source DeepMind Blog; license mode restricted_access; primary timestamp 2026-04-27 07:00; 2 editorial evidence point(s); 1 source-backed snippet(s).</li><li>Single-source event with an identifiable primary source; corroboration remains limited.</li></ul>
+                <ul><li>1 clean source record(s); primary source MIT Technology Review; license mode full_text_available; primary timestamp 2026-04-27 12:10; 2 editorial evidence point(s); 1 source-backed snippet(s).</li><li>Single-source event with an identifiable primary source; corroboration remains limited.</li></ul>
               </section>
               <section class="list-panel evidence-panel editorial">
                 <h4>Evidencia editorial</h4>
-                <ul><li>Entrada de blog/comunicado de Google DeepMind titulada “Announcing our partnership with the Republic of Korea”, que anuncia una colaboración para acelerar avances científicos con modelos de IA de frontera.</li><li>Sin amplia corroboración independiente al cierre; la nota se apoya en el anuncio primario de la empresa.</li></ul>
+                <ul><li>MIT Technology Review — &#x27;The Download: DeepSeek’s latest AI breakthrough, and the race to build world models&#x27;: menciona un preview de DeepSeek V4 con capacidad de prompts más largos.</li><li>La nota no enlaza fuente primaria del proveedor ni documentación técnica oficial de DeepSeek V4.</li></ul>
               </section>
               <section class="list-panel evidence-panel confidence-panel">
                 <h4>Racional de confianza</h4>
@@ -717,10 +736,10 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
               </section>
             </div>
           </details>
-          <div class="detail-related"><h4>Relacionados</h4><ul class="compact-list"><li>Announcing our partnership with the Republic of Korea</li></ul></div>
+          <div class="detail-related"><h4>Relacionados</h4><ul class="compact-list"><li>The Download: DeepSeek’s latest AI breakthrough, and the race to build world mod</li></ul></div>
           <!-- Detail footer -->
           <div class="detail-foot">
-            <a class="detail-cta-link" href="https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea" target="_blank" rel="noopener">Abrir fuente original ↗</a>
+            <a class="detail-cta-link" href="https://technologyreview.com/2026/04/27/1136438/the-download-deepseek-v4-ai-world-models" target="_blank" rel="noopener">Abrir fuente original ↗</a>
             <a class="detail-explorer-link" href="explorer.html">Abrir análisis completo en Explorer →</a>
             <button type="button" class="detail-copy-btn copy-summary-trigger">Copiar resumen</button>
           </div>
@@ -733,30 +752,30 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
         <header class="insight-header">
           <div class="insight-header-left">
             <span class="insight-eyebrow">Lectura de impacto</span>
-            <h3 class="insight-title">DeepMind y la República de Corea anuncian alianza para impulsar avances científicos con IA de frontera</h3>
+            <h3 class="insight-title">MIT Technology Review reporta un preview de DeepSeek V4 con soporte de prompts más largos</h3>
           </div>
           <button type="button" class="insight-close" aria-label="Cerrar">&times;</button>
         </header>
         <div class="insight-body">
           <section class="insight-section">
             <h4>Por qué importa</h4>
-            <ul class="insight-list"><li>La iniciativa puede concentrar talento, datos y proyectos científicos en el ecosistema coreano alrededor de tecnología Google/DeepMind, alterando decisiones de proveedor y colaboración en Asia. Para la banca corporativa, clientes con I+D intensivo podrían reorientar inversiones y requerir financiación y asesoría para proyectos basados en estos modelos.</li></ul>
+            <ul class="insight-list"><li>Si se confirma, una ventana de contexto ampliada puede reducir complejidad de RAG y pipelines de chunking, con impacto en costes y latencia. En C&amp;IB, podría acelerar análisis de contratos y due diligence, pero la ausencia de especificaciones frena time-to-production y eleva riesgo de lock-in prematuro.</li></ul>
           </section>
           <section class="insight-section">
             <h4>Implicación para C&amp;IB</h4>
-            <ul class="insight-list"><li>Decisión de partner/proveedor: clientes con huella en Corea pueden priorizar el stack de Google/DeepMind en proyectos científicos, exigiendo evaluar integraciones, costes y riesgo de dependencia frente a alternativas.</li><li>Cartera de casos de uso: previsión de demanda en modelado científico (p. ej., descubrimiento de materiales, optimización de procesos) soportado por modelos de frontera, habilitando originación de financiación de innovación y estructuración de consorcios academia–industria.</li><li>Gobierno/compliance: al involucrar a un Estado, pueden emerger requisitos específicos sobre datos, PI y acceso a cómputo; se impone due diligence contractual y de residencia de datos para operaciones transfronterizas.</li></ul>
+            <ul class="insight-list"><li>Build-vs-buy: evaluar DeepSeek V4 (preview) solo en laboratorio a través de un gateway multi-LLM; no promover a producción sin especificaciones y API públicas verificadas.</li><li>Dependencia y jurisdicción: al tratarse de DeepSeek (China), exigir revisión de localización de datos y flujos transfronterizos antes de cualquier POC con información de clientes C&amp;IB.</li><li>Observabilidad y costes: si se prueba la función de prompts más largos en V4, instrumentar trazabilidad y conteo de tokens para medir latencia y coste por documento largo.</li></ul>
           </section>
           <section class="insight-section">
             <h4>Quién está expuesto</h4>
-            <ul class="insight-list"><li>Risk / Compliance</li><li>Sourcing / Vendor Management</li></ul>
+            <ul class="insight-list"><li>Sourcing / Vendor Management</li></ul>
           </section>
           <section class="insight-section">
             <h4>Recomendaciones</h4>
-            <ul class="insight-list"><li>Mapear clientes con huella en Corea y pipeline de I+D susceptible de IA científica; abrir conversaciones sobre necesidades de financiación, coinversión y selección de partner tecnológico.</li><li>Realizar due diligence técnica y contractual de modelos aplicables de Google DeepMind para ciencia computacional (prueba acotada en sandbox, TCO, cláusulas de PI y datos).</li><li>Preparar una postura de cumplimiento para flujos Corea–otros países: evaluación de transferencia y residencia de datos, y términos de PI en contratos de co-innovación.</li><li>Monitorear el detalle oficial del alcance (áreas cubiertas, acceso a cómputo, gobernanza) y actualizar criterios de selección de proveedores cuando se publiquen términos concretos.</li></ul>
+            <ul class="insight-list"><li>Owner: Arquitectura de IA. En 30 días, confirmar o descartar disponibilidad de API/SDK y Términos de Uso de DeepSeek V4 (preview) y emitir una matriz de riesgos (legal, data residency, SLA) aprobada por Legal y Seguridad.</li><li>Owner: Data Science/ML Ops. En 30 días, ejecutar un micro-benchmark con documentos largos públicos comparando el RAG actual vs hipótesis de contexto largo de DeepSeek V4; entregar reporte con calidad, latencia y coste estimado por caso, sin usar datos de clientes.</li></ul>
           </section>
         </div>
         <footer class="insight-footer">
-          <span class="insight-meta">DeepMind Blog · 2026-04-27 07:00</span>
+          <span class="insight-meta">MIT Technology Review · 2026-04-27 12:10</span>
           <span class="insight-meta">1 fuente · evidencia moderada</span>
         </footer>
       </div>
@@ -765,28 +784,28 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
     
     </article>
     
-    <article class="home-card" data-exposure="risk sourcing" data-priority="49.82" data-pscore-it="63.97" data-pboost-it="0.2840" data-pprimary-it="0" data-pscore-risk="49.82" data-pboost-risk="0.0000" data-pprimary-risk="1" data-pscore-sourcing="55.80" data-pboost-sourcing="0.1200" data-pprimary-sourcing="1" data-pscore-strategy="52.21" data-pboost-strategy="0.0480" data-pprimary-strategy="0">
+    <article class="home-card" data-exposure="risk it sourcing" data-priority="52.22" data-pscore-it="54.31" data-pboost-it="0.0400" data-pprimary-it="1" data-pscore-market_watch="64.75" data-pboost-market_watch="0.2400" data-pprimary-market_watch="0" data-pscore-risk="52.22" data-pboost-risk="0.0000" data-pprimary-risk="1" data-pscore-sourcing="70.67" data-pboost-sourcing="0.3533" data-pprimary-sourcing="1" data-pscore-strategy="61.62" data-pboost-strategy="0.1800" data-pprimary-strategy="0">
       <div class="home-card-head">
         <span class="home-rank">3</span>
         <div class="home-card-intro">
-          <h2>DeepSeek adelanta V4: modelo abierto con ventana de contexto mucho más amplia</h2>
+          <h2>Microsoft y OpenAI simplifican y aclaran su acuerdo a largo plazo</h2>
           <div class="meta-line">
-            <span class="home-pill profile-pill">Lanzamiento</span>
-        <span class="home-pill profile-view-chip" data-for-profile="risk" hidden>Risk / Compliance</span><span class="home-pill profile-view-chip" data-for-profile="sourcing" hidden>Sourcing / Vendor Management</span>
-            <span class="home-pill score">Prioridad 49.82</span>
-            <span class="home-pill evidence-pill">1 fuente · evidencia moderada</span>
-            <span class="meta-chip">MIT Technology Review</span>
+            <span class="home-pill profile-pill">Mercado</span>
+        <span class="home-pill profile-view-chip" data-for-profile="it" hidden>IT / Architecture</span><span class="home-pill profile-view-chip" data-for-profile="risk" hidden>Risk / Compliance</span><span class="home-pill profile-view-chip" data-for-profile="sourcing" hidden>Sourcing / Vendor Management</span>
+            <span class="home-pill score">Prioridad 52.22</span>
+            <span class="home-pill evidence-pill">2 fuentes · evidencia moderada</span>
+            <span class="meta-chip">OpenAI Blog</span>
             <span class="dot"></span>
-            <span class="meta-chip">2026-04-24 21:40</span>
+            <span class="meta-chip">2026-04-27 06:00</span>
           </div>
         </div>
       </div>
-      <p class="home-summary">Según reportes, DeepSeek publicó un avance de su modelo insignia V4 con una arquitectura que permite manejar prompts notablemente más largos que su generación anterior. Las mismas fuentes indican que V4 sería de código abierto, en línea con versiones previas de la firma.</p>
-      <div class="home-role-row" aria-label="Exposición por rol"><span class="home-pill exposure">Risk / Compliance</span><span class="home-pill exposure">Sourcing / Vendor Management</span></div>
-      <p class="home-signal">Un modelo abierto con contexto extendido puede recortar costos y complejidad en análisis de documentos extensos y flujos RAG.</p>
+      <p class="home-summary">Microsoft y OpenAI anunciaron un acuerdo enmendado que simplifica su alianza y aporta claridad de largo plazo. El objetivo declarado es sostener la innovación de IA a escala bajo una relación contractual más definida.</p>
+      <div class="home-role-row" aria-label="Exposición por rol"><span class="home-pill exposure">Risk / Compliance</span><span class="home-pill exposure">IT / Architecture</span><span class="home-pill exposure">Sourcing / Vendor Management</span></div>
+      <p class="home-signal">Reduce incertidumbre de roadmap y gobernanza para equipos que consumen capacidades de Microsoft/OpenAI, con efectos en lock-in, costes y time-to-production.</p>
       <div class="home-cta">
         <button type="button" class="home-detail-btn detail-trigger" aria-controls="event-card-3-detail" aria-expanded="false">Ver detalle</button>
-        <a class="home-source-link" href="https://technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters" target="_blank" rel="noopener">Fuente ↗</a>
+        <a class="home-source-link" href="https://openai.com/index/next-phase-of-microsoft-partnership" target="_blank" rel="noopener">Fuente ↗</a>
       </div>
       
     <div id="event-card-3-detail" class="detail-wrap">
@@ -796,55 +815,55 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
           <section class="detail-priority">
             <div class="detail-priority-head">
               <div class="detail-priority-score-wrap">
-                <span class="detail-priority-value">49.82</span>
+                <span class="detail-priority-value">52.22</span>
                 <span class="detail-priority-label">Score</span>
               </div>
               <div class="detail-priority-reasons">
                 <h4>Por qué aparece ahora</h4>
-                <ul><li>Recent event based on the latest available published timestamp</li><li>Primary source identified for the event</li><li>Action recommended in source data</li></ul>
+                <ul><li>Recent event based on the latest available published timestamp</li><li>Multiple corroborating sources in the cluster</li><li>Action recommended in source data</li></ul>
               </div>
             </div>
-            <details class="detail-factors-box"><summary>Ver factores de prioridad</summary><div class="factor-stack"><div class="factor-row"><div><p class="factor-label">Señal base</p></div><strong class="factor-value">+19.25</strong></div><div class="factor-row"><div><p class="factor-label">Recencia</p></div><strong class="factor-value">+16.57</strong></div><div class="factor-row"><div><p class="factor-label">Accionabilidad</p></div><strong class="factor-value">+8.00</strong></div><div class="factor-row"><div><p class="factor-label">Fuerza de evidencia</p></div><strong class="factor-value">+6.00</strong></div></div></details>
+            <details class="detail-factors-box"><summary>Ver factores de prioridad</summary><div class="factor-stack"><div class="factor-row"><div><p class="factor-label">Recencia</p></div><strong class="factor-value">+19.88</strong></div><div class="factor-row"><div><p class="factor-label">Señal base</p></div><strong class="factor-value">+18.69</strong></div><div class="factor-row"><div><p class="factor-label">Fuerza de evidencia</p></div><strong class="factor-value">+8.25</strong></div><div class="factor-row"><div><p class="factor-label">Accionabilidad</p></div><strong class="factor-value">+8.00</strong></div></div></details>
           </section>
           <!-- Action grid -->
           <div class="detail-actions">
             <section class="detail-action-card">
               <h4>Quién está expuesto</h4>
-              <ul><li>Risk / Compliance</li><li>Sourcing / Vendor Management</li></ul>
+              <ul><li>Risk / Compliance</li><li>IT / Architecture</li><li>Sourcing / Vendor Management</li></ul>
             </section>
-            <section class="detail-action-card highlight-block">
+            <section class="detail-action-card">
               <h4>Qué hacer ahora</h4>
-              <ul><li>Ejecutar en 2 semanas un benchmark en sandbox on‑prem con corpus bancario (contratos, políticas) comparando V4 vs Llama/Mistral/Qwen: calidad, grounding, latencia y costo por 1M tokens de contexto.</li><li>Solicitar a Legal/Compliance revisión de licencia y riesgos jurisdiccionales para uso de un LLM abierto de origen chino; definir países/áreas donde su despliegue sería permitido o restringido.</li><li>Diseñar una POC RAG con menos troceado y memoria intermedia aprovechando la ventana extendida; medir reducción de componentes y costos de infraestructura.</li><li>Condicionar cualquier piloto productivo a evidencia pública o interna de rendimiento estable; mantener plan de fallback con modelos actuales.</li></ul>
+              <ul><li>Owner: Arquitectura de plataforma. En 30 días, ejecutar una prueba de portabilidad con dos integraciones equivalentes (SDK de OpenAI y SDK de Microsoft) sobre un mismo caso; resultado: informe de esfuerzo de conmutación, impactos en seguridad y cambios de observabilidad necesarios.</li><li>Owner: Procurement/Legal. En 30 días, revisar cláusulas vigentes con Microsoft relacionadas con uso de OpenAI (retención de datos, auditoría, continuidad); resultado: matriz de riesgos y enmiendas propuestas alineadas al nuevo marco del acuerdo.</li></ul>
             </section>
           </div>
           <!-- Why it matters (teaser + PRO CTA) -->
-          <section class="detail-action-card detail-insight-teaser">
+          <section class="detail-action-card detail-insight-teaser highlight-block">
             <h4>Por qué importa</h4>
-            <ul><li>Un modelo abierto con contexto extendido puede recortar costos y complejidad en análisis de documentos extensos y flujos RAG. Esto habilita pilotos rápidos en banca mayorista sin depender de APIs cerradas, sujeto a validación técnica y de cumplimiento.</li></ul>
+            <ul><li>Reduce incertidumbre de roadmap y gobernanza para equipos que consumen capacidades de Microsoft/OpenAI, con efectos en lock-in, costes y time-to-production. En banca mayorista (C&amp;IB), esto mejora la previsibilidad para llevar a producción casos críticos (riesgo, mercados, KYC) basados en estos proveedores.</li></ul>
             <button type="button" class="insight-trigger" data-insight="event-card-3-insight">Ver análisis completo →</button>
           </section>
           <!-- Evidence -->
           <details class="detail-evidence-box" open>
-            <summary>Evidencia (No hay fuentes corroborantes además de la fuente principal)</summary>
+            <summary>Evidencia (1 fuente(s) corroborante(s) además de la fuente principal)</summary>
             <div class="detail-evidence-content">
               <section class="list-panel evidence-panel observable">
                 <h4>Snippet principal</h4>
-                <ul><li>1 clean source record(s); primary source MIT Technology Review; license mode full_text_available; primary timestamp 2026-04-24 21:40; 3 editorial evidence point(s); 1 source-backed snippet(s).</li><li>Single-source event with an identifiable primary source; corroboration remains limited.</li></ul>
+                <ul><li>2 clean source record(s); primary source OpenAI Blog; license mode restricted_access; 1 corroborating source(s); primary timestamp 2026-04-27 06:00; 3 editorial evidence point(s); 2 source-backed snippet(s).</li><li>Moderate corroboration with a named primary source, one supporting source, and corroborating timestamps fall within a 24-hour window.</li></ul>
               </section>
               <section class="list-panel evidence-panel editorial">
                 <h4>Evidencia editorial</h4>
-                <ul><li>Cobertura secundaria señala que DeepSeek publicó un ‘preview’ de V4 con capacidad para manejar prompts mucho más largos gracias a un nuevo diseño eficiente para grandes volúmenes de texto.</li><li>Las mismas fuentes afirman que V4 sería de código abierto, en coherencia con modelos anteriores de DeepSeek.</li><li>No hay fuente primaria enlazada ni métricas oficiales publicadas; la corroboración externa es limitada.</li></ul>
+                <ul><li>Anuncio conjunto: “The next phase of the Microsoft OpenAI partnership” (OpenAI y Microsoft comunican un acuerdo enmendado que simplifica la alianza y da claridad a largo plazo).</li><li>Resumen oficial: se busca sostener la innovación de IA a escala bajo una relación contractual más clara entre OpenAI y Microsoft.</li><li>Corroboración limitada en fuentes secundarias públicas en el momento del anuncio; detalles operativos y comerciales no especificados.</li></ul>
               </section>
               <section class="list-panel evidence-panel confidence-panel">
                 <h4>Racional de confianza</h4>
-                <p class="support-copy">Single-source event with an identifiable primary source; corroboration remains limited.</p>
+                <p class="support-copy">Moderate corroboration with a named primary source, one supporting source, and corroborating timestamps fall within a 24-hour window.</p>
               </section>
             </div>
           </details>
-          <div class="detail-related"><h4>Relacionados</h4><ul class="compact-list"><li>Three reasons why DeepSeek’s new model matters</li></ul></div>
+          <div class="detail-related"><h4>Relacionados</h4><ul class="compact-list"><li>The next phase of the Microsoft OpenAI partnership</li><li>OpenAI could be making a phone with AI agents replacing apps</li></ul></div>
           <!-- Detail footer -->
           <div class="detail-foot">
-            <a class="detail-cta-link" href="https://technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters" target="_blank" rel="noopener">Abrir fuente original ↗</a>
+            <a class="detail-cta-link" href="https://openai.com/index/next-phase-of-microsoft-partnership" target="_blank" rel="noopener">Abrir fuente original ↗</a>
             <a class="detail-explorer-link" href="explorer.html">Abrir análisis completo en Explorer →</a>
             <button type="button" class="detail-copy-btn copy-summary-trigger">Copiar resumen</button>
           </div>
@@ -857,31 +876,31 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
         <header class="insight-header">
           <div class="insight-header-left">
             <span class="insight-eyebrow">Lectura de impacto</span>
-            <h3 class="insight-title">DeepSeek adelanta V4: modelo abierto con ventana de contexto mucho más amplia</h3>
+            <h3 class="insight-title">Microsoft y OpenAI simplifican y aclaran su acuerdo a largo plazo</h3>
           </div>
           <button type="button" class="insight-close" aria-label="Cerrar">&times;</button>
         </header>
         <div class="insight-body">
           <section class="insight-section">
             <h4>Por qué importa</h4>
-            <ul class="insight-list"><li>Un modelo abierto con contexto extendido puede recortar costos y complejidad en análisis de documentos extensos y flujos RAG. Esto habilita pilotos rápidos en banca mayorista sin depender de APIs cerradas, sujeto a validación técnica y de cumplimiento.</li></ul>
+            <ul class="insight-list"><li>Reduce incertidumbre de roadmap y gobernanza para equipos que consumen capacidades de Microsoft/OpenAI, con efectos en lock-in, costes y time-to-production. En banca mayorista (C&amp;IB), esto mejora la previsibilidad para llevar a producción casos críticos (riesgo, mercados, KYC) basados en estos proveedores.</li></ul>
           </section>
           <section class="insight-section">
             <h4>Implicación para C&amp;IB</h4>
-            <ul class="insight-list"><li>Cartera de casos de uso: el mayor contexto reduce el troceado y la orquestación RAG en due diligence, KYC y revisión contractual, simplificando pipelines y mejorando trazabilidad.</li><li>Coste-productividad DS/ML: si V4 puede autoalojarse, podría bajar el costo por inferencia frente a proveedores cerrados; es clave medir consumo de memoria y latencia con ventanas largas para estimar TCO real.</li><li>Gobierno/compliance y sourcing: al ser un modelo abierto de un proveedor chino, requiere revisión de licencias, dependencias tecnológicas y restricciones jurisdiccionales; conviene compararlo en bake-off con Llama, Mistral y Qwen antes de escalar.</li></ul>
+            <ul class="insight-list"><li>Build-vs-buy: con el acuerdo enmendado de Microsoft/OpenAI, priorizar compra de capacidades gestionadas donde haya ventaja de time-to-production y reservar build para capas propietarias (evaluación, orquestación, red teaming) que preserven portabilidad.</li><li>Dependencia de proveedor: establecer una capa de abstracción de modelos que permita conmutar desde Microsoft/OpenAI hacia alternativas si cambian términos o SLAs, limitando lock-in contractual y técnico.</li><li>Observabilidad y seguridad: reforzar telemetría y controles sobre llamadas a OpenAI operadas vía Microsoft (límites de uso, registro de prompts/completions, trazabilidad) para auditorías SOX/BCBS en C&amp;IB.</li></ul>
           </section>
           <section class="insight-section">
             <h4>Quién está expuesto</h4>
-            <ul class="insight-list"><li>Risk / Compliance</li><li>Sourcing / Vendor Management</li></ul>
+            <ul class="insight-list"><li>Risk / Compliance</li><li>IT / Architecture</li><li>Sourcing / Vendor Management</li></ul>
           </section>
           <section class="insight-section">
             <h4>Recomendaciones</h4>
-            <ul class="insight-list"><li>Ejecutar en 2 semanas un benchmark en sandbox on‑prem con corpus bancario (contratos, políticas) comparando V4 vs Llama/Mistral/Qwen: calidad, grounding, latencia y costo por 1M tokens de contexto.</li><li>Solicitar a Legal/Compliance revisión de licencia y riesgos jurisdiccionales para uso de un LLM abierto de origen chino; definir países/áreas donde su despliegue sería permitido o restringido.</li><li>Diseñar una POC RAG con menos troceado y memoria intermedia aprovechando la ventana extendida; medir reducción de componentes y costos de infraestructura.</li><li>Condicionar cualquier piloto productivo a evidencia pública o interna de rendimiento estable; mantener plan de fallback con modelos actuales.</li></ul>
+            <ul class="insight-list"><li>Owner: Arquitectura de plataforma. En 30 días, ejecutar una prueba de portabilidad con dos integraciones equivalentes (SDK de OpenAI y SDK de Microsoft) sobre un mismo caso; resultado: informe de esfuerzo de conmutación, impactos en seguridad y cambios de observabilidad necesarios.</li><li>Owner: Procurement/Legal. En 30 días, revisar cláusulas vigentes con Microsoft relacionadas con uso de OpenAI (retención de datos, auditoría, continuidad); resultado: matriz de riesgos y enmiendas propuestas alineadas al nuevo marco del acuerdo.</li></ul>
           </section>
         </div>
         <footer class="insight-footer">
-          <span class="insight-meta">MIT Technology Review · 2026-04-24 21:40</span>
-          <span class="insight-meta">1 fuente · evidencia moderada</span>
+          <span class="insight-meta">OpenAI Blog · 2026-04-27 06:00</span>
+          <span class="insight-meta">2 fuentes · evidencia moderada</span>
         </footer>
       </div>
     </div>
@@ -889,15 +908,15 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
     
     </article>
     
-    <article class="home-card" data-exposure="" data-priority="49.76" data-pscore-it="67.67" data-pboost-it="0.3600" data-pprimary-it="0" data-pscore-risk="49.76" data-pboost-risk="0.0000" data-pprimary-risk="0" data-pscore-sourcing="62.03" data-pboost-sourcing="0.2467" data-pprimary-sourcing="0" data-pscore-strategy="56.73" data-pboost-strategy="0.1400" data-pprimary-strategy="0">
+    <article class="home-card" data-exposure="" data-priority="50.88" data-pscore-it="69.20" data-pboost-it="0.3600" data-pprimary-it="0" data-pscore-market_watch="55.97" data-pboost-market_watch="0.1000" data-pprimary-market_watch="0" data-pscore-risk="50.88" data-pboost-risk="0.0000" data-pprimary-risk="0" data-pscore-sourcing="63.43" data-pboost-sourcing="0.2467" data-pprimary-sourcing="0" data-pscore-strategy="58.00" data-pboost-strategy="0.1400" data-pprimary-strategy="0">
       <div class="home-card-head">
         <span class="home-rank">4</span>
         <div class="home-card-intro">
-          <h2>Memanto propone memoria semántica tipada y búsqueda sin indexación para agentes, con latencias &lt;90 ms y SOTA en benchmarks</h2>
+          <h2>Memoria semántica tipada y retrieval determinista sin indexación para agentes de largo horizonte (Memanto)</h2>
           <div class="meta-line">
             <span class="home-pill profile-pill">Lanzamiento</span>
         
-            <span class="home-pill score">Prioridad 49.76</span>
+            <span class="home-pill score">Prioridad 50.88</span>
             <span class="home-pill evidence-pill">1 fuente · evidencia moderada</span>
             <span class="meta-chip">ArXiv cs.AI</span>
             <span class="dot"></span>
@@ -905,9 +924,9 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
           </div>
         </div>
       </div>
-      <p class="home-summary">Un preprint en arXiv presenta Memanto, una capa de memoria para agentes que usa un esquema semántico tipado (13 categorías), resolución de conflictos y versionado temporal, impulsada por un motor de búsqueda info‑teórica sin indexación.</p>
+      <p class="home-summary">ArXiv publicó el paper Memanto, que propone una capa de memoria universal para agentes con 13 categorías tipadas, resolución automática de conflictos y versionado temporal, habilitada por Moorcheh&#x27;s Information Theoretic Search (sin indexación).</p>
       
-      <p class="home-signal">Si se valida en entornos bancarios, podría reducir la complejidad y el coste operativo de los stacks de memoria/recuperación para copilotos y agentes…</p>
+      <p class="home-signal">Si se valida, podría simplificar el stack sustituyendo knowledge graphs híbridos, reduciendo complejidad operativa y coste de ingestión…</p>
       <div class="home-cta">
         <button type="button" class="home-detail-btn detail-trigger" aria-controls="event-card-4-detail" aria-expanded="false">Ver detalle</button>
         <a class="home-source-link" href="https://arxiv.org/abs/2604.22085" target="_blank" rel="noopener">Fuente ↗</a>
@@ -920,7 +939,7 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
           <section class="detail-priority">
             <div class="detail-priority-head">
               <div class="detail-priority-score-wrap">
-                <span class="detail-priority-value">49.76</span>
+                <span class="detail-priority-value">50.88</span>
                 <span class="detail-priority-label">Score</span>
               </div>
               <div class="detail-priority-reasons">
@@ -928,7 +947,7 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
                 <ul><li>Recent event based on the latest available published timestamp</li><li>Primary source identified for the event</li><li>Action recommended in source data</li></ul>
               </div>
             </div>
-            <details class="detail-factors-box"><summary>Ver factores de prioridad</summary><div class="factor-stack"><div class="factor-row"><div><p class="factor-label">Recencia</p></div><strong class="factor-value">+19.81</strong></div><div class="factor-row"><div><p class="factor-label">Señal base</p></div><strong class="factor-value">+17.15</strong></div><div class="factor-row"><div><p class="factor-label">Accionabilidad</p></div><strong class="factor-value">+10.00</strong></div><div class="factor-row"><div><p class="factor-label">Fuerza de evidencia</p></div><strong class="factor-value">+6.00</strong></div></div></details>
+            <details class="detail-factors-box"><summary>Ver factores de prioridad</summary><div class="factor-stack"><div class="factor-row"><div><p class="factor-label">Recencia</p></div><strong class="factor-value">+19.33</strong></div><div class="factor-row"><div><p class="factor-label">Señal base</p></div><strong class="factor-value">+11.55</strong></div><div class="factor-row"><div><p class="factor-label">Accionabilidad</p></div><strong class="factor-value">+10.00</strong></div><div class="factor-row"><div><p class="factor-label">Recurrencia</p></div><strong class="factor-value">+7.20</strong></div></div></details>
           </section>
           <!-- Action grid -->
           <div class="detail-actions">
@@ -938,13 +957,13 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
             </section>
             <section class="detail-action-card highlight-block">
               <h4>Qué hacer ahora</h4>
-              <ul><li>Lanzar un piloto comparativo con datos desensibilizados frente al stack actual (vector DB + KG), midiendo p95 de latencia, precisión en tareas bancarias y coste por interacción.</li><li>Solicitar a los autores/proveedor documentación técnica y opciones de despliegue (on‑prem/nube), controles de seguridad (cifrado, residencia) y procedimientos de borrado/retención de PII en una base “sin indexación”.</li><li>Verificar el mapeo de las 13 categorías y del versionado con taxonomías internas y requisitos de auditoría; definir criterios de aceptación (SLO &lt;100 ms, trazabilidad completa, coste por consulta).</li><li>Establecer cláusulas de portabilidad y plan de reversión antes de cualquier adopción para mitigar riesgo de dependencia tecnológica.</li></ul>
+              <ul><li>Owner: Arquitectura de IA. Acción: reproducir en entorno controlado una evaluación con LongMemEval y LoCoMo usando un esquema de 13 categorías inspirado en Memanto; entregar en 30 días un informe con precisión y P95 de latencia comparado con el stack actual.</li><li>Owner: Data Governance y Seguridad. Acción: mapear las 13 categorías de Memanto a la taxonomía interna de PII/SAR y definir retención y logging para resolución de conflictos y versionado; publicar en 30 días una matriz de clasificación y requisitos de auditoría para agentes en C&amp;IB.</li></ul>
             </section>
           </div>
           <!-- Why it matters (teaser + PRO CTA) -->
           <section class="detail-action-card detail-insight-teaser">
             <h4>Por qué importa</h4>
-            <ul><li>Si se valida en entornos bancarios, podría reducir la complejidad y el coste operativo de los stacks de memoria/recuperación para copilotos y agentes, habilitando respuestas casi en tiempo real. El versionado y la tipificación de memorias también facilitarían trazabilidad y control en procesos regulados.</li></ul>
+            <ul><li>Si se valida, podría simplificar el stack sustituyendo knowledge graphs híbridos, reduciendo complejidad operativa y coste de ingestión, con mejoras de latencia y time-to-production. En C&amp;IB, habilita agentes con memoria persistente y auditable para KYC/AML y middle-office bajo SLAs estrictos.</li></ul>
             <button type="button" class="insight-trigger" data-insight="event-card-4-insight">Ver análisis completo →</button>
           </section>
           <!-- Evidence -->
@@ -957,7 +976,7 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
               </section>
               <section class="list-panel evidence-panel editorial">
                 <h4>Evidencia editorial</h4>
-                <ul><li>Preprint en arXiv (v1) que introduce Memanto como capa de memoria universal para agentes con esquema semántico tipado de 13 categorías, resolución de conflictos y versionado temporal.</li><li>Afirmación de uso del motor Information Theoretic Search de Moorcheh como base de datos semántica sin indexación, con recuperación determinista por debajo de 90 ms y sin demora/coste de ingestión.</li><li>Resultados reportados: 89,8% en LongMemEval y 87,1% en LoCoMo, superando sistemas híbridos de grafo y vector evaluados, con una sola consulta de recuperación.</li></ul>
+                <ul><li>arXiv:2604.22085v1 describe Memanto con 13 categorías de memoria tipada, resolución de conflictos y versionado temporal.</li><li>Uso de Moorcheh&#x27;s Information Theoretic Search como base de datos semántica sin indexación, con retrieval determinista sub-90 ms y sin coste de ingestión.</li><li>Resultados reportados: 89.8% en LongMemEval y 87.1% en LoCoMo, superando sistemas híbridos de grafos y vectores con una sola consulta.</li></ul>
               </section>
               <section class="list-panel evidence-panel confidence-panel">
                 <h4>Racional de confianza</h4>
@@ -981,18 +1000,18 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
         <header class="insight-header">
           <div class="insight-header-left">
             <span class="insight-eyebrow">Lectura de impacto</span>
-            <h3 class="insight-title">Memanto propone memoria semántica tipada y búsqueda sin indexación para agentes, con latencias &lt;90 ms y SOTA en benchmarks</h3>
+            <h3 class="insight-title">Memoria semántica tipada y retrieval determinista sin indexación para agentes de largo horizonte (Memanto)</h3>
           </div>
           <button type="button" class="insight-close" aria-label="Cerrar">&times;</button>
         </header>
         <div class="insight-body">
           <section class="insight-section">
             <h4>Por qué importa</h4>
-            <ul class="insight-list"><li>Si se valida en entornos bancarios, podría reducir la complejidad y el coste operativo de los stacks de memoria/recuperación para copilotos y agentes, habilitando respuestas casi en tiempo real. El versionado y la tipificación de memorias también facilitarían trazabilidad y control en procesos regulados.</li></ul>
+            <ul class="insight-list"><li>Si se valida, podría simplificar el stack sustituyendo knowledge graphs híbridos, reduciendo complejidad operativa y coste de ingestión, con mejoras de latencia y time-to-production. En C&amp;IB, habilita agentes con memoria persistente y auditable para KYC/AML y middle-office bajo SLAs estrictos.</li></ul>
           </section>
           <section class="insight-section">
             <h4>Implicación para C&amp;IB</h4>
-            <ul class="insight-list"><li>La recuperación determinista &lt;90 ms y la eliminación del coste de ingestión habilitan casos de uso interactivos de front‑office (mercados, banca de inversión) con menor TCO frente a grafos/vectores actuales; priorizar pilotos donde la latencia p95 sea crítica.</li><li>Las 13 categorías tipadas, la resolución automática de conflictos y el versionado temporal pueden simplificar gobierno de modelos y auditoría de decisiones del agente en KYC, onboarding y gestión de casos, reduciendo dependencias de esquemas de grafo mantenidos a mano.</li><li>Si realmente supera a híbridos grafo+vector en LongMemEval/LoCoMo con una sola consulta, conviene revaluar la estrategia de proveedor (vector DB, KG, RAG) y el roadmap de agentes de largo horizonte para evitar sobre‑ingeniería y costes hundidos.</li></ul>
+            <ul class="insight-list"><li>Build-vs-buy: priorizar un PoC interno de memoria tipada (13 categorías de Memanto) frente a mantener knowledge graphs híbridos, midiendo coste de ingestión y P95 de latencia en casos KYC/AML de C&amp;IB.</li><li>Dependencia de proveedor: si se evalúa Moorcheh&#x27;s Information Theoretic Search, encapsularlo tras una interfaz de Retrieval y definir criterios de salida si no se sostiene sub-90 ms de forma determinista.</li><li>Observabilidad y auditoría: instrumentar métricas de resolución de conflictos y versionado temporal inspiradas en Memanto para trazabilidad de decisiones de agentes en C&amp;IB.</li></ul>
           </section>
           <section class="insight-section">
             <h4>Quién está expuesto</h4>
@@ -1000,7 +1019,7 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
           </section>
           <section class="insight-section">
             <h4>Recomendaciones</h4>
-            <ul class="insight-list"><li>Lanzar un piloto comparativo con datos desensibilizados frente al stack actual (vector DB + KG), midiendo p95 de latencia, precisión en tareas bancarias y coste por interacción.</li><li>Solicitar a los autores/proveedor documentación técnica y opciones de despliegue (on‑prem/nube), controles de seguridad (cifrado, residencia) y procedimientos de borrado/retención de PII en una base “sin indexación”.</li><li>Verificar el mapeo de las 13 categorías y del versionado con taxonomías internas y requisitos de auditoría; definir criterios de aceptación (SLO &lt;100 ms, trazabilidad completa, coste por consulta).</li><li>Establecer cláusulas de portabilidad y plan de reversión antes de cualquier adopción para mitigar riesgo de dependencia tecnológica.</li></ul>
+            <ul class="insight-list"><li>Owner: Arquitectura de IA. Acción: reproducir en entorno controlado una evaluación con LongMemEval y LoCoMo usando un esquema de 13 categorías inspirado en Memanto; entregar en 30 días un informe con precisión y P95 de latencia comparado con el stack actual.</li><li>Owner: Data Governance y Seguridad. Acción: mapear las 13 categorías de Memanto a la taxonomía interna de PII/SAR y definir retención y logging para resolución de conflictos y versionado; publicar en 30 días una matriz de clasificación y requisitos de auditoría para agentes en C&amp;IB.</li></ul>
           </section>
         </div>
         <footer class="insight-footer">
@@ -1036,27 +1055,27 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
         <div class="subtab-panel is-active" id="subtab-global">
           
     <div class="metrics-section">
-      <div class="scope-note scope-note-global"><strong>Cobertura global.</strong> Estas métricas se calculan sobre 11 eventos canónicos.</div>
+      <div class="scope-note scope-note-global"><strong>Cobertura global.</strong> Estas métricas se calculan sobre 9 eventos canónicos.</div>
       <!-- KPI strip -->
       <div class="metrics-kpi-row">
-        <div class="metrics-kpi"><span class="metrics-kpi-value">11</span><span class="metrics-kpi-label">Eventos canónicos</span></div>
+        <div class="metrics-kpi"><span class="metrics-kpi-value">9</span><span class="metrics-kpi-label">Eventos canónicos</span></div>
         <div class="metrics-kpi"><span class="metrics-kpi-value">8</span><span class="metrics-kpi-label">Fuentes únicas</span></div>
-        <div class="metrics-kpi"><span class="metrics-kpi-value">47.8</span><span class="metrics-kpi-label">Score medio</span></div>
-        <div class="metrics-kpi accent"><span class="metrics-kpi-value">11<small class="kpi-pct">(100%)</small></span><span class="metrics-kpi-label">Accionables</span></div>
+        <div class="metrics-kpi"><span class="metrics-kpi-value">50.5</span><span class="metrics-kpi-label">Score medio</span></div>
+        <div class="metrics-kpi accent"><span class="metrics-kpi-value">9<small class="kpi-pct">(100%)</small></span><span class="metrics-kpi-label">Accionables</span></div>
         <div class="metrics-kpi"><span class="metrics-kpi-value">11</span><span class="metrics-kpi-label">Cards procesadas</span></div>
-        <div class="metrics-kpi"><span class="metrics-kpi-value">0%</span><span class="metrics-kpi-label">Multi-source</span></div>
+        <div class="metrics-kpi"><span class="metrics-kpi-value">22%</span><span class="metrics-kpi-label">Multi-source</span></div>
       </div>
       <!-- Row 1: Heatmap + Score distribution -->
       <div class="metrics-row-2">
         <div class="metrics-panel metrics-panel-wide">
           <h3>Cobertura: Capa × Tipo de evento</h3>
-          <p class="metrics-panel-sub">Distribución de los 11 eventos canónicos por capa y tipo</p>
-          <div class="hm-grid" style="grid-template-columns:minmax(130px,auto) repeat(7,1fr)"><div class="hm-row"><div class="hm-cell hm-corner"></div><div class="hm-cell hm-col-head">Mna</div><div class="hm-cell hm-col-head">Alianza</div><div class="hm-cell hm-col-head">Regulación</div><div class="hm-cell hm-col-head">Pricing</div><div class="hm-cell hm-col-head">Producción</div><div class="hm-cell hm-col-head">Release</div><div class="hm-cell hm-col-head">Research</div></div><div class="hm-row"><div class="hm-cell hm-row-head">Agents &amp; Tooling</div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="Agents &amp; Tooling × mna: 1 evento(s)">1</div><div class="hm-cell hm-val" style="background:transparent" title="Agents &amp; Tooling × Alianza: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="Agents &amp; Tooling × Regulación: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="Agents &amp; Tooling × Pricing: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.62)" title="Agents &amp; Tooling × Producción: 2 evento(s)">2</div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="Agents &amp; Tooling × Release: 1 evento(s)">1</div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="Agents &amp; Tooling × Research: 1 evento(s)">1</div></div><div class="hm-row"><div class="hm-cell hm-row-head">Infra &amp; Open Source</div><div class="hm-cell hm-val" style="background:transparent" title="Infra &amp; Open Source × mna: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="Infra &amp; Open Source × Alianza: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="Infra &amp; Open Source × Regulación: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="Infra &amp; Open Source × Pricing: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="Infra &amp; Open Source × Producción: 1 evento(s)">1</div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="Infra &amp; Open Source × Release: 1 evento(s)">1</div><div class="hm-cell hm-val" style="background:transparent" title="Infra &amp; Open Source × Research: 0 evento(s)"><span class="hm-zero">·</span></div></div><div class="hm-row"><div class="hm-cell hm-row-head">LLM Landscape &amp; Behavioral Shifts</div><div class="hm-cell hm-val" style="background:transparent" title="LLM Landscape &amp; Behavioral Shifts × mna: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="LLM Landscape &amp; Behavioral Shifts × Alianza: 1 evento(s)">1</div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="LLM Landscape &amp; Behavioral Shifts × Regulación: 1 evento(s)">1</div><div class="hm-cell hm-val" style="background:transparent" title="LLM Landscape &amp; Behavioral Shifts × Pricing: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="LLM Landscape &amp; Behavioral Shifts × Producción: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="LLM Landscape &amp; Behavioral Shifts × Release: 1 evento(s)">1</div><div class="hm-cell hm-val" style="background:transparent" title="LLM Landscape &amp; Behavioral Shifts × Research: 0 evento(s)"><span class="hm-zero">·</span></div></div><div class="hm-row"><div class="hm-cell hm-row-head">Market &amp; Competitive</div><div class="hm-cell hm-val" style="background:transparent" title="Market &amp; Competitive × mna: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="Market &amp; Competitive × Alianza: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="Market &amp; Competitive × Regulación: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="Market &amp; Competitive × Pricing: 1 evento(s)">1</div><div class="hm-cell hm-val" style="background:transparent" title="Market &amp; Competitive × Producción: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="Market &amp; Competitive × Release: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="Market &amp; Competitive × Research: 0 evento(s)"><span class="hm-zero">·</span></div></div></div>
+          <p class="metrics-panel-sub">Distribución de los 9 eventos canónicos por capa y tipo</p>
+          <div class="hm-grid" style="grid-template-columns:minmax(130px,auto) repeat(7,1fr)"><div class="hm-row"><div class="hm-cell hm-corner"></div><div class="hm-cell hm-col-head">Mna</div><div class="hm-cell hm-col-head">Otro</div><div class="hm-cell hm-col-head">Alianza</div><div class="hm-cell hm-col-head">Regulación</div><div class="hm-cell hm-col-head">Producción</div><div class="hm-cell hm-col-head">Release</div><div class="hm-cell hm-col-head">Research</div></div><div class="hm-row"><div class="hm-cell hm-row-head">Agents &amp; Tooling</div><div class="hm-cell hm-val" style="background:transparent" title="Agents &amp; Tooling × mna: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="Agents &amp; Tooling × Otro: 1 evento(s)">1</div><div class="hm-cell hm-val" style="background:transparent" title="Agents &amp; Tooling × Alianza: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="Agents &amp; Tooling × Regulación: 1 evento(s)">1</div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="Agents &amp; Tooling × Producción: 1 evento(s)">1</div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="Agents &amp; Tooling × Release: 1 evento(s)">1</div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="Agents &amp; Tooling × Research: 1 evento(s)">1</div></div><div class="hm-row"><div class="hm-cell hm-row-head">Infra &amp; Open Source</div><div class="hm-cell hm-val" style="background:transparent" title="Infra &amp; Open Source × mna: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="Infra &amp; Open Source × Otro: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="Infra &amp; Open Source × Alianza: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="Infra &amp; Open Source × Regulación: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="Infra &amp; Open Source × Producción: 1 evento(s)">1</div><div class="hm-cell hm-val" style="background:transparent" title="Infra &amp; Open Source × Release: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="Infra &amp; Open Source × Research: 0 evento(s)"><span class="hm-zero">·</span></div></div><div class="hm-row"><div class="hm-cell hm-row-head">LLM Landscape &amp; Behavioral Shifts</div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.25)" title="LLM Landscape &amp; Behavioral Shifts × mna: 1 evento(s)">1</div><div class="hm-cell hm-val" style="background:transparent" title="LLM Landscape &amp; Behavioral Shifts × Otro: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:rgba(26,95,160,0.62)" title="LLM Landscape &amp; Behavioral Shifts × Alianza: 2 evento(s)">2</div><div class="hm-cell hm-val" style="background:transparent" title="LLM Landscape &amp; Behavioral Shifts × Regulación: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="LLM Landscape &amp; Behavioral Shifts × Producción: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="LLM Landscape &amp; Behavioral Shifts × Release: 0 evento(s)"><span class="hm-zero">·</span></div><div class="hm-cell hm-val" style="background:transparent" title="LLM Landscape &amp; Behavioral Shifts × Research: 0 evento(s)"><span class="hm-zero">·</span></div></div></div>
         </div>
         <div class="metrics-panel">
           <h3>Distribución de score</h3>
-          <p class="metrics-panel-sub">Histograma de prioridad (11 eventos canónicos)</p>
-          <svg viewBox="0 0 400 182" preserveAspectRatio="xMidYMid meet" style="width:100%;height:auto;display:block;overflow:visible"><line x1="0" y1="140" x2="400" y2="140" stroke="var(--border)" stroke-width="1"/><text x="200.0" y="174" text-anchor="middle" fill="var(--accent)" font-size="10" font-weight="600">Todos ≥ 35 (alto impacto)</text><rect x="3.0" y="100" width="44.0" height="40" rx="3" fill="var(--accent)" opacity=".82"><title>43–44: 1 evento(s)</title></rect><rect x="53.0" y="60" width="44.0" height="80" rx="3" fill="var(--accent)" opacity=".82"><title>44–45: 2 evento(s)</title></rect><rect x="103.0" y="140" width="44.0" height="0" rx="3" fill="var(--accent)" opacity=".82"><title>45–46: 0 evento(s)</title></rect><rect x="153.0" y="140" width="44.0" height="0" rx="3" fill="var(--accent)" opacity=".82"><title>46–47: 0 evento(s)</title></rect><rect x="203.0" y="20" width="44.0" height="120" rx="3" fill="var(--accent)" opacity=".82"><title>47–49: 3 evento(s)</title></rect><rect x="253.0" y="20" width="44.0" height="120" rx="3" fill="var(--accent)" opacity=".82"><title>49–50: 3 evento(s)</title></rect><rect x="303.0" y="140" width="44.0" height="0" rx="3" fill="var(--accent)" opacity=".82"><title>50–51: 0 evento(s)</title></rect><rect x="353.0" y="60" width="44.0" height="80" rx="3" fill="var(--accent)" opacity=".82"><title>51–52: 2 evento(s)</title></rect><text x="25.0" y="95" text-anchor="middle" fill="var(--text-secondary)" font-size="10" font-weight="600">1</text><text x="75.0" y="55" text-anchor="middle" fill="var(--text-secondary)" font-size="10" font-weight="600">2</text><text x="225.0" y="15" text-anchor="middle" fill="var(--text-secondary)" font-size="10" font-weight="600">3</text><text x="275.0" y="15" text-anchor="middle" fill="var(--text-secondary)" font-size="10" font-weight="600">3</text><text x="375.0" y="55" text-anchor="middle" fill="var(--text-secondary)" font-size="10" font-weight="600">2</text><text x="25.0" y="158" text-anchor="middle" fill="var(--muted)" font-size="10">43</text><text x="125.0" y="158" text-anchor="middle" fill="var(--muted)" font-size="10">45</text><text x="225.0" y="158" text-anchor="middle" fill="var(--muted)" font-size="10">47</text><text x="325.0" y="158" text-anchor="middle" fill="var(--muted)" font-size="10">50</text><text x="375.0" y="158" text-anchor="middle" fill="var(--muted)" font-size="10">51</text></svg>
+          <p class="metrics-panel-sub">Histograma de prioridad (9 eventos canónicos)</p>
+          <svg viewBox="0 0 400 182" preserveAspectRatio="xMidYMid meet" style="width:100%;height:auto;display:block;overflow:visible"><line x1="0" y1="140" x2="400" y2="140" stroke="var(--border)" stroke-width="1"/><text x="200.0" y="174" text-anchor="middle" fill="var(--accent)" font-size="10" font-weight="600">Todos ≥ 35 (alto impacto)</text><rect x="3.0" y="20" width="44.0" height="120" rx="3" fill="var(--accent)" opacity=".82"><title>45–47: 2 evento(s)</title></rect><rect x="53.0" y="80" width="44.0" height="60" rx="3" fill="var(--accent)" opacity=".82"><title>47–49: 1 evento(s)</title></rect><rect x="103.0" y="20" width="44.0" height="120" rx="3" fill="var(--accent)" opacity=".82"><title>49–51: 2 evento(s)</title></rect><rect x="153.0" y="20" width="44.0" height="120" rx="3" fill="var(--accent)" opacity=".82"><title>51–52: 2 evento(s)</title></rect><rect x="203.0" y="80" width="44.0" height="60" rx="3" fill="var(--accent)" opacity=".82"><title>52–54: 1 evento(s)</title></rect><rect x="253.0" y="140" width="44.0" height="0" rx="3" fill="var(--accent)" opacity=".82"><title>54–56: 0 evento(s)</title></rect><rect x="303.0" y="140" width="44.0" height="0" rx="3" fill="var(--accent)" opacity=".82"><title>56–58: 0 evento(s)</title></rect><rect x="353.0" y="80" width="44.0" height="60" rx="3" fill="var(--accent)" opacity=".82"><title>58–60: 1 evento(s)</title></rect><text x="25.0" y="15" text-anchor="middle" fill="var(--text-secondary)" font-size="10" font-weight="600">2</text><text x="75.0" y="75" text-anchor="middle" fill="var(--text-secondary)" font-size="10" font-weight="600">1</text><text x="125.0" y="15" text-anchor="middle" fill="var(--text-secondary)" font-size="10" font-weight="600">2</text><text x="175.0" y="15" text-anchor="middle" fill="var(--text-secondary)" font-size="10" font-weight="600">2</text><text x="225.0" y="75" text-anchor="middle" fill="var(--text-secondary)" font-size="10" font-weight="600">1</text><text x="375.0" y="75" text-anchor="middle" fill="var(--text-secondary)" font-size="10" font-weight="600">1</text><text x="25.0" y="158" text-anchor="middle" fill="var(--muted)" font-size="10">45</text><text x="125.0" y="158" text-anchor="middle" fill="var(--muted)" font-size="10">49</text><text x="225.0" y="158" text-anchor="middle" fill="var(--muted)" font-size="10">52</text><text x="325.0" y="158" text-anchor="middle" fill="var(--muted)" font-size="10">56</text><text x="375.0" y="158" text-anchor="middle" fill="var(--muted)" font-size="10">58</text></svg>
         </div>
       </div>
       <!-- Row 2: Score by layer + Role frequency -->
@@ -1064,12 +1083,12 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
         <div class="metrics-panel">
           <h3>Score medio por capa</h3>
           <p class="metrics-panel-sub">Prioridad promedio por área de impacto</p>
-          <ul class="metrics-bar-list"><li class="metrics-bar-item"><span class="metrics-bar-label">Infra &amp; Open Source</span><span class="metrics-bar-count">48.7</span><div class="metrics-bar-track"><div class="metrics-bar-fill accent-gradient" style="width:100%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Agents &amp; Tooling</span><span class="metrics-bar-count">48.3</span><div class="metrics-bar-track"><div class="metrics-bar-fill accent-gradient" style="width:99%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">LLM Landscape &amp; Behavioral Shifts</span><span class="metrics-bar-count">48.2</span><div class="metrics-bar-track"><div class="metrics-bar-fill accent-gradient" style="width:99%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Market &amp; Competitive</span><span class="metrics-bar-count">42.6</span><div class="metrics-bar-track"><div class="metrics-bar-fill accent-gradient" style="width:88%"></div></div></li></ul>
+          <ul class="metrics-bar-list"><li class="metrics-bar-item"><span class="metrics-bar-label">LLM Landscape &amp; Behavioral Shifts</span><span class="metrics-bar-count">53.9</span><div class="metrics-bar-track"><div class="metrics-bar-fill accent-gradient" style="width:100%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Agents &amp; Tooling</span><span class="metrics-bar-count">49.6</span><div class="metrics-bar-track"><div class="metrics-bar-fill accent-gradient" style="width:92%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Infra &amp; Open Source</span><span class="metrics-bar-count">45.0</span><div class="metrics-bar-track"><div class="metrics-bar-fill accent-gradient" style="width:83%"></div></div></li></ul>
         </div>
         <div class="metrics-panel">
           <h3>Frecuencia por rol expuesto</h3>
           <p class="metrics-panel-sub">Eventos canónicos clasificados por rol; cada evento cuenta una vez por rol detectado</p>
-          <ul class="metrics-bar-list"><li class="metrics-bar-item"><span class="metrics-bar-label">Sourcing / Vendor Management</span><span class="metrics-bar-count">7</span><div class="metrics-bar-track"><div class="metrics-bar-fill" style="width:100%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Risk / Compliance</span><span class="metrics-bar-count">5</span><div class="metrics-bar-track"><div class="metrics-bar-fill" style="width:71%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">IT / Architecture</span><span class="metrics-bar-count">2</span><div class="metrics-bar-track"><div class="metrics-bar-fill" style="width:29%"></div></div></li></ul>
+          <ul class="metrics-bar-list"><li class="metrics-bar-item"><span class="metrics-bar-label">Risk / Compliance</span><span class="metrics-bar-count">4</span><div class="metrics-bar-track"><div class="metrics-bar-fill" style="width:100%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">IT / Architecture</span><span class="metrics-bar-count">4</span><div class="metrics-bar-track"><div class="metrics-bar-fill" style="width:100%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Sourcing / Vendor Management</span><span class="metrics-bar-count">3</span><div class="metrics-bar-track"><div class="metrics-bar-fill" style="width:75%"></div></div></li></ul>
         </div>
       </div>
       <!-- Row 3: Source robustness + Entities/Activity -->
@@ -1077,17 +1096,17 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
         <div class="metrics-panel">
           <h3>Robustez de evidencia</h3>
           <p class="metrics-panel-sub">Eventos con una sola fuente vs. múltiples fuentes</p>
-          <div class="robustness-wrap"><div class="robustness-bars"><div class="robustness-seg multi" style="width:0%"><span>0</span></div><div class="robustness-seg single" style="width:100%"><span>11</span></div></div><div class="robustness-legend"><span class="robustness-label"><span class="robustness-dot multi"></span>Multi-source (0%)</span><span class="robustness-label"><span class="robustness-dot single"></span>Single-source (100%)</span></div><p class="robustness-note">Eventos con múltiples fuentes independientes tienen mayor fiabilidad. Un alto porcentaje de single-source indica dependencia de fuentes únicas.</p></div>
+          <div class="robustness-wrap"><div class="robustness-bars"><div class="robustness-seg multi" style="width:22%"><span>2</span></div><div class="robustness-seg single" style="width:78%"><span>7</span></div></div><div class="robustness-legend"><span class="robustness-label"><span class="robustness-dot multi"></span>Multi-source (22%)</span><span class="robustness-label"><span class="robustness-dot single"></span>Single-source (78%)</span></div><p class="robustness-note">Eventos con múltiples fuentes independientes tienen mayor fiabilidad. Un alto porcentaje de single-source indica dependencia de fuentes únicas.</p></div>
         </div>
         <div class="metrics-panel">
           <h3>Entidades principales</h3>
           <p class="metrics-panel-sub">Vendors y organizaciones más citados</p>
-          <div class="metrics-tag-list"><span class="metrics-tag">MIT<span class="metrics-tag-count">2</span></span><span class="metrics-tag">AWS<span class="metrics-tag-count">2</span></span><span class="metrics-tag">Wired<span class="metrics-tag-count">2</span></span><span class="metrics-tag">MarkTechPost<span class="metrics-tag-count">1</span></span><span class="metrics-tag">Google<span class="metrics-tag-count">1</span></span><span class="metrics-tag">ArXiv<span class="metrics-tag-count">1</span></span></div>
+          <div class="metrics-tag-list"><span class="metrics-tag">TechCrunch<span class="metrics-tag-count">2</span></span><span class="metrics-tag">MarkTechPost<span class="metrics-tag-count">2</span></span><span class="metrics-tag">MIT<span class="metrics-tag-count">2</span></span><span class="metrics-tag">OpenAI<span class="metrics-tag-count">1</span></span><span class="metrics-tag">ArXiv<span class="metrics-tag-count">1</span></span><span class="metrics-tag">Google<span class="metrics-tag-count">1</span></span></div>
         </div>
         <div class="metrics-panel">
           <h3>Actividad reciente</h3>
           <p class="metrics-panel-sub">Últimos timestamps de eventos publicados</p>
-          <ul class="metrics-timeline"><li>2026-04-27 05:33</li><li>2026-04-27 07:00</li><li>2026-04-24 21:40</li><li>2026-04-27 00:00</li><li>2026-04-24 12:10</li><li>2026-04-24 11:00</li></ul>
+          <ul class="metrics-timeline"><li>2026-04-27 13:16</li><li>2026-04-27 12:10</li><li>2026-04-27 06:00</li><li>2026-04-27 00:00</li><li>2026-04-27 05:33</li><li>2026-04-27 07:00</li></ul>
         </div>
       </div>
       <!-- Row 4: Source Concentration + Vendor Risk -->
@@ -1095,13 +1114,18 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
         <div class="metrics-panel">
           <h3>Índice de concentración de fuentes</h3>
           <p class="metrics-panel-sub">Distribución de items por feed y detección de cobertura débil</p>
-          <div style="display:grid;gap:var(--space-md)"><div style="display:flex;gap:var(--space-lg);flex-wrap:wrap;align-items:baseline"><span style="font-size:var(--text-xl);font-weight:var(--weight-heavy);color:var(--accent-ink)">55%</span><span style="font-size:var(--text-sm);color:var(--muted)">concentrado en las 3 fuentes principales</span></div><table class="conc-table"><thead><tr><th>Feed</th><th style="text-align:right">Items</th><th style="text-align:right">%</th></tr></thead><tbody><tr style="color:var(--muted);font-style:italic"><td>MIT Technology Review</td><td style="text-align:right;font-weight:var(--weight-bold)">2</td><td style="text-align:right">18%</td></tr><tr style="color:var(--muted);font-style:italic"><td>AWS ML Blog</td><td style="text-align:right;font-weight:var(--weight-bold)">2</td><td style="text-align:right">18%</td></tr><tr style="color:var(--muted);font-style:italic"><td>Wired</td><td style="text-align:right;font-weight:var(--weight-bold)">2</td><td style="text-align:right">18%</td></tr><tr style="color:var(--muted);font-style:italic"><td>MarkTechPost</td><td style="text-align:right;font-weight:var(--weight-bold)">1</td><td style="text-align:right">9%</td></tr><tr style="color:var(--muted);font-style:italic"><td>DeepMind Blog</td><td style="text-align:right;font-weight:var(--weight-bold)">1</td><td style="text-align:right">9%</td></tr><tr style="color:var(--muted);font-style:italic"><td>ArXiv cs.AI</td><td style="text-align:right;font-weight:var(--weight-bold)">1</td><td style="text-align:right">9%</td></tr><tr style="color:var(--muted);font-style:italic"><td>Ars Technica</td><td style="text-align:right;font-weight:var(--weight-bold)">1</td><td style="text-align:right">9%</td></tr><tr style="color:var(--muted);font-style:italic"><td>TechCrunch</td><td style="text-align:right;font-weight:var(--weight-bold)">1</td><td style="text-align:right">9%</td></tr></tbody></table><p class="robustness-note">⚠ 8 feed(s) con cobertura débil (≤2 items): MIT Technology Review, AWS ML Blog, Wired, MarkTechPost, DeepMind Blog...</p></div>
+          <div style="display:grid;gap:var(--space-md)"><div style="display:flex;gap:var(--space-lg);flex-wrap:wrap;align-items:baseline"><span style="font-size:var(--text-xl);font-weight:var(--weight-heavy);color:var(--accent-ink)">55%</span><span style="font-size:var(--text-sm);color:var(--muted)">concentrado en las 3 fuentes principales</span></div><table class="conc-table"><thead><tr><th>Feed</th><th style="text-align:right">Items</th><th style="text-align:right">%</th></tr></thead><tbody><tr style="color:var(--muted);font-style:italic"><td>TechCrunch</td><td style="text-align:right;font-weight:var(--weight-bold)">2</td><td style="text-align:right">18%</td></tr><tr style="color:var(--muted);font-style:italic"><td>MarkTechPost</td><td style="text-align:right;font-weight:var(--weight-bold)">2</td><td style="text-align:right">18%</td></tr><tr style="color:var(--muted);font-style:italic"><td>MIT Technology Review</td><td style="text-align:right;font-weight:var(--weight-bold)">2</td><td style="text-align:right">18%</td></tr><tr style="color:var(--muted);font-style:italic"><td>OpenAI Blog</td><td style="text-align:right;font-weight:var(--weight-bold)">1</td><td style="text-align:right">9%</td></tr><tr style="color:var(--muted);font-style:italic"><td>ArXiv cs.AI</td><td style="text-align:right;font-weight:var(--weight-bold)">1</td><td style="text-align:right">9%</td></tr><tr style="color:var(--muted);font-style:italic"><td>DeepMind Blog</td><td style="text-align:right;font-weight:var(--weight-bold)">1</td><td style="text-align:right">9%</td></tr><tr style="color:var(--muted);font-style:italic"><td>Finextra - Artificial Intelligence</td><td style="text-align:right;font-weight:var(--weight-bold)">1</td><td style="text-align:right">9%</td></tr><tr style="color:var(--muted);font-style:italic"><td>AWS ML Blog</td><td style="text-align:right;font-weight:var(--weight-bold)">1</td><td style="text-align:right">9%</td></tr></tbody></table><p class="robustness-note">⚠ 8 feed(s) con cobertura débil (≤2 items): TechCrunch, MarkTechPost, MIT Technology Review, OpenAI Blog, ArXiv cs.AI...</p></div>
         </div>
         <div class="metrics-panel">
           <h3>Riesgo operativo por vendor</h3>
           <p class="metrics-panel-sub">Vendors con incidentes, alertas de safety o señales de riesgo</p>
           <p class="metrics-empty">No se han detectado señales de riesgo operativo por vendor</p>
         </div>
+      </div>
+      <div class="metrics-panel metrics-panel-wide strategic-delta-panel">
+        <h3>Strategic Delta</h3>
+        <p class="metrics-panel-sub">Demo de cascada semanal con histórico de ejecución y cobertura estratégica</p>
+        <div class="strategic-delta-wrap"><div class="metrics-kpi-row strategic-delta-kpis"><div class="metrics-kpi"><span class="metrics-kpi-value">102</span><span class="metrics-kpi-label">Items filtrados</span></div><div class="metrics-kpi"><span class="metrics-kpi-value">+12</span><span class="metrics-kpi-label">Delta semanal</span></div><div class="metrics-kpi"><span class="metrics-kpi-value">+18</span><span class="metrics-kpi-label">Delta vendors</span></div><div class="metrics-kpi"><span class="metrics-kpi-value">+9</span><span class="metrics-kpi-label">Delta capabilities</span></div><div class="metrics-kpi"><span class="metrics-kpi-value">+0</span><span class="metrics-kpi-label">Delta high-impact</span></div></div><div class="subtab-bar strategic-delta-tabs" role="tablist" aria-label="Semanas del strategic delta"><button type="button" class="subtab-btn is-active" data-subtab="delta-total">Total</button><button type="button" class="subtab-btn" data-subtab="delta-week-1">Sem 16 · 13/04</button><button type="button" class="subtab-btn" data-subtab="delta-week-2">Sem 17 · 23/04</button><button type="button" class="subtab-btn" data-subtab="delta-week-3">Sem 18 · 27/04</button></div><div class="subtab-panel is-active" id="delta-total"><div class="waterfall-grid"><div class="waterfall-item"><div class="waterfall-meta"><span class="waterfall-week">Sem 15 · 10/04</span><span class="waterfall-total">92</span></div><div class="waterfall-track"><div class="waterfall-bar waterfall-neutral" style="width:6%"></div></div><div class="waterfall-delta waterfall-neutral">0</div></div><div class="waterfall-item"><div class="waterfall-meta"><span class="waterfall-week">Sem 16 · 13/04</span><span class="waterfall-total">96</span></div><div class="waterfall-track"><div class="waterfall-bar waterfall-up" style="width:33%"></div></div><div class="waterfall-delta waterfall-up">+4</div></div><div class="waterfall-item"><div class="waterfall-meta"><span class="waterfall-week">Sem 17 · 23/04</span><span class="waterfall-total">90</span></div><div class="waterfall-track"><div class="waterfall-bar waterfall-down" style="width:50%"></div></div><div class="waterfall-delta waterfall-down">-6</div></div><div class="waterfall-item"><div class="waterfall-meta"><span class="waterfall-week">Sem 18 · 27/04</span><span class="waterfall-total">102</span></div><div class="waterfall-track"><div class="waterfall-bar waterfall-up" style="width:100%"></div></div><div class="waterfall-delta waterfall-up">+12</div></div></div><p class="robustness-note">Primero ves el neto total entre semanas; luego puedes bajar a cada semana para ver cómo cambian las temáticas cuando existe histórico rico.</p></div><div class="subtab-panel" id="delta-week-1"><div class="metrics-kpi-row strategic-delta-kpis"><div class="metrics-kpi"><span class="metrics-kpi-value">96</span><span class="metrics-kpi-label">Ingesta neta</span></div><div class="metrics-kpi"><span class="metrics-kpi-value">+4</span><span class="metrics-kpi-label">Delta vs semana previa</span></div><div class="metrics-kpi"><span class="metrics-kpi-value">+0</span><span class="metrics-kpi-label">Vendors</span></div><div class="metrics-kpi"><span class="metrics-kpi-value">+0</span><span class="metrics-kpi-label">Capabilities</span></div></div><p class="metrics-empty">Esta semana solo tiene histórico de total de ingesta. El detalle temático por capas aún no estaba persistido.</p></div><div class="subtab-panel" id="delta-week-2"><div class="metrics-kpi-row strategic-delta-kpis"><div class="metrics-kpi"><span class="metrics-kpi-value">90</span><span class="metrics-kpi-label">Ingesta neta</span></div><div class="metrics-kpi"><span class="metrics-kpi-value">-6</span><span class="metrics-kpi-label">Delta vs semana previa</span></div><div class="metrics-kpi"><span class="metrics-kpi-value">+0</span><span class="metrics-kpi-label">Vendors</span></div><div class="metrics-kpi"><span class="metrics-kpi-value">+0</span><span class="metrics-kpi-label">Capabilities</span></div></div><p class="metrics-empty">Esta semana solo tiene histórico de total de ingesta. El detalle temático por capas aún no estaba persistido.</p></div><div class="subtab-panel" id="delta-week-3"><div class="metrics-kpi-row strategic-delta-kpis"><div class="metrics-kpi"><span class="metrics-kpi-value">102</span><span class="metrics-kpi-label">Ingesta neta</span></div><div class="metrics-kpi"><span class="metrics-kpi-value">+12</span><span class="metrics-kpi-label">Delta vs semana previa</span></div><div class="metrics-kpi"><span class="metrics-kpi-value">+18</span><span class="metrics-kpi-label">Vendors</span></div><div class="metrics-kpi"><span class="metrics-kpi-value">+9</span><span class="metrics-kpi-label">Capabilities</span></div></div><p class="metrics-empty">Esta semana solo tiene histórico de total de ingesta. El detalle temático por capas aún no estaba persistido.</p></div><p class="robustness-note">Demo: las tabs semanales usan el mejor snapshot disponible por semana. Si una semana solo tiene backfill desde log, verás neto total pero no detalle temático.</p></div>
       </div>
     </div>
     
@@ -1110,27 +1134,27 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
           
       <div class="metrics-section pipeline-metrics-section">
         <div class="pipeline-coverage-body">
-        <div class="scope-note scope-note-pipeline"><strong>Base de entrada del pipeline.</strong> Estas métricas describen los 71 items ingestados del dataset enriched_items, antes de agruparse en eventos canónicos. No sustituyen las métricas del briefing.</div>
+        <div class="scope-note scope-note-pipeline"><strong>Base de entrada del pipeline.</strong> Estas métricas describen los 102 items ingestados del dataset enriched_items, antes de agruparse en eventos canónicos. No sustituyen las métricas del briefing.</div>
         <!-- KPIs -->
         <div class="metrics-kpi-row">
-          <div class="metrics-kpi"><span class="metrics-kpi-value">71</span><span class="metrics-kpi-label">Items analizados</span></div>
+          <div class="metrics-kpi"><span class="metrics-kpi-value">102</span><span class="metrics-kpi-label">Items analizados</span></div>
           <div class="metrics-kpi"><span class="metrics-kpi-value">14</span><span class="metrics-kpi-label">Feeds activos</span></div>
-          <div class="metrics-kpi"><span class="metrics-kpi-value">17</span><span class="metrics-kpi-label">Vendors detectados</span></div>
-          <div class="metrics-kpi"><span class="metrics-kpi-value">52%</span><span class="metrics-kpi-label">Top-3 feeds</span></div>
-          <div class="metrics-kpi"><span class="metrics-kpi-value">36.9</span><span class="metrics-kpi-label">Score medio</span></div>
+          <div class="metrics-kpi"><span class="metrics-kpi-value">18</span><span class="metrics-kpi-label">Vendors detectados</span></div>
+          <div class="metrics-kpi"><span class="metrics-kpi-value">45%</span><span class="metrics-kpi-label">Top-3 feeds</span></div>
+          <div class="metrics-kpi"><span class="metrics-kpi-value">23.0</span><span class="metrics-kpi-label">Score medio</span></div>
         </div>
         <!-- Row 1: Feed volume + Vendors -->
         <div class="metrics-row-2">
           <div class="metrics-panel">
             <h3>Volumen por feed</h3>
             <p class="metrics-panel-sub">Items ingestados por cada feed RSS/fuente durante esta ejecución</p>
-            <ul class="metrics-bar-list"><li class="metrics-bar-item"><span class="metrics-bar-label">Finextra - Artificial Intelligence</span><span class="metrics-bar-count">15</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:100%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">AWS ML Blog</span><span class="metrics-bar-count">11</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:73%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">ArXiv cs.AI</span><span class="metrics-bar-count">11</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:73%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">MarkTechPost</span><span class="metrics-bar-count">5</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:33%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Wired</span><span class="metrics-bar-count">5</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:33%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">MIT Technology Review</span><span class="metrics-bar-count">5</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:33%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Tech.eu</span><span class="metrics-bar-count">4</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:27%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">TechCrunch</span><span class="metrics-bar-count">3</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:20%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">DeepMind Blog</span><span class="metrics-bar-count">3</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:20%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Google AI Blog</span><span class="metrics-bar-count">3</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:20%"></div></div></li></ul>
-            <p class="robustness-note">⚠ 4 feed(s) con cobertura débil (≤2 items).</p>
+            <ul class="metrics-bar-list"><li class="metrics-bar-item"><span class="metrics-bar-label">OpenAI Blog</span><span class="metrics-bar-count">18</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:100%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Finextra - Artificial Intelligence</span><span class="metrics-bar-count">17</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:94%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">AWS ML Blog</span><span class="metrics-bar-count">11</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:61%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">ArXiv cs.AI</span><span class="metrics-bar-count">11</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:61%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">MarkTechPost</span><span class="metrics-bar-count">8</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:44%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Wired</span><span class="metrics-bar-count">8</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:44%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">MIT Technology Review</span><span class="metrics-bar-count">7</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:39%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Tech.eu</span><span class="metrics-bar-count">5</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:28%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">TechCrunch</span><span class="metrics-bar-count">5</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:28%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Google AI Blog</span><span class="metrics-bar-count">5</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-1" style="width:28%"></div></div></li></ul>
+            <p class="robustness-note">⚠ 3 feed(s) con cobertura débil (≤2 items).</p>
           </div>
           <div class="metrics-panel">
             <h3>Vendors en el pipeline</h3>
             <p class="metrics-panel-sub">Organizaciones más referenciadas en los items raw</p>
-            <ul class="metrics-bar-list"><li class="metrics-bar-item"><span class="metrics-bar-label">Finextra</span><span class="metrics-bar-count">13</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:100%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">ArXiv</span><span class="metrics-bar-count">10</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:77%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">AWS</span><span class="metrics-bar-count">9</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:69%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Google</span><span class="metrics-bar-count">6</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:46%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">MarkTechPost</span><span class="metrics-bar-count">4</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:31%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Wired</span><span class="metrics-bar-count">4</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:31%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">OpenAI</span><span class="metrics-bar-count">4</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:31%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">MIT</span><span class="metrics-bar-count">4</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:31%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Tech.eu</span><span class="metrics-bar-count">3</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:23%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Cohere</span><span class="metrics-bar-count">3</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:23%"></div></div></li></ul>
+            <ul class="metrics-bar-list"><li class="metrics-bar-item"><span class="metrics-bar-label">OpenAI</span><span class="metrics-bar-count">26</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:100%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Finextra</span><span class="metrics-bar-count">14</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:54%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Google</span><span class="metrics-bar-count">10</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:38%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">ArXiv</span><span class="metrics-bar-count">10</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:38%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">AWS</span><span class="metrics-bar-count">9</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:35%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">MIT</span><span class="metrics-bar-count">6</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:23%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Wired</span><span class="metrics-bar-count">5</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:19%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Meta</span><span class="metrics-bar-count">4</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:15%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">Tech.eu</span><span class="metrics-bar-count">4</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:15%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">MarkTechPost</span><span class="metrics-bar-count">3</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-2" style="width:12%"></div></div></li></ul>
           </div>
         </div>
         <!-- Row 2: Content access + Source type -->
@@ -1138,19 +1162,19 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
           <div class="metrics-panel">
             <h3>Acceso al contenido</h3>
             <p class="metrics-panel-sub">Proporción de items con acceso completo, limitado o parcial</p>
-            <ul class="metrics-bar-list"><li class="metrics-bar-item"><span class="metrics-bar-label">full</span><span class="metrics-bar-count">28</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-3" style="width:100%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">limited</span><span class="metrics-bar-count">27</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-3" style="width:96%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">partial</span><span class="metrics-bar-count">16</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-3" style="width:57%"></div></div></li></ul>
+            <ul class="metrics-bar-list"><li class="metrics-bar-item"><span class="metrics-bar-label">limited</span><span class="metrics-bar-count">53</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-3" style="width:100%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">full</span><span class="metrics-bar-count">33</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-3" style="width:62%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">partial</span><span class="metrics-bar-count">16</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-3" style="width:30%"></div></div></li></ul>
           </div>
           <div class="metrics-panel">
             <h3>Tipo de fuente</h3>
             <p class="metrics-panel-sub">Distribución por <code>source_type</code> de los items ingestados</p>
-            <ul class="metrics-bar-list"><li class="metrics-bar-item"><span class="metrics-bar-label">curated</span><span class="metrics-bar-count">39</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-4" style="width:100%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">primary</span><span class="metrics-bar-count">32</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-4" style="width:82%"></div></div></li></ul>
+            <ul class="metrics-bar-list"><li class="metrics-bar-item"><span class="metrics-bar-label">curated</span><span class="metrics-bar-count">51</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-4" style="width:100%"></div></div></li><li class="metrics-bar-item"><span class="metrics-bar-label">primary</span><span class="metrics-bar-count">51</span><div class="metrics-bar-track"><div class="metrics-bar-fill pipe-fill-4" style="width:100%"></div></div></li></ul>
           </div>
         </div>
         <!-- Score distribution (full width) -->
         <div class="metrics-panel metrics-panel-wide">
           <h3>Distribución de score (raw)</h3>
-          <p class="metrics-panel-sub">Histograma de los 71 items con score &gt; 0 &mdash; línea de tendencia y media (36.9)</p>
-          <svg viewBox="0 0 520 176" preserveAspectRatio="xMidYMid meet" style="width:100%;height:auto;display:block;overflow:visible"><line x1="0" y1="150" x2="520" y2="150" stroke="var(--border)" stroke-width="1"/><line x1="224.6" y1="18" x2="224.6" y2="150" stroke="var(--muted)" stroke-width="1.2" stroke-dasharray="5 3" opacity=".42"/><text x="228.6" y="14" fill="var(--muted)" font-size="8" font-weight="500">Media: 36.9</text><rect x="2.6" y="100" width="46.8" height="50" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>14–19: 5 item(s)</title></rect><rect x="54.6" y="80" width="46.8" height="70" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>19–25: 7 item(s)</title></rect><rect x="106.6" y="40" width="46.8" height="110" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>25–30: 11 item(s)</title></rect><rect x="158.6" y="40" width="46.8" height="110" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>30–35: 11 item(s)</title></rect><rect x="210.6" y="40" width="46.8" height="110" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>35–40: 11 item(s)</title></rect><rect x="262.6" y="100" width="46.8" height="50" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>40–46: 5 item(s)</title></rect><rect x="314.6" y="20" width="46.8" height="130" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>46–51: 13 item(s)</title></rect><rect x="366.6" y="120" width="46.8" height="30" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>51–56: 3 item(s)</title></rect><rect x="418.6" y="120" width="46.8" height="30" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>56–62: 3 item(s)</title></rect><rect x="470.6" y="130" width="46.8" height="20" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>62–67: 2 item(s)</title></rect><polyline points="26.0,100 78.0,80 130.0,40 182.0,40 234.0,40 286.0,100 338.0,20 390.0,120 442.0,120 494.0,130" fill="none" stroke="var(--pipe-blue-4)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".75"/><circle cx="26.0" cy="100" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="78.0" cy="80" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="130.0" cy="40" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="182.0" cy="40" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="234.0" cy="40" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="286.0" cy="100" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="338.0" cy="20" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="390.0" cy="120" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="442.0" cy="120" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="494.0" cy="130" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><text x="26.0" y="95" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">5</text><text x="78.0" y="75" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">7</text><text x="130.0" y="35" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">11</text><text x="182.0" y="35" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">11</text><text x="234.0" y="35" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">11</text><text x="286.0" y="95" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">5</text><text x="338.0" y="15" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">13</text><text x="390.0" y="115" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">3</text><text x="442.0" y="115" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">3</text><text x="494.0" y="125" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">2</text><text x="26.0" y="164" text-anchor="middle" fill="var(--muted)" font-size="8">14</text><text x="182.0" y="164" text-anchor="middle" fill="var(--muted)" font-size="8">30</text><text x="338.0" y="164" text-anchor="middle" fill="var(--muted)" font-size="8">46</text><text x="494.0" y="164" text-anchor="middle" fill="var(--muted)" font-size="8">62</text></svg>
+          <p class="metrics-panel-sub">Histograma de los 102 items con score &gt; 0 &mdash; línea de tendencia y media (23.0)</p>
+          <svg viewBox="0 0 520 176" preserveAspectRatio="xMidYMid meet" style="width:100%;height:auto;display:block;overflow:visible"><line x1="0" y1="150" x2="520" y2="150" stroke="var(--border)" stroke-width="1"/><line x1="154.0" y1="18" x2="154.0" y2="150" stroke="var(--muted)" stroke-width="1.2" stroke-dasharray="5 3" opacity=".42"/><text x="158.0" y="14" fill="var(--muted)" font-size="8" font-weight="500">Media: 23.0</text><rect x="2.6" y="83" width="46.8" height="67" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>10–14: 14 item(s)</title></rect><rect x="54.6" y="20" width="46.8" height="130" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>14–19: 27 item(s)</title></rect><rect x="106.6" y="44" width="46.8" height="106" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>19–23: 22 item(s)</title></rect><rect x="158.6" y="111" width="46.8" height="39" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>23–28: 8 item(s)</title></rect><rect x="210.6" y="83" width="46.8" height="67" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>28–32: 14 item(s)</title></rect><rect x="262.6" y="102" width="46.8" height="48" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>32–36: 10 item(s)</title></rect><rect x="314.6" y="145" width="46.8" height="5" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>36–41: 1 item(s)</title></rect><rect x="366.6" y="140" width="46.8" height="10" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>41–45: 2 item(s)</title></rect><rect x="418.6" y="145" width="46.8" height="5" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>45–50: 1 item(s)</title></rect><rect x="470.6" y="136" width="46.8" height="14" rx="3" fill="var(--pipe-blue-2)" opacity=".72"><title>50–54: 3 item(s)</title></rect><polyline points="26.0,83 78.0,20 130.0,44 182.0,111 234.0,83 286.0,102 338.0,145 390.0,140 442.0,145 494.0,136" fill="none" stroke="var(--pipe-blue-4)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".75"/><circle cx="26.0" cy="83" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="78.0" cy="20" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="130.0" cy="44" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="182.0" cy="111" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="234.0" cy="83" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="286.0" cy="102" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="338.0" cy="145" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="390.0" cy="140" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="442.0" cy="145" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><circle cx="494.0" cy="136" r="3" fill="var(--pipe-blue-4)" opacity=".85"/><text x="26.0" y="78" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">14</text><text x="78.0" y="15" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">27</text><text x="130.0" y="39" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">22</text><text x="182.0" y="106" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">8</text><text x="234.0" y="78" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">14</text><text x="286.0" y="97" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">10</text><text x="338.0" y="140" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">1</text><text x="390.0" y="135" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">2</text><text x="442.0" y="140" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">1</text><text x="494.0" y="131" text-anchor="middle" fill="var(--muted)" font-size="8" font-weight="500">3</text><text x="26.0" y="164" text-anchor="middle" fill="var(--muted)" font-size="8">10</text><text x="182.0" y="164" text-anchor="middle" fill="var(--muted)" font-size="8">23</text><text x="338.0" y="164" text-anchor="middle" fill="var(--muted)" font-size="8">36</text><text x="494.0" y="164" text-anchor="middle" fill="var(--muted)" font-size="8">50</text></svg>
         </div>
         <!-- Source concentration KPI -->
         <div class="metrics-panel">
@@ -1158,11 +1182,11 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
           <p class="metrics-panel-sub">Concentración calculada sobre items individuales, no sobre eventos canónicos</p>
           <div style="display:grid;gap:var(--space-md)">
             <div style="display:flex;gap:var(--space-lg);flex-wrap:wrap;align-items:baseline">
-              <span style="font-size:var(--text-xl);font-weight:var(--weight-heavy);color:var(--accent-ink)">52%</span>
+              <span style="font-size:var(--text-xl);font-weight:var(--weight-heavy);color:var(--accent-ink)">45%</span>
               <span style="font-size:var(--text-sm);color:var(--muted)">concentrado en las 3 fuentes principales</span>
             </div>
             <table class="conc-table"><thead><tr><th>Feed</th><th style="text-align:right">Items</th><th style="text-align:right">%</th></tr></thead><tbody>
-            <tr><td>Finextra - Artificial Intelligence</td><td style="text-align:right;font-weight:var(--weight-bold)">15</td><td style="text-align:right">21%</td></tr><tr><td>AWS ML Blog</td><td style="text-align:right;font-weight:var(--weight-bold)">11</td><td style="text-align:right">15%</td></tr><tr><td>ArXiv cs.AI</td><td style="text-align:right;font-weight:var(--weight-bold)">11</td><td style="text-align:right">15%</td></tr><tr><td>MarkTechPost</td><td style="text-align:right;font-weight:var(--weight-bold)">5</td><td style="text-align:right">7%</td></tr><tr><td>Wired</td><td style="text-align:right;font-weight:var(--weight-bold)">5</td><td style="text-align:right">7%</td></tr><tr><td>MIT Technology Review</td><td style="text-align:right;font-weight:var(--weight-bold)">5</td><td style="text-align:right">7%</td></tr><tr><td>Tech.eu</td><td style="text-align:right;font-weight:var(--weight-bold)">4</td><td style="text-align:right">6%</td></tr><tr><td>TechCrunch</td><td style="text-align:right;font-weight:var(--weight-bold)">3</td><td style="text-align:right">4%</td></tr>
+            <tr><td>OpenAI Blog</td><td style="text-align:right;font-weight:var(--weight-bold)">18</td><td style="text-align:right">18%</td></tr><tr><td>Finextra - Artificial Intelligence</td><td style="text-align:right;font-weight:var(--weight-bold)">17</td><td style="text-align:right">17%</td></tr><tr><td>AWS ML Blog</td><td style="text-align:right;font-weight:var(--weight-bold)">11</td><td style="text-align:right">11%</td></tr><tr><td>ArXiv cs.AI</td><td style="text-align:right;font-weight:var(--weight-bold)">11</td><td style="text-align:right">11%</td></tr><tr><td>MarkTechPost</td><td style="text-align:right;font-weight:var(--weight-bold)">8</td><td style="text-align:right">8%</td></tr><tr><td>Wired</td><td style="text-align:right;font-weight:var(--weight-bold)">8</td><td style="text-align:right">8%</td></tr><tr><td>MIT Technology Review</td><td style="text-align:right;font-weight:var(--weight-bold)">7</td><td style="text-align:right">7%</td></tr><tr><td>Tech.eu</td><td style="text-align:right;font-weight:var(--weight-bold)">5</td><td style="text-align:right">5%</td></tr>
             </tbody></table>
           </div>
         </div>
@@ -1268,7 +1292,7 @@ button.text-link{appearance:none;background:none;border:0;padding:0;cursor:point
       const relatedAccordion = document.getElementById('profile-related-accordion');
       const relatedSummary = document.getElementById('profile-related-summary');
       const relatedCardsContainer = document.getElementById('profile-related-cards');
-      const PROFILE_LABELS = {'strategy': 'Strategy', 'risk': 'Risk / Compliance', 'it': 'IT / Architecture', 'sourcing': 'Sourcing / Vendor Management'};
+      const PROFILE_LABELS = {'strategy': 'Strategy', 'risk': 'Risk / Compliance', 'it': 'IT / Architecture', 'sourcing': 'Sourcing / Vendor Management', 'market_watch': 'Market Watch'};
       /* Dual-gate membership for profile views.
          Primary = pprimary=1 (exposure-role match)  OR  boost >= STRICT threshold.
          Strategy requires a higher threshold to avoid incidental matches. */
