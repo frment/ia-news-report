@@ -130,38 +130,6 @@
     "content_access": "full"
   },
   {
-    "title": "Introducing OpenAI for Singapore",
-    "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
-    "url": "https://openai.com/index/introducing-openai-for-singapore",
-    "published": "2026-05-19T20:30:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 52,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "production_rollout",
-    "vendors": [
-      "OpenAI"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
-  },
-  {
     "title": "Tencent Open-Sources TencentDB Agent Memory: A 4-Tier Local Memory Pipeline for AI Agents",
     "summary": "<p>Tencent has open-sourced TencentDB Agent Memory, a fully local memory system for AI agents released under the MIT license. The project pairs symbolic short-term memory, which offloads verbose tool logs into a compact Mermaid task canvas, with a 4-tier long-term memory pyramid (L0 Conversation → L1 Atom → L2 Scenario → L3 Persona). It ships as an OpenClaw plugin and a Hermes Docker image, runs on local SQLite + sqlite-vec by default, and uses hybrid BM25 + vector retrieval with RRF fusion. Tencent's own benchmarks report a 61.38% token reduction and 51.52% relative pass-rate gain on WideSearch with OpenClaw, alongside PersonaMem accuracy moving from 48% to 76%.</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/05/23/tencent-open-sources-tencentdb-agent-memory-a-4-tier-local-memory-pipeline-for-ai-agents/\">Tencent Open-Sources TencentDB Agent Memory: A 4-Tier Local Memory Pipeline for AI Agents</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
     "url": "https://www.marktechpost.com/2026/05/23/tencent-open-sources-tencentdb-agent-memory-a-4-tier-local-memory-pipeline-for-ai-agents/",
@@ -193,6 +161,38 @@
     ],
     "source_type": "curated",
     "content_access": "full"
+  },
+  {
+    "title": "Introducing OpenAI for Singapore",
+    "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+    "url": "https://openai.com/index/introducing-openai-for-singapore",
+    "published": "2026-05-19T20:30:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 51,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "production_rollout",
+    "vendors": [
+      "OpenAI"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
   },
   {
     "title": "Spotify’s AI bet: more of everything, less of what you want",
@@ -357,10 +357,41 @@
     "published": "2026-05-21T22:22:28+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 44,
+    "score": 43,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "tooling_update",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
+  },
+  {
+    "title": "Intelligent radiology workflow optimization with AI agents",
+    "summary": "Many healthcare organizations report that traditional worklist systems rely on rigid rules that ignore critical context, radiologist specialization, current workload, fatigue levels, and case complexity. This creates a persistent challenge: radiologists cherry-pick easier, higher-value cases while avoiding complex studies, leading to diagnostic delays and increased costs. Research across 62 hospitals analyzing 2.2 million studies found […]",
+    "url": "https://aws.amazon.com/blogs/machine-learning/intelligent-radiology-workflow-optimization-with-ai-agents-2/",
+    "published": "2026-05-21T19:11:09+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 43,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "research_paper",
     "vendors": [],
     "capability_flags": [
       "tool_use_agents"
@@ -388,7 +419,7 @@
     "published": "2026-05-21T16:32:09+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 44,
+    "score": 43,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "tooling_update",
@@ -422,7 +453,7 @@
     "published": "2026-05-21T16:16:09+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 44,
+    "score": 43,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "tooling_update",
@@ -456,7 +487,7 @@
     "published": "2026-05-21T16:04:17+00:00",
     "feed": "AWS ML Blog",
     "vendor": "Anthropic",
-    "score": 44,
+    "score": 43,
     "is_enriched": true,
     "layer": "LLM Landscape & Behavioral Shifts",
     "event_type": "tooling_update",
@@ -480,37 +511,6 @@
     "reason_tags": [
       "vendor_mentioned",
       "llm_family",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
-    "title": "Intelligent radiology workflow optimization with AI agents",
-    "summary": "Many healthcare organizations report that traditional worklist systems rely on rigid rules that ignore critical context, radiologist specialization, current workload, fatigue levels, and case complexity. This creates a persistent challenge: radiologists cherry-pick easier, higher-value cases while avoiding complex studies, leading to diagnostic delays and increased costs. Research across 62 hospitals analyzing 2.2 million studies found […]",
-    "url": "https://aws.amazon.com/blogs/machine-learning/intelligent-radiology-workflow-optimization-with-ai-agents-2/",
-    "published": "2026-05-21T19:11:09+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 43,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "research_paper",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
       "capability_flag"
     ],
     "source_type": "primary",
@@ -585,41 +585,6 @@
     ],
     "source_type": "primary",
     "content_access": "full"
-  },
-  {
-    "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
-    "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
-    "url": "https://openai.com/index/dell-codex-enterprise-partnership",
-    "published": "2026-05-18T10:00:00+00:00",
-    "feed": "OpenAI Blog",
-    "vendor": "OpenAI",
-    "score": 41,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "partnership",
-    "vendors": [
-      "OpenAI"
-    ],
-    "capability_flags": [
-      "enterprise_controls"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "limited"
   },
   {
     "title": "Nous Research Releases Contrastive Neuron Attribution (CNA): Sparse MLP Circuit Steering Without SAE Training or Weight Modification",
@@ -808,6 +773,41 @@
     "content_access": "limited"
   },
   {
+    "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+    "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+    "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+    "published": "2026-05-18T10:00:00+00:00",
+    "feed": "OpenAI Blog",
+    "vendor": "OpenAI",
+    "score": 40,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "partnership",
+    "vendors": [
+      "OpenAI"
+    ],
+    "capability_flags": [
+      "enterprise_controls"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family",
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
     "title": "You can no longer Google the word ‘disregard’",
     "summary": "After Google Search's AI update, the word \"disregard\" now effectively breaks the search interface.",
     "url": "https://techcrunch.com/2026/05/22/you-can-no-longer-google-the-word-disregard/",
@@ -873,38 +873,6 @@
     "content_access": "partial"
   },
   {
-    "title": "The call centre enters the voice AI era",
-    "summary": "In March, Tech.eu reported  on the story of “Rachel,” an AI voice agent created by AI engineer Matt Cortland to call more than 3,000 pubs across Ireland and ask a simple question: how much does a pint...",
-    "url": "https://tech.eu/2026/05/22/the-call-centre-enters-the-voice-ai-era/",
-    "published": "2026-05-22T09:00:00+00:00",
-    "feed": "Tech.eu",
-    "vendor": "Tech.eu",
-    "score": 37,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents",
-      "multimodal"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
     "title": "AU Small Finance Bank adopts Intellect’s Purple Fabric AI platform",
     "summary": "AU Small Finance Bank (AU SFB), India’s largest Small Finance Bank and the first in over a decade to receive in-principle approval to transition into a Universal Bank, today announced its collaboration with Intellect Design Arena, a global leader in AI-First, enterprise-grade financial technology, adopting its Purple Fabric platform, the world’s first Open Business Impact AI platform.",
     "url": "https://www.finextra.com/pressarticle/109875/au-small-finance-bank-adopts-intellects-purple-fabric-ai-platform?utm_medium=rssfinextra&utm_source=finextrafeed",
@@ -932,35 +900,36 @@
     "content_access": "partial"
   },
   {
-    "title": "Catch up on the Dialogues stage at Google I/O 2026.",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp\">A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
-    "published": "2026-05-22T18:00:00+00:00",
-    "feed": "Google AI Blog",
-    "vendor": "Google",
+    "title": "The call centre enters the voice AI era",
+    "summary": "In March, Tech.eu reported  on the story of “Rachel,” an AI voice agent created by AI engineer Matt Cortland to call more than 3,000 pubs across Ireland and ask a simple question: how much does a pint...",
+    "url": "https://tech.eu/2026/05/22/the-call-centre-enters-the-voice-ai-era/",
+    "published": "2026-05-22T09:00:00+00:00",
+    "feed": "Tech.eu",
+    "vendor": "Tech.eu",
     "score": 36,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
-    "vendors": [
-      "Google"
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents",
+      "multimodal"
     ],
-    "capability_flags": [],
     "signals": {
       "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
+      "vendor": 0.6,
+      "capability": 0.6666666666666666
     },
     "action_recommended": false,
     "action_text": "",
     "reason_tags": [
-      "vendor_mentioned"
+      "capability_flag"
     ],
-    "source_type": "primary",
-    "content_access": "partial"
+    "source_type": "curated",
+    "content_access": "full"
   },
   {
     "title": "The Download: coding’s future, the ‘Steroid Olympics,’ and AI-driven science",
@@ -992,37 +961,6 @@
       "llm_family"
     ],
     "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Build AI-powered dashboard automation agents with NLP on Amazon Bedrock AgentCore",
-    "summary": "This solution combines the power of Amazon Bedrock AgentCore, Strands Agents, and Amazon Quick transforms to deliver a secure, scalable, and intelligent system for building and operating AI agents while transforming data into actionable business insights.",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-ai-powered-dashboard-automation-agents-with-nlp-on-amazon-bedrock-agentcore/",
-    "published": "2026-05-21T15:55:29+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 36,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [
-      "AWS"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned"
-    ],
-    "source_type": "primary",
     "content_access": "full"
   },
   {
@@ -1093,6 +1031,37 @@
     "content_access": "full"
   },
   {
+    "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp\">A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+    "published": "2026-05-22T18:00:00+00:00",
+    "feed": "Google AI Blog",
+    "vendor": "Google",
+    "score": 35,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [
+      "Google"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned"
+    ],
+    "source_type": "primary",
+    "content_access": "partial"
+  },
+  {
     "title": "Google I/O showed how the path for AI-driven science is shifting",
     "summary": "During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently “standing in the foothills of the singularity.” It was a striking statement—the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically transforms the world. But what struck me as I listened in the&#8230;",
     "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
@@ -1122,6 +1091,37 @@
       "llm_family"
     ],
     "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Build AI-powered dashboard automation agents with NLP on Amazon Bedrock AgentCore",
+    "summary": "This solution combines the power of Amazon Bedrock AgentCore, Strands Agents, and Amazon Quick transforms to deliver a secure, scalable, and intelligent system for building and operating AI agents while transforming data into actionable business insights.",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-ai-powered-dashboard-automation-agents-with-nlp-on-amazon-bedrock-agentcore/",
+    "published": "2026-05-21T15:55:29+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 35,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [
+      "AWS"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned"
+    ],
+    "source_type": "primary",
     "content_access": "full"
   },
   {
@@ -1286,66 +1286,12 @@
     "content_access": "limited"
   },
   {
-    "title": "Bliq.ai wins approval for fully driverless road operations in Estonia",
-    "summary": "Driverless car startup Bliq.ai this week announced that it has received approval to operate its vehicles on public roads in Estonia without a driver behind the wheel.  The approval marks the first aut...",
-    "url": "https://tech.eu/2026/05/22/bliqai-wins-approval-for-fully-driverless-road-operations-in-estonia/",
-    "published": "2026-05-22T07:38:49+00:00",
-    "feed": "Tech.eu",
-    "vendor": "Tech.eu",
-    "score": 32,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
     "title": "AI put \"synthetic quotes\" in his book. But this author wants to keep using it.",
     "summary": "Steven Rosenbaum explains how inaccurate quotes got into his book <em>The Future of Truth</em>.",
     "url": "https://arstechnica.com/ai/2026/05/ai-put-synthetic-quotes-in-his-book-but-this-author-wants-to-keep-using-it/",
     "published": "2026-05-22T14:05:56+00:00",
     "feed": "Ars Technica",
     "vendor": "ArsTechnica",
-    "score": 32,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Roundtables: Can AI Learn to Understand the World?",
-    "summary": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor Will Douglas Heaven, and AI reporter&#8230;",
-    "url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
-    "published": "2026-05-21T20:41:05+00:00",
-    "feed": "MIT Technology Review",
-    "vendor": "MIT",
     "score": 32,
     "is_enriched": true,
     "layer": "Agents & Tooling",
@@ -1392,6 +1338,33 @@
     "reason_tags": [],
     "source_type": "curated",
     "content_access": "partial"
+  },
+  {
+    "title": "Bliq.ai wins approval for fully driverless road operations in Estonia",
+    "summary": "Driverless car startup Bliq.ai this week announced that it has received approval to operate its vehicles on public roads in Estonia without a driver behind the wheel.  The approval marks the first aut...",
+    "url": "https://tech.eu/2026/05/22/bliqai-wins-approval-for-fully-driverless-road-operations-in-estonia/",
+    "published": "2026-05-22T07:38:49+00:00",
+    "feed": "Tech.eu",
+    "vendor": "Tech.eu",
+    "score": 31,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "full"
   },
   {
     "title": "Even If You Hate AI, You Will Use Google AI Search",
@@ -1456,6 +1429,33 @@
       "vendor_mentioned",
       "llm_family"
     ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Roundtables: Can AI Learn to Understand the World?",
+    "summary": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor Will Douglas Heaven, and AI reporter&#8230;",
+    "url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
+    "published": "2026-05-21T20:41:05+00:00",
+    "feed": "MIT Technology Review",
+    "vendor": "MIT",
+    "score": 31,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
     "source_type": "curated",
     "content_access": "full"
   },
@@ -1774,40 +1774,6 @@
     "content_access": "partial"
   },
   {
-    "title": "New ways to create and get things done in Google Workspace",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GoogleWorkspace-IO.max-600x600.format-webp.webp\">Announcing new voice capabilities in Gmail, Docs and Keep, a new design tool called Google Pics and updates to AI Inbox.",
-    "url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
-    "published": "2026-05-19T17:45:00+00:00",
-    "feed": "Google AI Blog",
-    "vendor": "Google",
-    "score": 29,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [
-      "Google"
-    ],
-    "capability_flags": [
-      "multimodal"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
-    "source_type": "primary",
-    "content_access": "partial"
-  },
-  {
     "title": "Ferrari is using IBM’s AI to create F1 superfans",
     "summary": "IBM and Scuderia Ferrari HP take TechCrunch inside how they are redefining the fan experience.",
     "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
@@ -1893,31 +1859,38 @@
     "content_access": "full"
   },
   {
-    "title": "AI, HR and financial services: Modernising banking systems from front to back",
-    "summary": "How should FIs embed AI into their core banking systems?",
-    "url": "https://www.finextra.com/event-info/619/ai-hr-and-financial-services-modernising-banking-systems-from-front-to-back?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-07-30T00:00:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 27,
+    "title": "New ways to create and get things done in Google Workspace",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GoogleWorkspace-IO.max-600x600.format-webp.webp\">Announcing new voice capabilities in Gmail, Docs and Keep, a new design tool called Google Pics and updates to AI Inbox.",
+    "url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
+    "published": "2026-05-19T17:45:00+00:00",
+    "feed": "Google AI Blog",
+    "vendor": "Google",
+    "score": 28,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
+    "vendors": [
+      "Google"
+    ],
+    "capability_flags": [
+      "multimodal"
+    ],
     "signals": {
-      "banking": 0.167,
+      "banking": 0.0,
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
     },
     "action_recommended": false,
     "action_text": "",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "limited"
+    "reason_tags": [
+      "vendor_mentioned",
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "partial"
   },
   {
     "title": "Peec, one of Berlin’s rising startups, more than doubled annualized revenue in months to $10M, sources say",
@@ -2140,6 +2113,33 @@
     ],
     "source_type": "primary",
     "content_access": "partial"
+  },
+  {
+    "title": "AI, HR and financial services: Modernising banking systems from front to back",
+    "summary": "How should FIs embed AI into their core banking systems?",
+    "url": "https://www.finextra.com/event-info/619/ai-hr-and-financial-services-modernising-banking-systems-from-front-to-back?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-07-30T00:00:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 26,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.167,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
   },
   {
     "title": "The Gulf’s AI Boom Has an Undersea Cable Problem",
@@ -2445,37 +2445,6 @@
     "content_access": "partial"
   },
   {
-    "title": "Google unveils universal shopping cart",
-    "summary": "People shop across Google more than a billion times a day, powered by advanced AI and the Shopping Graph — the world’s most comprehensive catalog of over 60 billion product listings.",
-    "url": "https://www.finextra.com/pressarticle/109908/google-unveils-universal-shopping-cart?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-05-20T15:57:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Google",
-    "score": 23,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [
-      "Google"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
     "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
     "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
     "url": "https://openai.com/index/advancing-content-provenance",
@@ -2534,6 +2503,37 @@
     "action_text": "",
     "reason_tags": [
       "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "Google unveils universal shopping cart",
+    "summary": "People shop across Google more than a billion times a day, powered by advanced AI and the Shopping Graph — the world’s most comprehensive catalog of over 60 billion product listings.",
+    "url": "https://www.finextra.com/pressarticle/109908/google-unveils-universal-shopping-cart?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-05-20T15:57:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Google",
+    "score": 22,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [
+      "Google"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned"
     ],
     "source_type": "curated",
     "content_access": "limited"
@@ -2722,35 +2722,6 @@
     "content_access": "limited"
   },
   {
-    "title": "Deutsche Bank applies AI to third party vendor risks",
-    "summary": "Deutsche Bank is using artifical intelligence to speed up the tedious, time-consuming, process of reviewing third party vendor risks.",
-    "url": "https://www.finextra.com/newsarticle/47778/deutsche-bank-applies-ai-to-third-party-vendor-risks?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-05-20T00:01:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 20,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.333,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "bank_mentioned"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
     "title": "Galytix hires Quantexa’s Roshni Patel to lead global growth",
     "summary": "Galytix (GX), the specialised AI firm built for financial institutions, today announced that it has hired former Quantexa executive Roshni Patel as Chief Growth Officer to accelerate the company’s global expansion.",
     "url": "https://www.finextra.com/pressarticle/109894/galytix-hires-quantexas-roshni-patel-to-lead-global-growth?utm_medium=rssfinextra&utm_source=finextrafeed",
@@ -2774,6 +2745,35 @@
     "action_recommended": false,
     "action_text": "",
     "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "Deutsche Bank applies AI to third party vendor risks",
+    "summary": "Deutsche Bank is using artifical intelligence to speed up the tedious, time-consuming, process of reviewing third party vendor risks.",
+    "url": "https://www.finextra.com/newsarticle/47778/deutsche-bank-applies-ai-to-third-party-vendor-risks?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-05-20T00:01:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 19,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.333,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "bank_mentioned"
+    ],
     "source_type": "curated",
     "content_access": "limited"
   },
