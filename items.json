@@ -37,7 +37,7 @@
     "published": "2026-05-27T11:00:00+00:00",
     "feed": "Tech.eu",
     "vendor": "Tech.eu",
-    "score": 70,
+    "score": 69,
     "is_enriched": true,
     "layer": "Market & Competitive",
     "event_type": "mna",
@@ -156,37 +156,6 @@
     "content_access": "partial"
   },
   {
-    "title": "Automatic Layer Selection for Hallucination Detection",
-    "summary": "arXiv:2605.26366v1 Announce Type: new \nAbstract: Recent studies on hallucination detection have shown that hallucination-related signals are more strongly encoded in intermediate layers than in the final layer of large language models (LLMs). Although a growing body of work has sought to exploit this property for hallucination detection, how to automate the selection of high-performing layers remains underexplored, and principled methods for this purpose are still lacking. To address this gap, we first propose several hypotheses for why such signals emerge in intermediate layers and evaluate corresponding criteria for automatic layer selection across diverse LLM architectures, scales, and tasks, covering both question answering and summarization hallucination detection benchmarks. However, we find that none of these criteria consistently delivers satisfactory performance. We therefore propose a new selection criterion, First Effective Peak of Intrinsic Dimension (FEPoID), which consistently identify optimal or near-optimal layers and outperforms both the aforementioned criteria and existing hallucination detection baselines. FEPoID is training-free and incurs negligible computational overhead. In addition, we study the generation behaviors of LLMs and introduce a simple yet effective truncation strategy, which further amplifies hallucination-related signals and substantially improves overall detection performance. Code is publicly available at https://github.com/DesoloYw/Automatic-Layer-Selection-for-Hallucination-Detection.git",
-    "url": "https://arxiv.org/abs/2605.26366",
-    "published": "2026-05-27T00:00:00-04:00",
-    "feed": "ArXiv cs.AI",
-    "vendor": "ArXiv",
-    "score": 60,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "incident",
-    "vendors": [
-      "ArXiv"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.167,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Verificar exposición (prompt-injection / data leakage) y actualizar playbooks de seguridad.",
-    "reason_tags": [
-      "vendor_mentioned"
-    ],
-    "source_type": "primary",
-    "content_access": "partial"
-  },
-  {
     "title": "sgl-project/sglang: v0.5.12.post1",
     "summary": "v0.5.12.post1 is a stability patch on top of v0.5.12. It cherry-picks 12 fixes — primarily for DeepSeek V4 — onto the release branch.\r\n\r\n# Bug Fixes\r\n\r\n## DeepSeek V4\r\n* DSV4-Pro emits garbled text during single-token decode on B200/B300 (fix `deep_gemm` UE8M0 scale-packing path by ceiling activation scales before packing): #25733\r\n* DSV4 + EAGLE/MTP in disaggregation decode crashes around 2000 requests with a SWA allocator assertion (recycled KV pages kept stale sliding-window mappings): #25805",
     "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.12.post1",
@@ -212,6 +181,37 @@
     "reason_tags": [],
     "source_type": "primary",
     "content_access": "full"
+  },
+  {
+    "title": "Automatic Layer Selection for Hallucination Detection",
+    "summary": "arXiv:2605.26366v1 Announce Type: new \nAbstract: Recent studies on hallucination detection have shown that hallucination-related signals are more strongly encoded in intermediate layers than in the final layer of large language models (LLMs). Although a growing body of work has sought to exploit this property for hallucination detection, how to automate the selection of high-performing layers remains underexplored, and principled methods for this purpose are still lacking. To address this gap, we first propose several hypotheses for why such signals emerge in intermediate layers and evaluate corresponding criteria for automatic layer selection across diverse LLM architectures, scales, and tasks, covering both question answering and summarization hallucination detection benchmarks. However, we find that none of these criteria consistently delivers satisfactory performance. We therefore propose a new selection criterion, First Effective Peak of Intrinsic Dimension (FEPoID), which consistently identify optimal or near-optimal layers and outperforms both the aforementioned criteria and existing hallucination detection baselines. FEPoID is training-free and incurs negligible computational overhead. In addition, we study the generation behaviors of LLMs and introduce a simple yet effective truncation strategy, which further amplifies hallucination-related signals and substantially improves overall detection performance. Code is publicly available at https://github.com/DesoloYw/Automatic-Layer-Selection-for-Hallucination-Detection.git",
+    "url": "https://arxiv.org/abs/2605.26366",
+    "published": "2026-05-27T00:00:00-04:00",
+    "feed": "ArXiv cs.AI",
+    "vendor": "ArXiv",
+    "score": 59,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "incident",
+    "vendors": [
+      "ArXiv"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.167,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Verificar exposición (prompt-injection / data leakage) y actualizar playbooks de seguridad.",
+    "reason_tags": [
+      "vendor_mentioned"
+    ],
+    "source_type": "primary",
+    "content_access": "partial"
   },
   {
     "title": "Meet EAGLE 3.1: The Speculative Decoding Algorithm That Fixes Attention Drift in LLM Inference",
@@ -248,37 +248,6 @@
     "content_access": "full"
   },
   {
-    "title": "Circle co-founder raises $30m for agentic finance startup Catena",
-    "summary": "Agentic finance startup Catena Labs has raised $30 million in Series A financing and applied for a national trust bank charter.",
-    "url": "https://www.finextra.com/newsarticle/47809/circle-co-founder-raises-30m-for-agentic-finance-startup-catena?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-05-26T13:28:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Finextra",
-    "score": 57,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "mna",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.167,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
-  },
-  {
     "title": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
     "summary": "Pope Leo’s first encyclical marks an unprecedented alliance between the Church and Silicon Valley.",
     "url": "https://www.wired.com/story/anthropic-christopher-olah-pope-ai-encyclical/",
@@ -306,6 +275,37 @@
     "reason_tags": [
       "vendor_mentioned",
       "llm_family"
+    ],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "Circle co-founder raises $30m for agentic finance startup Catena",
+    "summary": "Agentic finance startup Catena Labs has raised $30 million in Series A financing and applied for a national trust bank charter.",
+    "url": "https://www.finextra.com/newsarticle/47809/circle-co-founder-raises-30m-for-agentic-finance-startup-catena?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-05-26T13:28:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Finextra",
+    "score": 56,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "mna",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.167,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
     ],
     "source_type": "curated",
     "content_access": "limited"
@@ -542,33 +542,6 @@
     ],
     "source_type": "primary",
     "content_access": "limited"
-  },
-  {
-    "title": "Millions of AI agents imperiled by critical vulnerability in open source package",
-    "summary": "\"BadHost\" was found in Starlette, a package with 325 million weekly downloads.",
-    "url": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
-    "published": "2026-05-26T19:50:33+00:00",
-    "feed": "Ars Technica",
-    "vendor": "ArsTechnica",
-    "score": 52,
-    "is_enriched": true,
-    "layer": "Infra & Open Source",
-    "event_type": "incident",
-    "vendors": [],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.167,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Verificar exposición (prompt-injection / data leakage) y actualizar playbooks de seguridad.",
-    "reason_tags": [],
-    "source_type": "curated",
-    "content_access": "full"
   },
   {
     "title": "Build highly scalable serverless LangGraph multi-agent systems in AWS with Amazon Bedrock AgentCore",
@@ -956,6 +929,38 @@
     "content_access": "partial"
   },
   {
+    "title": "Extending Human Intelligence Through AI",
+    "summary": "<p>Understanding AI as an extension of human intelligence—not a replacement for it—offers a more grounded path for building trustworthy AI systems.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/research/blog/extending-human-intelligence-through-ai/\">Extending Human Intelligence Through AI</a> appeared first on <a href=\"https://www.microsoft.com/en-us/research\">Microsoft Research</a>.</p>",
+    "url": "https://www.microsoft.com/en-us/research/blog/extending-human-intelligence-through-ai/",
+    "published": "2026-05-27T16:00:00+00:00",
+    "feed": "Microsoft Research Blog",
+    "vendor": "Microsoft",
+    "score": 48,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "research_paper",
+    "vendors": [
+      "Microsoft"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
+  },
+  {
     "title": "The Download: keeping up with AI, and the future of IVF",
     "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Stay on top of what’s going on in AI this summer Here at MIT Technology Review, we understand exactly how relentless the pace of news from the world of artificial intelligence&#8230;",
     "url": "https://www.technologyreview.com/2026/05/27/1138048/the-download-ai-future-ivf-technology/",
@@ -1008,38 +1013,6 @@
       "strategic": 0.0,
       "vendor": 0.6,
       "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
-    "title": "Design a Complete Multimodal RLVR Pipeline with Open-MM-RL, Vision-Language Prompting, Reward Scoring, and GRPO Export",
-    "summary": "<p>In this tutorial, we explore the TuringEnterprises/Open-MM-RL dataset as a practical foundation for multimodal reasoning and reinforcement learning with verifiable rewards. We load the dataset, inspect its schema, analyze domains, formats, question lengths, answer types, and image distributions, and visualize representative examples from each domain. We also build a lightweight reward function that checks exact, [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/05/26/design-a-complete-multimodal-rlvr-pipeline-with-open-mm-rl-vision-language-prompting-reward-scoring-and-grpo-export/\">Design a Complete Multimodal RLVR Pipeline with Open-MM-RL, Vision-Language Prompting, Reward Scoring, and GRPO Export</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
-    "url": "https://www.marktechpost.com/2026/05/26/design-a-complete-multimodal-rlvr-pipeline-with-open-mm-rl-vision-language-prompting-reward-scoring-and-grpo-export/",
-    "published": "2026-05-26T07:25:55+00:00",
-    "feed": "MarkTechPost",
-    "vendor": "MarkTechPost",
-    "score": 46,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
-    "vendors": [],
-    "capability_flags": [
-      "reasoning",
-      "multimodal"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.6666666666666666
     },
     "action_recommended": false,
     "action_text": "",
@@ -1190,6 +1163,38 @@
     "content_access": "full"
   },
   {
+    "title": "Design a Complete Multimodal RLVR Pipeline with Open-MM-RL, Vision-Language Prompting, Reward Scoring, and GRPO Export",
+    "summary": "<p>In this tutorial, we explore the TuringEnterprises/Open-MM-RL dataset as a practical foundation for multimodal reasoning and reinforcement learning with verifiable rewards. We load the dataset, inspect its schema, analyze domains, formats, question lengths, answer types, and image distributions, and visualize representative examples from each domain. We also build a lightweight reward function that checks exact, [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/05/26/design-a-complete-multimodal-rlvr-pipeline-with-open-mm-rl-vision-language-prompting-reward-scoring-and-grpo-export/\">Design a Complete Multimodal RLVR Pipeline with Open-MM-RL, Vision-Language Prompting, Reward Scoring, and GRPO Export</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
+    "url": "https://www.marktechpost.com/2026/05/26/design-a-complete-multimodal-rlvr-pipeline-with-open-mm-rl-vision-language-prompting-reward-scoring-and-grpo-export/",
+    "published": "2026-05-26T07:25:55+00:00",
+    "feed": "MarkTechPost",
+    "vendor": "MarkTechPost",
+    "score": 45,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "tooling_update",
+    "vendors": [],
+    "capability_flags": [
+      "reasoning",
+      "multimodal"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
     "title": "From idea to AI app: Creating intelligent research assistants with Strands",
     "summary": "Building an AI app shouldn’t require a PhD in machine learning (ML) or months of wrestling with complex architectures. Yet that’s exactly what happens when you try to orchestrate multiple API calls, manage conversation state, and create agents that can reason on their own. I’ve seen straightforward AI ideas balloon into sprawling projects that demand […]",
     "url": "https://aws.amazon.com/blogs/machine-learning/from-idea-to-ai-app-creating-intelligent-research-assistants-with-strands/",
@@ -1213,41 +1218,6 @@
     "action_recommended": false,
     "action_text": "",
     "reason_tags": [],
-    "source_type": "primary",
-    "content_access": "full"
-  },
-  {
-    "title": "Build an enterprise observability solution for Amazon Quick",
-    "summary": "When hundreds to thousands of users are onboarded to an enterprise AI platform, business leaders and platform owners need visibility into who is using the platform, whether users are satisfied with the answers they receive, and which capabilities are driving the most engagement. Without a centralized observability solution, this data is scattered across multiple AWS […]",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-an-enterprise-observability-solution-for-amazon-quick/",
-    "published": "2026-05-26T16:09:06+00:00",
-    "feed": "AWS ML Blog",
-    "vendor": "AWS",
-    "score": 45,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [
-      "AWS"
-    ],
-    "capability_flags": [
-      "enterprise_controls",
-      "eval_observability"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.6666666666666666
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "vendor_mentioned",
-      "capability_flag"
-    ],
     "source_type": "primary",
     "content_access": "full"
   },
@@ -1314,6 +1284,41 @@
       "capability_flag"
     ],
     "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Build an enterprise observability solution for Amazon Quick",
+    "summary": "When hundreds to thousands of users are onboarded to an enterprise AI platform, business leaders and platform owners need visibility into who is using the platform, whether users are satisfied with the answers they receive, and which capabilities are driving the most engagement. Without a centralized observability solution, this data is scattered across multiple AWS […]",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-an-enterprise-observability-solution-for-amazon-quick/",
+    "published": "2026-05-26T16:09:06+00:00",
+    "feed": "AWS ML Blog",
+    "vendor": "AWS",
+    "score": 44,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [
+      "AWS"
+    ],
+    "capability_flags": [
+      "enterprise_controls",
+      "eval_observability"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned",
+      "capability_flag"
+    ],
+    "source_type": "primary",
     "content_access": "full"
   },
   {
@@ -1407,37 +1412,6 @@
     "content_access": "full"
   },
   {
-    "title": "Best Authentication Platforms for AI Agents and MCP Servers in 2026",
-    "summary": "<p>As MCP crosses 97 million monthly SDK downloads and AI agents move into production workflows, authentication has become the most critical infrastructure decision teams face. This guide ranks the eight leading platforms — WorkOS, Stytch, Auth0 by Okta, Composio, Nango, Arcade, TrueFoundry, and Cloudflare — on spec compliance, enterprise identity depth, integration breadth, and real-world fit for 2026 deployments.</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/05/25/best-authentication-platforms-for-ai-agents-and-mcp-servers-in-2026/\">Best Authentication Platforms for AI Agents and MCP Servers in 2026</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
-    "url": "https://www.marktechpost.com/2026/05/25/best-authentication-platforms-for-ai-agents-and-mcp-servers-in-2026/",
-    "published": "2026-05-25T10:34:02+00:00",
-    "feed": "MarkTechPost",
-    "vendor": "MarkTechPost",
-    "score": 39,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "tooling_update",
-    "vendors": [],
-    "capability_flags": [
-      "enterprise_controls"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
     "title": "Rethinking organizational design in the age of agentic AI",
     "summary": "Amid rapidly growing adoption of enterprise-level AI agents, there’s a disconnect emerging between ambition and execution.&#160; Although 85% of organizations say they want to be agentic within the next three years, 76% say their current operations and infrastructure can’t support that change. They cite a lack of readiness across people, processes, and workflows.&#160; The sticky&#8230;",
     "url": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
@@ -1464,6 +1438,68 @@
     "action_text": "",
     "reason_tags": [
       "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Best Authentication Platforms for AI Agents and MCP Servers in 2026",
+    "summary": "<p>As MCP crosses 97 million monthly SDK downloads and AI agents move into production workflows, authentication has become the most critical infrastructure decision teams face. This guide ranks the eight leading platforms — WorkOS, Stytch, Auth0 by Okta, Composio, Nango, Arcade, TrueFoundry, and Cloudflare — on spec compliance, enterprise identity depth, integration breadth, and real-world fit for 2026 deployments.</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/05/25/best-authentication-platforms-for-ai-agents-and-mcp-servers-in-2026/\">Best Authentication Platforms for AI Agents and MCP Servers in 2026</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
+    "url": "https://www.marktechpost.com/2026/05/25/best-authentication-platforms-for-ai-agents-and-mcp-servers-in-2026/",
+    "published": "2026-05-25T10:34:02+00:00",
+    "feed": "MarkTechPost",
+    "vendor": "MarkTechPost",
+    "score": 38,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "tooling_update",
+    "vendors": [],
+    "capability_flags": [
+      "enterprise_controls"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Nvidia bets $150B on Taiwan as Trump's plan to make US an AI hub backfires",
+    "summary": "Nvidia will invest $150 billion a year to make Taiwan an AI “epicenter.”",
+    "url": "https://arstechnica.com/tech-policy/2026/05/nvidia-ceo-wants-taiwan-to-be-center-of-ai-revolution-not-us/",
+    "published": "2026-05-27T19:59:40+00:00",
+    "feed": "Ars Technica",
+    "vendor": "NVIDIA",
+    "score": 37,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [
+      "NVIDIA"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "vendor_mentioned"
     ],
     "source_type": "curated",
     "content_access": "full"
@@ -1534,37 +1570,6 @@
     ],
     "source_type": "primary",
     "content_access": "limited"
-  },
-  {
-    "title": "FBI agent explains how easy it is to ID people posting AI porn without consent",
-    "summary": "A creepy saved post on Instagram linked man to AI porn account, FBI says.",
-    "url": "https://arstechnica.com/tech-policy/2026/05/fbi-easily-nabs-man-selling-sexy-deepfakes-who-used-his-own-photo-in-profile/",
-    "published": "2026-05-26T17:46:01+00:00",
-    "feed": "Ars Technica",
-    "vendor": "ArsTechnica",
-    "score": 36,
-    "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 0.6,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": false,
-    "action_text": "",
-    "reason_tags": [
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
   },
   {
     "title": "How to Fix The Issue of Data Immobility in Portfolio Systems",
@@ -1707,6 +1712,37 @@
     ],
     "source_type": "curated",
     "content_access": "partial"
+  },
+  {
+    "title": "Reliable LLM Inference at Scale",
+    "summary": "At Databricks, we’ve built a unique inference platform that serves every frontier...",
+    "url": "https://www.databricks.com/blog/reliable-llm-inference-scale",
+    "published": "2026-05-27T20:20:00+00:00",
+    "feed": "Databricks AI Category",
+    "vendor": "Databricks",
+    "score": 35,
+    "is_enriched": true,
+    "layer": "Infra & Open Source",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [
+      "serving_inference"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
   },
   {
     "title": "The Download: puncturing the AI jobs panic",
@@ -1943,17 +1979,19 @@
     "content_access": "partial"
   },
   {
-    "title": "Robinhood now lets your AI agents trade stocks",
-    "summary": "Robinhood will let users create a separate account with pre-loaded balance that an agent use to trade",
-    "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
-    "published": "2026-05-27T12:30:00+00:00",
-    "feed": "TechCrunch",
-    "vendor": "TechCrunch",
-    "score": 31,
+    "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
+    "summary": "<p>MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on everyday tasks.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/\">MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models</a> appeared first on <a href=\"https://www.microsoft.com/en-us/research\">Microsoft Research</a>.</p>",
+    "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
+    "published": "2026-05-21T17:00:00+00:00",
+    "feed": "Microsoft Research Blog",
+    "vendor": "Microsoft",
+    "score": 32,
     "is_enriched": true,
-    "layer": "Agents & Tooling",
-    "event_type": "other",
-    "vendors": [],
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "research_paper",
+    "vendors": [
+      "Microsoft"
+    ],
     "capability_flags": [
       "tool_use_agents"
     ],
@@ -1962,16 +2000,18 @@
       "regulation": 0.0,
       "safety": 0.0,
       "strategic": 0.0,
-      "vendor": 0.6,
+      "vendor": 1.0,
       "capability": 0.3333333333333333
     },
-    "action_recommended": false,
-    "action_text": "",
+    "action_recommended": true,
+    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
     "reason_tags": [
+      "vendor_mentioned",
+      "llm_family",
       "capability_flag"
     ],
-    "source_type": "curated",
-    "content_access": "limited"
+    "source_type": "primary",
+    "content_access": "full"
   },
   {
     "title": "Alipay delivers full-stack AI payments infrastructure",
@@ -2034,41 +2074,6 @@
     ],
     "source_type": "primary",
     "content_access": "full"
-  },
-  {
-    "title": "From copilot to autopilot: Exploring agentic AI’s impact on treasury",
-    "summary": "How can agentic AI empower bank and corporate treasurers?",
-    "url": "https://www.finextra.com/event-info/620/from-copilot-to-autopilot-exploring-agentic-ais-impact-on-treasury?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "published": "2026-07-14T00:00:00+00:00",
-    "feed": "Finextra - Artificial Intelligence",
-    "vendor": "Microsoft",
-    "score": 29,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "other",
-    "vendors": [
-      "Microsoft"
-    ],
-    "capability_flags": [
-      "tool_use_agents"
-    ],
-    "signals": {
-      "banking": 0.167,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.3333333333333333
-    },
-    "action_recommended": true,
-    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family",
-      "capability_flag"
-    ],
-    "source_type": "curated",
-    "content_access": "limited"
   },
   {
     "title": "AI Agents Plunged the Tech World Into Chaos. Here’s Exactly How That Happened",
@@ -2165,6 +2170,73 @@
       "capability_flag"
     ],
     "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
+    "title": "Vega: Zero-knowledge proofs for digital identity in the age of AI",
+    "summary": "<p>Vega turns a full credential into a single proof, sharing only what is needed and nothing more, with performance that works in real apps. </p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/\">Vega: Zero-knowledge proofs for digital identity in the age of AI</a> appeared first on <a href=\"https://www.microsoft.com/en-us/research\">Microsoft Research</a>.</p>",
+    "url": "https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/",
+    "published": "2026-05-21T13:48:40+00:00",
+    "feed": "Microsoft Research Blog",
+    "vendor": "Microsoft",
+    "score": 29,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "research_paper",
+    "vendors": [
+      "Microsoft"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "primary",
+    "content_access": "full"
+  },
+  {
+    "title": "From copilot to autopilot: Exploring agentic AI’s impact on treasury",
+    "summary": "How can agentic AI empower bank and corporate treasurers?",
+    "url": "https://www.finextra.com/event-info/620/from-copilot-to-autopilot-exploring-agentic-ais-impact-on-treasury?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "published": "2026-07-14T00:00:00+00:00",
+    "feed": "Finextra - Artificial Intelligence",
+    "vendor": "Microsoft",
+    "score": 28,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
+    "vendors": [
+      "Microsoft"
+    ],
+    "capability_flags": [
+      "tool_use_agents"
+    ],
+    "signals": {
+      "banking": 0.167,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": true,
+    "action_text": "Probar cambios en tool-use/agentes en sandbox y validar guardrails.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family",
+      "capability_flag"
+    ],
+    "source_type": "curated",
     "content_access": "limited"
   },
   {
@@ -2279,6 +2351,33 @@
     "title": "Tech CEOs are apparently suffering from AI psychosis",
     "summary": "\"CEOs are uniquely prone to AI psychosis,\" Box CEO Aaron Levie opines. Maybe that explains the almost religious belief in AI productivity gains.",
     "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/",
+    "published": "2026-05-27T12:30:00+00:00",
+    "feed": "TechCrunch",
+    "vendor": "TechCrunch",
+    "score": 28,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "other",
+    "vendors": [],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.0
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [],
+    "source_type": "curated",
+    "content_access": "limited"
+  },
+  {
+    "title": "Robinhood now lets your AI agents trade stocks",
+    "summary": "While these agents would be able to read and analyze users' portfolios to come up with trading strategies and suggest investments, they'll only be able to access the pre-loaded balance in the dedicated wallet to place orders.",
+    "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
     "published": "2026-05-27T12:30:00+00:00",
     "feed": "TechCrunch",
     "vendor": "TechCrunch",
@@ -2687,13 +2786,45 @@
     "content_access": "limited"
   },
   {
+    "title": "Observability for any agent, anywhere: Production-ready tracing with OpenTelemetry & Unity Catalog on Databricks",
+    "summary": "Why AI Tracing Breaks Traditional ObservabilityAs AI applications move into production...",
+    "url": "https://www.databricks.com/blog/observability-any-agent-anywhere-production-ready-tracing-opentelemetry-unity-catalog",
+    "published": "2026-05-22T19:20:00+00:00",
+    "feed": "Databricks AI Category",
+    "vendor": "Databricks",
+    "score": 23,
+    "is_enriched": true,
+    "layer": "Agents & Tooling",
+    "event_type": "commentary",
+    "vendors": [],
+    "capability_flags": [
+      "tool_use_agents",
+      "eval_observability"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.6666666666666666
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
     "title": "AI, HR and financial services: Modernising banking systems from front to back",
     "summary": "How should FIs embed AI into their core banking systems?",
     "url": "https://www.finextra.com/event-info/619/ai-hr-and-financial-services-modernising-banking-systems-from-front-to-back?utm_medium=rssfinextra&utm_source=finextrafeed",
     "published": "2026-07-30T00:00:00+00:00",
     "feed": "Finextra - Artificial Intelligence",
     "vendor": "Finextra",
-    "score": 22,
+    "score": 21,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -2839,38 +2970,6 @@
     "content_access": "full"
   },
   {
-    "title": "Google I/O showed how the path for AI-driven science is shifting",
-    "summary": "During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently “standing in the foothills of the singularity.” It was a striking statement—the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically transforms the world. But what struck me as I listened in the&#8230;",
-    "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
-    "published": "2026-05-22T10:00:00+00:00",
-    "feed": "MIT Technology Review",
-    "vendor": "Google",
-    "score": 21,
-    "is_enriched": true,
-    "layer": "LLM Landscape & Behavioral Shifts",
-    "event_type": "other",
-    "vendors": [
-      "Google"
-    ],
-    "capability_flags": [],
-    "signals": {
-      "banking": 0.0,
-      "regulation": 0.0,
-      "safety": 0.0,
-      "strategic": 0.0,
-      "vendor": 1.0,
-      "capability": 0.0
-    },
-    "action_recommended": true,
-    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
-    "reason_tags": [
-      "vendor_mentioned",
-      "llm_family"
-    ],
-    "source_type": "curated",
-    "content_access": "full"
-  },
-  {
     "title": "Integrating AWS API MCP Server with Amazon Quick using Amazon Bedrock AgentCore Runtime",
     "summary": "This post shows you how to use Amazon Bedrock AgentCore Runtime with Model Context Protocol (MCP) support to connect Amazon Quick with AWS services through the AWS API MCP Server, creating a conversational AI assistant that translates natural language into AWS Command Line Interface (AWS CLI) commands, without the need to switch between tools during critical moments.",
     "url": "https://aws.amazon.com/blogs/machine-learning/integrating-aws-api-mcp-server-with-amazon-quick-suite-using-amazon-bedrock-agentcore-runtime/",
@@ -2975,13 +3074,76 @@
     "content_access": "full"
   },
   {
+    "title": "Google I/O showed how the path for AI-driven science is shifting",
+    "summary": "During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently “standing in the foothills of the singularity.” It was a striking statement—the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically transforms the world. But what struck me as I listened in the&#8230;",
+    "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
+    "published": "2026-05-22T10:00:00+00:00",
+    "feed": "MIT Technology Review",
+    "vendor": "Google",
+    "score": 20,
+    "is_enriched": true,
+    "layer": "LLM Landscape & Behavioral Shifts",
+    "event_type": "other",
+    "vendors": [
+      "Google"
+    ],
+    "capability_flags": [],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 1.0,
+      "capability": 0.0
+    },
+    "action_recommended": true,
+    "action_text": "Leer release notes oficiales y ejecutar un smoke test de compatibilidad.",
+    "reason_tags": [
+      "vendor_mentioned",
+      "llm_family"
+    ],
+    "source_type": "curated",
+    "content_access": "full"
+  },
+  {
+    "title": "Accelerating LLM Inference with Prompt Caching for Open‑Source Models on Databricks",
+    "summary": "Why Prompt Caching MattersLarge language model (LLM) inference often involves repeated...",
+    "url": "https://www.databricks.com/blog/accelerating-llm-inference-prompt-caching-open-source-models-databricks",
+    "published": "2026-05-22T20:00:00+00:00",
+    "feed": "Databricks AI Category",
+    "vendor": "Databricks",
+    "score": 20,
+    "is_enriched": true,
+    "layer": "Infra & Open Source",
+    "event_type": "commentary",
+    "vendors": [],
+    "capability_flags": [
+      "serving_inference"
+    ],
+    "signals": {
+      "banking": 0.0,
+      "regulation": 0.0,
+      "safety": 0.0,
+      "strategic": 0.0,
+      "vendor": 0.6,
+      "capability": 0.3333333333333333
+    },
+    "action_recommended": false,
+    "action_text": "",
+    "reason_tags": [
+      "capability_flag"
+    ],
+    "source_type": "primary",
+    "content_access": "limited"
+  },
+  {
     "title": "Build AI-powered dashboard automation agents with NLP on Amazon Bedrock AgentCore",
     "summary": "This solution combines the power of Amazon Bedrock AgentCore, Strands Agents, and Amazon Quick transforms to deliver a secure, scalable, and intelligent system for building and operating AI agents while transforming data into actionable business insights.",
     "url": "https://aws.amazon.com/blogs/machine-learning/build-ai-powered-dashboard-automation-agents-with-nlp-on-amazon-bedrock-agentcore/",
     "published": "2026-05-21T15:55:29+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 21,
+    "score": 20,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -3012,7 +3174,7 @@
     "published": "2026-05-21T22:22:28+00:00",
     "feed": "AWS ML Blog",
     "vendor": "AWS",
-    "score": 20,
+    "score": 19,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "tooling_update",
@@ -3129,7 +3291,7 @@
     "published": "2026-05-21T19:16:43+00:00",
     "feed": "MIT Technology Review",
     "vendor": "MIT",
-    "score": 17,
+    "score": 16,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -3156,7 +3318,7 @@
     "published": "2026-05-22T00:00:00+00:00",
     "feed": "OpenAI Blog",
     "vendor": "OpenAI",
-    "score": 16,
+    "score": 15,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
@@ -3183,7 +3345,7 @@
     "published": "2026-05-22T10:55:00+00:00",
     "feed": "Finextra - Artificial Intelligence",
     "vendor": "Finextra",
-    "score": 15,
+    "score": 14,
     "is_enriched": true,
     "layer": "Agents & Tooling",
     "event_type": "other",
